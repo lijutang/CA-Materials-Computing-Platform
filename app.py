@@ -1,0 +1,22 @@
+from flask import Flask
+import config
+from exts import db, mail
+from flask_migrate import Migrate
+
+
+app = Flask(__name__)
+# 绑定配置文件
+app.config.from_object(config)
+
+db.init_app(app)
+mail.init_app(app)
+
+migrate = Migrate(app, db)
+
+# flask db init：只需要执行一次
+# flask db migrate：将orm模型生成迁移脚本
+# flask db upgrade：将迁移脚本映射到数据库中
+
+
+if __name__ == '__main__':
+    app.run()
