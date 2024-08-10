@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>添加线段</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='files/添加线段/styles.css') }}" type="text/css" rel="stylesheet"/>
+      
+    <script>  
+        document.oncontextmenu = function (event) {  
+            event = event || window.event;  
+            var targetElement = event.target || event.srcElement;  
+            if (!targetElement) return true;  
+
+            if (targetElement.tagName) {  
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
+                    targetElement.tagName.toLowerCase() === "textarea") {  
+                    return true;  
+                }  
+            }  
+            return false;  
+        }  
+    </script>
+    <script src  
+    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/annotation.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.std.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/doc.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/messagecenter.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/events.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/recording.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/action.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/expr.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/geometry.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/flyout.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/model.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/repeater.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/sto.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/utils.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/variables.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/drag.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/move.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/visibility.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/style.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/adaptive.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/tree.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/init.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/legacy.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/viewer.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/math.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='data/document.js') }}"></script>
+    <script src="{{ url_for('static', filename='files/添加线段/data.js') }}"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1603" class="ax_default box_1">
+        <div id="u1603_div" class=""></div>
+        <div id="u1603_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1604" class="ax_default box_1">
+        <div id="u1604_div" class=""></div>
+        <div id="u1604_text" class="text ">
+          <p><span>Add lines</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1605" class="ax_default box_1">
+        <div id="u1605_div" class=""></div>
+        <div id="u1605_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1606" class="ax_default button">
+        <div id="u1606_div" class=""></div>
+        <div id="u1606_text" class="text ">
+          <p><span>Close</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1607" class="ax_default button">
+        <div id="u1607_div" class=""></div>
+        <div id="u1607_text" class="text ">
+          <p><span>Continue</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1608" class="ax_default _三级标题">
+        <div id="u1608_div" class=""></div>
+        <div id="u1608_text" class="text ">
+          <p><span>Selected line description</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1609" class="ax_default label">
+        <div id="u1609_div" class=""></div>
+        <div id="u1609_text" class="text ">
+          <p><span>no</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1610" class="ax_default text_field">
+        <div id="u1610_div" class=""></div>
+        <input id="u1610_input" type="text" value="" class="u1610_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1611" class="ax_default label">
+        <div id="u1611_div" class=""></div>
+        <div id="u1611_text" class="text ">
+          <p><span>name</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1612" class="ax_default text_field">
+        <div id="u1612_div" class=""></div>
+        <input id="u1612_input" type="text" value="" class="u1612_input"/>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u1613" class="ax_default checkbox">
+        <label id="u1613_input_label" for="u1613_input" style="position: absolute; left: 0px;">
+          <img id="u1613_img" class="img " src="{{ url_for('static', filename='images/添加线段/u1613.svg') }}"/>
+          <div id="u1613_text" class="text ">
+            <p><span>use symbol</span></p>
+          </div>
+        </label>
+        <input id="u1613_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1614" class="ax_default _三级标题">
+        <div id="u1614_div" class=""></div>
+        <div id="u1614_text" class="text ">
+          <p><span>Lines and points</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1615" class="ax_default label">
+        <div id="u1615_div" class=""></div>
+        <div id="u1615_text" class="text ">
+          <p><span>line 1</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; point1</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; point2</span></p><p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; point3</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1616" class="ax_default _三级标题">
+        <div id="u1616_div" class=""></div>
+        <div id="u1616_text" class="text ">
+          <p><span>Point coordination</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1617" class="ax_default label">
+        <div id="u1617_div" class=""></div>
+        <div id="u1617_text" class="text ">
+          <p><span>X</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1618" class="ax_default label">
+        <div id="u1618_div" class=""></div>
+        <div id="u1618_text" class="text ">
+          <p><span>Y</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1619" class="ax_default text_field">
+        <div id="u1619_div" class=""></div>
+        <input id="u1619_input" type="text" value="" class="u1619_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1620" class="ax_default text_field">
+        <div id="u1620_div" class=""></div>
+        <input id="u1620_input" type="text" value="" class="u1620_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1621" class="ax_default button">
+        <div id="u1621_div" class=""></div>
+        <div id="u1621_text" class="text ">
+          <p><span>delete</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1622" class="ax_default button">
+        <div id="u1622_div" class=""></div>
+        <div id="u1622_text" class="text ">
+          <p><span>copy</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1623" class="ax_default button">
+        <div id="u1623_div" class=""></div>
+        <div id="u1623_text" class="text ">
+          <p><span>divide</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1624" class="ax_default button">
+        <div id="u1624_div" class=""></div>
+        <div id="u1624_text" class="text ">
+          <p><span>insert</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1625" class="ax_default button">
+        <div id="u1625_div" class=""></div>
+        <div id="u1625_text" class="text ">
+          <p><span>change point</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1626" class="ax_default _三级标题">
+        <div id="u1626_div" class=""></div>
+        <div id="u1626_text" class="text ">
+          <p><span>Theme</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1627" class="ax_default _三级标题">
+        <div id="u1627_div" class=""></div>
+        <div id="u1627_text" class="text ">
+          <p><span>Template</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1628" class="ax_default text_field">
+        <div id="u1628_div" class=""></div>
+        <input id="u1628_input" type="text" value="" class="u1628_input"/>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u1629" class="ax_default droplist">
+        <div id="u1629_div" class=""></div>
+        <select id="u1629_input" class="u1629_input">
+        </select>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1630" class="ax_default _三级标题">
+        <div id="u1630_div" class=""></div>
+        <div id="u1630_text" class="text ">
+          <p><span>Selected line property</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Checkbox) -->
+      <div id="u1631" class="ax_default checkbox">
+        <label id="u1631_input_label" for="u1631_input" style="position: absolute; left: 0px;">
+          <img id="u1631_img" class="img " src="{{ url_for('static', filename='images/添加线段/u1631.svg') }}"/>
+          <div id="u1631_text" class="text ">
+            <p><span>no dragging</span></p>
+          </div>
+        </label>
+        <input id="u1631_input" type="checkbox" value="checkbox"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1632" class="ax_default label">
+        <div id="u1632_div" class=""></div>
+        <div id="u1632_text" class="text ">
+          <p><span>style</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Droplist) -->
+      <div id="u1633" class="ax_default droplist">
+        <div id="u1633_div" class=""></div>
+        <select id="u1633_input" class="u1633_input">
+        </select>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u1634" class="ax_default" data-left="655" data-top="527" data-width="26" data-height="15" layer-opacity="1">
+
+        <!-- Color Select (Group) -->
+        <div id="u1635" class="ax_default ax_default_hidden" data-label="Color Select" style="display:none; visibility: hidden" data-left="632" data-top="572" data-width="197" data-height="46" layer-opacity="1">
+
+          <!-- Background Rectangle (Rectangle) -->
+          <div id="u1636" class="ax_default box_1" data-label="Background Rectangle">
+            <div id="u1636_div" class=""></div>
+            <div id="u1636_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u1637" class="ax_default box_2 selected" selectiongroup="colors">
+            <img id="u1637_img" class="img " src="{{ url_for('static', filename='images/选项/u256_selected.svg') }}"/>
+            <div id="u1637_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u1638" class="ax_default box_2" selectiongroup="colors">
+            <img id="u1638_img" class="img " src="{{ url_for('static', filename='images/选项/u257.svg') }}"/>
+            <div id="u1638_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u1639" class="ax_default box_2" selectiongroup="colors">
+            <img id="u1639_img" class="img " src="{{ url_for('static', filename='images/选项/u258.svg') }}"/>
+            <div id="u1639_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u1640" class="ax_default box_2" selectiongroup="colors">
+            <img id="u1640_img" class="img " src="{{ url_for('static', filename='images/选项/u259.svg') }}"/>
+            <div id="u1640_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Current Color Dynamic Panel (Dynamic Panel) -->
+        <div id="u1641" class="ax_default" data-label="Current Color Dynamic Panel">
+          <div id="u1641_state0" class="panel_state" data-label="State2" style="">
+            <div id="u1641_state0_content" class="panel_state_content">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u1642" class="ax_default box_2">
+                <img id="u1642_img" class="img " src="{{ url_for('static', filename='images/添加线段/u1642.svg') }}"/>
+                <div id="u1642_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u1641_state1" class="panel_state" data-label="State1" style="visibility: hidden;">
+            <div id="u1641_state1_content" class="panel_state_content">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u1643" class="ax_default box_2">
+                <img id="u1643_img" class="img " src="{{ url_for('static', filename='images/添加线段/u1643.svg') }}"/>
+                <div id="u1643_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u1641_state2" class="panel_state" data-label="State3" style="visibility: hidden;">
+            <div id="u1641_state2_content" class="panel_state_content">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u1644" class="ax_default box_2">
+                <img id="u1644_img" class="img " src="{{ url_for('static', filename='images/添加线段/u1644.svg') }}"/>
+                <div id="u1644_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="u1641_state3" class="panel_state" data-label="State4" style="visibility: hidden;">
+            <div id="u1641_state3_content" class="panel_state_content">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u1645" class="ax_default box_2">
+                <img id="u1645_img" class="img " src="{{ url_for('static', filename='images/添加线段/u1645.svg') }}"/>
+                <div id="u1645_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1646" class="ax_default label">
+        <div id="u1646_div" class=""></div>
+        <div id="u1646_text" class="text ">
+          <p><span>color</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u1647" class="ax_default text_field">
+        <div id="u1647_div" class=""></div>
+        <input id="u1647_input" type="text" value="" class="u1647_input"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1648" class="ax_default label">
+        <div id="u1648_div" class=""></div>
+        <div id="u1648_text" class="text ">
+          <p><span>width</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+  </body>
+</html>

@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>轴</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='files/轴/styles.css') }}" type="text/css" rel="stylesheet"/>
+      
+    <script>  
+        document.oncontextmenu = function (event) {  
+            event = event || window.event;  
+            var targetElement = event.target || event.srcElement;  
+            if (!targetElement) return true;  
+
+            if (targetElement.tagName) {  
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
+                    targetElement.tagName.toLowerCase() === "textarea") {  
+                    return true;  
+                }  
+            }  
+            return false;  
+        }  
+    </script>
+    <script src  
+    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/annotation.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.std.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/doc.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/messagecenter.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/events.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/recording.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/action.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/expr.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/geometry.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/flyout.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/model.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/repeater.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/sto.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/utils.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/variables.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/drag.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/move.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/visibility.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/style.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/adaptive.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/tree.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/init.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/legacy.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/viewer.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/math.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='data/document.js') }}"></script>
+    <script src="{{ url_for('static', filename='files/轴/data.js') }}"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u510" class="ax_default box_1">
+        <div id="u510_div" class=""></div>
+        <div id="u510_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u511" class="ax_default _三级标题">
+        <div id="u511_div" class=""></div>
+        <div id="u511_text" class="text ">
+          <p><span>Axes</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u512" class="ax_default button">
+        <img id="u512_img" class="img " src="{{ url_for('static', filename='images/轴/u512.svg') }}"/>
+        <div id="u512_text" class="text ">
+          <p><span>Y-variable</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u513" class="ax_default button">
+        <img id="u513_img" class="img " src="{{ url_for('static', filename='images/轴/u513.svg') }}"/>
+        <div id="u513_text" class="text ">
+          <p><span>X-variable</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u514" class="ax_default button">
+        <img id="u514_img" class="img " src="{{ url_for('static', filename='images/轴/u514.svg') }}"/>
+        <div id="u514_text" class="text ">
+          <p><span>Swap</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u515" class="ax_default button">
+        <img id="u515_img" class="img " src="{{ url_for('static', filename='images/轴/u515.svg') }}"/>
+        <div id="u515_text" class="text ">
+          <p><span>Cancel</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u516" class="ax_default button">
+        <img id="u516_img" class="img " src="{{ url_for('static', filename='images/轴/u515.svg') }}"/>
+        <div id="u516_text" class="text ">
+          <p><span>Refresh</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u517" class="ax_default button">
+        <img id="u517_img" class="img " src="{{ url_for('static', filename='images/轴/u515.svg') }}"/>
+        <div id="u517_text" class="text ">
+          <p><span>Continue</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u518" class="ax_default box_1">
+        <div id="u518_div" class=""></div>
+        <div id="u518_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u519" class="ax_default box_1">
+        <div id="u519_div" class=""></div>
+        <div id="u519_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u520" class="ax_default _三级标题">
+        <div id="u520_div" class=""></div>
+        <div id="u520_text" class="text ">
+          <p><span>Y-axis</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u521" class="ax_default _三级标题">
+        <div id="u521_div" class=""></div>
+        <div id="u521_text" class="text ">
+          <p><span>X-axis</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u522" class="ax_default label">
+        <div id="u522_div" class=""></div>
+        <div id="u522_text" class="text ">
+          <p><span>Activity</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u523" class="ax_default label">
+        <div id="u523_div" class=""></div>
+        <div id="u523_text" class="text ">
+          <p><span>Activity</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u524" class="ax_default label">
+        <div id="u524_div" class=""></div>
+        <div id="u524_text" class="text ">
+          <p><span>max：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u525" class="ax_default label">
+        <div id="u525_div" class=""></div>
+        <div id="u525_text" class="text ">
+          <p><span>min：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u526" class="ax_default label">
+        <div id="u526_div" class=""></div>
+        <div id="u526_text" class="text ">
+          <p><span>tick every：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u527" class="ax_default label">
+        <div id="u527_div" class=""></div>
+        <div id="u527_text" class="text ">
+          <p><span>max：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u528" class="ax_default label">
+        <div id="u528_div" class=""></div>
+        <div id="u528_text" class="text ">
+          <p><span>min：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u529" class="ax_default label">
+        <div id="u529_div" class=""></div>
+        <div id="u529_text" class="text ">
+          <p><span>tick every：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u530" class="ax_default text_field">
+        <div id="u530_div" class=""></div>
+        <input id="u530_input" type="text" value="" class="u530_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u531" class="ax_default text_field">
+        <div id="u531_div" class=""></div>
+        <input id="u531_input" type="text" value="" class="u531_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u532" class="ax_default text_field">
+        <div id="u532_div" class=""></div>
+        <input id="u532_input" type="text" value="" class="u532_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u533" class="ax_default text_field">
+        <div id="u533_div" class=""></div>
+        <input id="u533_input" type="text" value="" class="u533_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u534" class="ax_default text_field">
+        <div id="u534_div" class=""></div>
+        <input id="u534_input" type="text" value="" class="u534_input"/>
+      </div>
+
+      <!-- Unnamed (Text Field) -->
+      <div id="u535" class="ax_default text_field">
+        <div id="u535_div" class=""></div>
+        <input id="u535_input" type="text" value="" class="u535_input"/>
+      </div>
+
+      <!-- Unnamed (Menu) -->
+      <div id="u536" class="ax_default ax_default_hidden" style="display:none; visibility: hidden">
+        <img id="u536_menu" class="img " src="{{ url_for('static', filename='images/轴/u536_menu.png') }}" alt="u536_menu"/>
+
+        <!-- Unnamed (Table) -->
+        <div id="u537" class="ax_default">
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u538" class="ax_default menu_item">
+            <img id="u538_img" class="img " src="{{ url_for('static', filename='images/轴/u538.png') }}"/>
+            <div id="u538_text" class="text ">
+              <p><span>1</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u539" class="ax_default menu_item">
+            <img id="u539_img" class="img " src="{{ url_for('static', filename='images/轴/u538.png') }}"/>
+            <div id="u539_text" class="text ">
+              <p><span>2</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u540" class="ax_default menu_item">
+            <img id="u540_img" class="img " src="{{ url_for('static', filename='images/轴/u540.png') }}"/>
+            <div id="u540_text" class="text ">
+              <p><span>3</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Menu) -->
+      <div id="u541" class="ax_default ax_default_hidden" style="display:none; visibility: hidden">
+        <img id="u541_menu" class="img " src="{{ url_for('static', filename='images/轴/u536_menu.png') }}" alt="u541_menu"/>
+
+        <!-- Unnamed (Table) -->
+        <div id="u542" class="ax_default">
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u543" class="ax_default menu_item">
+            <img id="u543_img" class="img " src="{{ url_for('static', filename='images/轴/u538.png') }}"/>
+            <div id="u543_text" class="text ">
+              <p><span>1</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u544" class="ax_default menu_item">
+            <img id="u544_img" class="img " src="{{ url_for('static', filename='images/轴/u538.png') }}"/>
+            <div id="u544_text" class="text ">
+              <p><span>2</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Menu Item) -->
+          <div id="u545" class="ax_default menu_item">
+            <img id="u545_img" class="img " src="{{ url_for('static', filename='images/轴/u540.png') }}"/>
+            <div id="u545_text" class="text ">
+              <p><span>3</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+  </body>
+</html>

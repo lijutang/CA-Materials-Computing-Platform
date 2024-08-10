@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>OPT</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='files/opt/styles.css') }}" type="text/css" rel="stylesheet"/>
+      
+    <script>  
+        document.oncontextmenu = function (event) {  
+            event = event || window.event;  
+            var targetElement = event.target || event.srcElement;  
+            if (!targetElement) return true;  
+
+            if (targetElement.tagName) {  
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
+                    targetElement.tagName.toLowerCase() === "textarea") {  
+                    return true;  
+                }  
+            }  
+            return false;  
+        }  
+    </script>
+    <script src  
+    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/annotation.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.std.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/doc.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/messagecenter.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/events.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/recording.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/action.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/expr.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/geometry.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/flyout.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/model.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/repeater.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/sto.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/utils.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/variables.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/drag.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/move.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/visibility.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/style.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/adaptive.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/tree.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/init.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/legacy.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/viewer.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/math.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='data/document.js') }}"></script>
+    <script src="{{ url_for('static', filename='files/opt/data.js') }}"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Group) -->
+      <div id="u1814" class="ax_default" data-left="303" data-top="96" data-width="477" data-height="359" layer-opacity="1">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1815" class="ax_default box_1">
+          <div id="u1815_div" class=""></div>
+          <div id="u1815_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Text Field) -->
+        <div id="u1816" class="ax_default text_field">
+          <div id="u1816_div" class=""></div>
+          <input id="u1816_input" type="text" value="" class="u1816_input"/>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1817" class="ax_default _段落">
+          <div id="u1817_div" class=""></div>
+          <div id="u1817_text" class="text ">
+            <p><span>Temperature(C):</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Text Field) -->
+        <div id="u1818" class="ax_default text_field">
+          <div id="u1818_div" class=""></div>
+          <input id="u1818_input" type="text" value="" class="u1818_input"/>
+        </div>
+
+        <!-- Unnamed (Text Area) -->
+        <div id="u1819" class="ax_default text_area">
+          <div id="u1819_div" class=""></div>
+          <textarea id="u1819_input" class="u1819_input"></textarea>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1820" class="ax_default checkbox">
+          <label id="u1820_input_label" for="u1820_input" style="position: absolute; left: 0px;">
+            <img id="u1820_img" class="img " src="{{ url_for('static', filename='images/opt/u1820.svg') }}"/>
+            <div id="u1820_text" class="text ">
+              <p><span>SiO2</span></p>
+            </div>
+          </label>
+          <input id="u1820_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1821" class="ax_default checkbox">
+          <label id="u1821_input_label" for="u1821_input" style="position: absolute; left: 0px;">
+            <img id="u1821_img" class="img " src="{{ url_for('static', filename='images/opt/u1821.svg') }}"/>
+            <div id="u1821_text" class="text ">
+              <p><span>Al2O3</span></p>
+            </div>
+          </label>
+          <input id="u1821_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1822" class="ax_default checkbox">
+          <label id="u1822_input_label" for="u1822_input" style="position: absolute; left: 0px;">
+            <img id="u1822_img" class="img " src="{{ url_for('static', filename='images/opt/u1822.svg') }}"/>
+            <div id="u1822_text" class="text ">
+              <p><span>CaO</span></p>
+            </div>
+          </label>
+          <input id="u1822_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1823" class="ax_default checkbox">
+          <label id="u1823_input_label" for="u1823_input" style="position: absolute; left: 0px;">
+            <img id="u1823_img" class="img " src="{{ url_for('static', filename='images/opt/u1823.svg') }}"/>
+            <div id="u1823_text" class="text ">
+              <p><span>MgO</span></p>
+            </div>
+          </label>
+          <input id="u1823_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1824" class="ax_default checkbox">
+          <label id="u1824_input_label" for="u1824_input" style="position: absolute; left: 0px;">
+            <img id="u1824_img" class="img " src="{{ url_for('static', filename='images/opt/u1824.svg') }}"/>
+            <div id="u1824_text" class="text ">
+              <p><span>MnO</span></p>
+            </div>
+          </label>
+          <input id="u1824_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1825" class="ax_default checkbox">
+          <label id="u1825_input_label" for="u1825_input" style="position: absolute; left: 0px;">
+            <img id="u1825_img" class="img " src="{{ url_for('static', filename='images/opt/u1825.svg') }}"/>
+            <div id="u1825_text" class="text ">
+              <p><span>FeO</span></p>
+            </div>
+          </label>
+          <input id="u1825_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1826" class="ax_default checkbox">
+          <label id="u1826_input_label" for="u1826_input" style="position: absolute; left: 0px;">
+            <img id="u1826_img" class="img " src="{{ url_for('static', filename='images/opt/u1826.svg') }}"/>
+            <div id="u1826_text" class="text ">
+              <p><span>Fe2O3</span></p>
+            </div>
+          </label>
+          <input id="u1826_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1827" class="ax_default checkbox">
+          <label id="u1827_input_label" for="u1827_input" style="position: absolute; left: 0px;">
+            <img id="u1827_img" class="img " src="{{ url_for('static', filename='images/opt/u1827.svg') }}"/>
+            <div id="u1827_text" class="text ">
+              <p><span>NiO</span></p>
+            </div>
+          </label>
+          <input id="u1827_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1828" class="ax_default checkbox">
+          <label id="u1828_input_label" for="u1828_input" style="position: absolute; left: 0px;">
+            <img id="u1828_img" class="img " src="{{ url_for('static', filename='images/opt/u1828.svg') }}"/>
+            <div id="u1828_text" class="text ">
+              <p><span>PbO</span></p>
+            </div>
+          </label>
+          <input id="u1828_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1829" class="ax_default checkbox">
+          <label id="u1829_input_label" for="u1829_input" style="position: absolute; left: 0px;">
+            <img id="u1829_img" class="img " src="{{ url_for('static', filename='images/opt/u1829.svg') }}"/>
+            <div id="u1829_text" class="text ">
+              <p><span>ZnO</span></p>
+            </div>
+          </label>
+          <input id="u1829_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1830" class="ax_default checkbox">
+          <label id="u1830_input_label" for="u1830_input" style="position: absolute; left: 0px;">
+            <img id="u1830_img" class="img " src="{{ url_for('static', filename='images/opt/u1830.svg') }}"/>
+            <div id="u1830_text" class="text ">
+              <p><span>Na2O</span></p>
+            </div>
+          </label>
+          <input id="u1830_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1831" class="ax_default checkbox">
+          <label id="u1831_input_label" for="u1831_input" style="position: absolute; left: 0px;">
+            <img id="u1831_img" class="img " src="{{ url_for('static', filename='images/opt/u1831.svg') }}"/>
+            <div id="u1831_text" class="text ">
+              <p><span>K2O</span></p>
+            </div>
+          </label>
+          <input id="u1831_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1832" class="ax_default checkbox">
+          <label id="u1832_input_label" for="u1832_input" style="position: absolute; left: 0px;">
+            <img id="u1832_img" class="img " src="{{ url_for('static', filename='images/opt/u1832.svg') }}"/>
+            <div id="u1832_text" class="text ">
+              <p><span>B2O3</span></p>
+            </div>
+          </label>
+          <input id="u1832_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1833" class="ax_default checkbox">
+          <label id="u1833_input_label" for="u1833_input" style="position: absolute; left: 0px;">
+            <img id="u1833_img" class="img " src="{{ url_for('static', filename='images/opt/u1833.svg') }}"/>
+            <div id="u1833_text" class="text ">
+              <p><span>TiO2</span></p>
+            </div>
+          </label>
+          <input id="u1833_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Checkbox) -->
+        <div id="u1834" class="ax_default checkbox">
+          <label id="u1834_input_label" for="u1834_input" style="position: absolute; left: 0px;">
+            <img id="u1834_img" class="img " src="{{ url_for('static', filename='images/opt/u1834.svg') }}"/>
+            <div id="u1834_text" class="text ">
+              <p><span>Ti2O3</span></p>
+            </div>
+          </label>
+          <input id="u1834_input" type="checkbox" value="checkbox"/>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1835" class="ax_default button">
+          <div id="u1835_div" class=""></div>
+          <div id="u1835_text" class="text ">
+            <p><span>OK</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u1836" class="ax_default button">
+          <div id="u1836_div" class=""></div>
+          <div id="u1836_text" class="text ">
+            <p><span>Cancel</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+  </body>
+</html>
