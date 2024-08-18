@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>solution1.2</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/solution1_2/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,622 +57,674 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/solution1_2/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- 内部框架 (Inline Frame) -->
-      <div id="u8692" class="ax_default" data-label="内部框架">
-        <iframe id="u8692_input" data-label="内部框架" src="http://127.0.0.1:5000/u8692_input"></iframe>
-      </div>
+    <!-- 内部框架 (Inline Frame) -->
+    <div id="u8692" class="ax_default" data-label="内部框架">
+        <iframe id="u8692_input" data-label="内部框架" allowfullscreen ></iframe>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u8693" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u8693" class="ax_default box_1">
         <div id="u8693_div" class=""></div>
         <div id="u8693_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u8694" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u8694" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u8695" class="ax_default box_1">
-          <img id="u8695_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
-          <div id="u8695_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u8695_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+            <div id="u8695_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u8696" class="ax_default box_1">
-          <img id="u8696_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
-          <div id="u8696_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u8696_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+            <div id="u8696_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u8697" class="ax_default" data-left="255" data-top="95" data-width="618" data-height="606" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u8697" class="ax_default" data-left="255" data-top="95" data-width="618" data-height="606"
+         layer-opacity="1">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u8698" class="ax_default box_1">
-          <div id="u8698_div" class=""></div>
-          <div id="u8698_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u8698_div" class=""></div>
+            <div id="u8698_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u8699" class="ax_default" data-left="0" data-top="0" data-width="873" data-height="750" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u8699" class="ax_default" data-left="0" data-top="0" data-width="873" data-height="750" layer-opacity="1">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u8700" class="ax_default box_1">
-          <div id="u8700_div" class=""></div>
-          <div id="u8700_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u8700_div" class=""></div>
+            <div id="u8700_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
         <div id="u8701" class="ax_default box_1">
-          <div id="u8701_div" class=""></div>
-          <div id="u8701_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u8701_div" class=""></div>
+            <div id="u8701_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
         <div id="u8702" class="ax_default box_1">
-          <div id="u8702_div" class=""></div>
-          <div id="u8702_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u8702_div" class=""></div>
+            <div id="u8702_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8703" class="ax_default text_field">
-          <div id="u8703_div" class=""></div>
-          <input id="u8703_input" type="text" value="FactSage" class="u8703_input" readonly/>
+            <div id="u8703_div" class=""></div>
+            <input id="u8703_input" type="text" value="FactSage" class="u8703_input" readonly/>
         </div>
 
         <!-- Unnamed (List Box) -->
         <div id="u8704" class="ax_default list_box">
-          <div id="u8704_div" class=""></div>
-          <select id="u8704_input" size="2" class="u8704_input">
-            <option class="u8704_input_option" value="…r    FSupsiBASE">…r&nbsp; &nbsp; FSupsiBASE</option>
-            <option class="u8704_input_option" value="…r    FThallBASE">…r&nbsp; &nbsp; FThallBASE</option>
-            <option class="u8704_input_option" value="…r    FThelgBASE">…r&nbsp; &nbsp; FThelgBASE</option>
-            <option class="u8704_input_option" value="…r/w   FTliBASE">…r/w&nbsp;&nbsp; FTliBASE</option>
-            <option class="u8704_input_option" value="…r    FTliteBASE">…r&nbsp; &nbsp; FTliteBASE</option>
-            <option class="u8704_input_option" value="     …       Ag">&nbsp;&nbsp; &nbsp; …&nbsp; &nbsp; &nbsp;&nbsp; Ag</option>
-            <option class="u8704_input_option" value="           …      S1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; &nbsp; &nbsp; S1</option>
-            <option class="u8704_input_option" value="           …      S2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; &nbsp; &nbsp; S2</option>
-            <option class="u8704_input_option" value="           …      S3">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; &nbsp; &nbsp; S3</option>
-            <option class="u8704_input_option" value="           …      S4">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; &nbsp; &nbsp; S4</option>
-            <option class="u8704_input_option" value="           …      S5">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; &nbsp; &nbsp; S5</option>
-            <option class="u8704_input_option" value="           …      L1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; &nbsp; &nbsp; L1</option>
-            <option class="u8704_input_option" value="               …  Cp 1235">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; Cp 1235</option>
-            <option class="u8704_input_option" value="               …  Cp 000">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; …&nbsp; Cp 000</option>
-            <option class="u8704_input_option" value="…r    FTlmiscBASE">…r&nbsp; &nbsp; FTlmiscBASE</option>
-            <option class="u8704_input_option" value="…r    FToxidBASE">…r&nbsp; &nbsp; FToxidBASE</option>
-            <option class="u8704_input_option" value="…r    FTpulpBASE">…r&nbsp; &nbsp; FTpulpBASE</option>
-            <option class="u8704_input_option" value="…r    FTsaltBASE">…r&nbsp; &nbsp; FTsaltBASE</option>
-            <option class="u8704_input_option" value="…r/w   HGOKBASE">…r/w&nbsp;&nbsp; HGOKBASE</option>
-            <option class="u8704_input_option" value="…r/w   LINDBASE">…r/w&nbsp;&nbsp; LINDBASE</option>
-          </select>
+            <div id="u8704_div" class=""></div>
+            <select id="u8704_input" size="2" class="u8704_input">
+                <option class="u8704_input_option" value="…r    FSupsiBASE">…r&nbsp; &nbsp; FSupsiBASE</option>
+                <option class="u8704_input_option" value="…r    FThallBASE">…r&nbsp; &nbsp; FThallBASE</option>
+                <option class="u8704_input_option" value="…r    FThelgBASE">…r&nbsp; &nbsp; FThelgBASE</option>
+                <option class="u8704_input_option" value="…r/w   FTliBASE">…r/w&nbsp;&nbsp; FTliBASE</option>
+                <option class="u8704_input_option" value="…r    FTliteBASE">…r&nbsp; &nbsp; FTliteBASE</option>
+                <option class="u8704_input_option" value="     …       Ag">&nbsp;&nbsp; &nbsp; …&nbsp; &nbsp; &nbsp;&nbsp;
+                    Ag
+                </option>
+                <option class="u8704_input_option" value="           …      S1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    …&nbsp; &nbsp; &nbsp; S1
+                </option>
+                <option class="u8704_input_option" value="           …      S2">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    …&nbsp; &nbsp; &nbsp; S2
+                </option>
+                <option class="u8704_input_option" value="           …      S3">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    …&nbsp; &nbsp; &nbsp; S3
+                </option>
+                <option class="u8704_input_option" value="           …      S4">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    …&nbsp; &nbsp; &nbsp; S4
+                </option>
+                <option class="u8704_input_option" value="           …      S5">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    …&nbsp; &nbsp; &nbsp; S5
+                </option>
+                <option class="u8704_input_option" value="           …      L1">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    …&nbsp; &nbsp; &nbsp; L1
+                </option>
+                <option class="u8704_input_option" value="               …  Cp 1235">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; …&nbsp; Cp 1235
+                </option>
+                <option class="u8704_input_option" value="               …  Cp 000">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; …&nbsp; Cp 000
+                </option>
+                <option class="u8704_input_option" value="…r    FTlmiscBASE">…r&nbsp; &nbsp; FTlmiscBASE</option>
+                <option class="u8704_input_option" value="…r    FToxidBASE">…r&nbsp; &nbsp; FToxidBASE</option>
+                <option class="u8704_input_option" value="…r    FTpulpBASE">…r&nbsp; &nbsp; FTpulpBASE</option>
+                <option class="u8704_input_option" value="…r    FTsaltBASE">…r&nbsp; &nbsp; FTsaltBASE</option>
+                <option class="u8704_input_option" value="…r/w   HGOKBASE">…r/w&nbsp;&nbsp; HGOKBASE</option>
+                <option class="u8704_input_option" value="…r/w   LINDBASE">…r/w&nbsp;&nbsp; LINDBASE</option>
+            </select>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8705" class="ax_default text_field">
-          <div id="u8705_div" class=""></div>
-          <input id="u8705_input" type="text" value="Function Name" class="u8705_input" readonly/>
+            <div id="u8705_div" class=""></div>
+            <input id="u8705_input" type="text" value="Function Name" class="u8705_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8706" class="ax_default text_field">
-          <div id="u8706_div" class=""></div>
-          <input id="u8706_input" type="text" value="Ag" class="u8706_input"/>
+            <div id="u8706_div" class=""></div>
+            <input id="u8706_input" type="text" value="Ag" class="u8706_input"/>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u8707" class="ax_default" data-left="63" data-top="15" data-width="399" data-height="32" layer-opacity="1">
+        <div id="u8707" class="ax_default" data-left="63" data-top="15" data-width="399" data-height="32"
+             layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8708" class="ax_default _二级标题">
-            <div id="u8708_div" class=""></div>
-            <div id="u8708_text" class="text ">
-              <p><span>ViewData</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8708" class="ax_default _二级标题">
+                <div id="u8708_div" class=""></div>
+                <div id="u8708_text" class="text ">
+                    <p><span>ViewData</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8709" class="ax_default _二级标题">
-            <div id="u8709_div" class=""></div>
-            <div id="u8709_text" class="text ">
-              <p><span>Units</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8709" class="ax_default _二级标题">
+                <div id="u8709_div" class=""></div>
+                <div id="u8709_text" class="text ">
+                    <p><span>Units</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8710" class="ax_default _二级标题">
-            <div id="u8710_div" class=""></div>
-            <div id="u8710_text" class="text ">
-              <p><span>Tools</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8710" class="ax_default _二级标题">
+                <div id="u8710_div" class=""></div>
+                <div id="u8710_text" class="text ">
+                    <p><span>Tools</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8711" class="ax_default _二级标题">
-            <div id="u8711_div" class=""></div>
-            <div id="u8711_text" class="text ">
-              <p><span>Help</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8711" class="ax_default _二级标题">
+                <div id="u8711_div" class=""></div>
+                <div id="u8711_text" class="text ">
+                    <p><span>Help</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8712" class="ax_default _三级标题">
-            <div id="u8712_div" class=""></div>
-            <div id="u8712_text" class="text ">
-              <p><span>File</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8712" class="ax_default _三级标题">
+                <div id="u8712_div" class=""></div>
+                <div id="u8712_text" class="text ">
+                    <p><span>File</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8713" class="ax_default _三级标题">
-            <div id="u8713_div" class=""></div>
-            <div id="u8713_text" class="text ">
-              <p><span>Edit</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8713" class="ax_default _三级标题">
+                <div id="u8713_div" class=""></div>
+                <div id="u8713_text" class="text ">
+                    <p><span>Edit</span></p>
+                </div>
             </div>
-          </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u8714" class="ax_default _形状">
-          <img id="u8714_img" class="img " src="{{ url_for('static', filename='images/solution2_2/u8577.svg') }}"/>
-          <div id="u8714_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u8714_img" class="img " src="{{ url_for('static', filename='images/solution2_2/u8577.svg') }}"/>
+            <div id="u8714_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- 2 (Group) -->
-        <div id="u8715" class="ax_default ax_default_hidden" data-label="2" style="display:none; visibility: hidden" data-left="55" data-top="41" data-width="200" data-height="182" layer-opacity="1">
+        <div id="u8715" class="ax_default ax_default_hidden" data-label="2" style="display:none; visibility: hidden"
+             data-left="55" data-top="41" data-width="200" data-height="182" layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8716" class="ax_default box_2">
-            <img id="u8716_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
-            <div id="u8716_text" class="text ">
-              <p><span>Add</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8716" class="ax_default box_2">
+                <img id="u8716_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
+                <div id="u8716_text" class="text ">
+                    <p><span>Add</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8717" class="ax_default box_2">
-            <img id="u8717_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
-            <div id="u8717_text" class="text ">
-              <p><span>Remove from list</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8717" class="ax_default box_2">
+                <img id="u8717_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
+                <div id="u8717_text" class="text ">
+                    <p><span>Remove from list</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8718" class="ax_default box_2">
-            <img id="u8718_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
-            <div id="u8718_text" class="text ">
-              <p><span>Clear list Mixture</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8718" class="ax_default box_2">
+                <img id="u8718_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
+                <div id="u8718_text" class="text ">
+                    <p><span>Clear list Mixture</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8719" class="ax_default box_2">
-            <img id="u8719_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
-            <div id="u8719_text" class="text ">
-              <p><span>Erase from EXAMBASE</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8719" class="ax_default box_2">
+                <img id="u8719_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
+                <div id="u8719_text" class="text ">
+                    <p><span>Erase from EXAMBASE</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8720" class="ax_default box_2">
-            <img id="u8720_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
-            <div id="u8720_text" class="text ">
-              <p><span>Save to EXAMBASE</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8720" class="ax_default box_2">
+                <img id="u8720_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
+                <div id="u8720_text" class="text ">
+                    <p><span>Save to EXAMBASE</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8721" class="ax_default box_2">
-            <img id="u8721_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
-            <div id="u8721_text" class="text ">
-              <p><span>Copy</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8721" class="ax_default box_2">
+                <img id="u8721_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
+                <div id="u8721_text" class="text ">
+                    <p><span>Copy</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8722" class="ax_default box_2">
-            <img id="u8722_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
-            <div id="u8722_text" class="text ">
-              <p><span>Paste </span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8722" class="ax_default box_2">
+                <img id="u8722_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8716.svg') }}"/>
+                <div id="u8722_text" class="text ">
+                    <p><span>Paste </span></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u8723" class="ax_default _形状">
+    <!-- Unnamed (Shape) -->
+    <div id="u8723" class="ax_default _形状">
         <img id="u8723_img" class="img " src="{{ url_for('static', filename='images/viscosity/u1722.svg') }}"/>
         <div id="u8723_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u8724" class="ax_default" data-left="263" data-top="121" data-width="584" data-height="257" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u8724" class="ax_default" data-left="263" data-top="121" data-width="584" data-height="257"
+         layer-opacity="1">
 
         <!-- Unnamed (Group) -->
-        <div id="u8725" class="ax_default" data-left="279" data-top="162" data-width="563" data-height="15" layer-opacity="1">
+        <div id="u8725" class="ax_default" data-left="279" data-top="162" data-width="563" data-height="15"
+             layer-opacity="1">
 
-          <!-- Unnamed (Radio Button) -->
-          <div id="u8726" class="ax_default radio_button">
-            <label id="u8726_input_label" for="u8726_input" style="position: absolute; left: 0px;">
-              <img id="u8726_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8726.svg') }}"/>
-              <div id="u8726_text" class="text ">
-                <p><span>Heat + Temperature of transf.</span></p>
-              </div>
-            </label>
-            <input id="u8726_input" type="radio" value="radio" name="u8726"/>
-          </div>
+            <!-- Unnamed (Radio Button) -->
+            <div id="u8726" class="ax_default radio_button">
+                <label id="u8726_input_label" for="u8726_input" style="position: absolute; left: 0px;">
+                    <img id="u8726_img" class="img "
+                         src="{{ url_for('static', filename='images/solution1_2/u8726.svg') }}"/>
+                    <div id="u8726_text" class="text ">
+                        <p><span>Heat + Temperature of transf.</span></p>
+                    </div>
+                </label>
+                <input id="u8726_input" type="radio" value="radio" name="u8726"/>
+            </div>
 
-          <!-- Unnamed (Radio Button) -->
-          <div id="u8727" class="ax_default radio_button" selectiongroup="energy">
-            <label id="u8727_input_label" for="u8727_input" style="position: absolute; left: 0px;">
-              <img id="u8727_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8727.svg') }}"/>
-              <div id="u8727_text" class="text ">
-                <p><span>Heat of from. + Entropy</span></p>
-              </div>
-            </label>
-            <input id="u8727_input" type="radio" value="radio" name="energy"/>
-          </div>
+            <!-- Unnamed (Radio Button) -->
+            <div id="u8727" class="ax_default radio_button" selectiongroup="energy">
+                <label id="u8727_input_label" for="u8727_input" style="position: absolute; left: 0px;">
+                    <img id="u8727_img" class="img "
+                         src="{{ url_for('static', filename='images/solution1_2/u8727.svg') }}"/>
+                    <div id="u8727_text" class="text ">
+                        <p><span>Heat of from. + Entropy</span></p>
+                    </div>
+                </label>
+                <input id="u8727_input" type="radio" value="radio" name="energy"/>
+            </div>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u8728" class="ax_default" data-left="274" data-top="202" data-width="508" data-height="91" layer-opacity="1">
+        <div id="u8728" class="ax_default" data-left="274" data-top="202" data-width="508" data-height="91"
+             layer-opacity="1">
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8729" class="ax_default text_field">
-            <div id="u8729_div" class=""></div>
-            <input id="u8729_input" type="text" value="△H 298(Joules)" class="u8729_input"/>
-          </div>
-
-          <!-- Unnamed (Vertical Line) -->
-          <div id="u8730" class="ax_default line">
-            <img id="u8730_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8730.svg') }}"/>
-            <div id="u8730_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8729" class="ax_default text_field">
+                <div id="u8729_div" class=""></div>
+                <input id="u8729_input" type="text" value="△H 298(Joules)" class="u8729_input"/>
             </div>
-          </div>
 
-          <!-- Unnamed (Line) -->
-          <div id="u8731" class="ax_default line">
-            <img id="u8731_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8731.svg') }}"/>
-            <div id="u8731_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u8730" class="ax_default line">
+                <img id="u8730_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8730.svg') }}"/>
+                <div id="u8730_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Line) -->
-          <div id="u8732" class="ax_default line">
-            <img id="u8732_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8731.svg') }}"/>
-            <div id="u8732_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Line) -->
+            <div id="u8731" class="ax_default line">
+                <img id="u8731_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8731.svg') }}"/>
+                <div id="u8731_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Vertical Line) -->
-          <div id="u8733" class="ax_default line">
-            <img id="u8733_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8733.svg') }}"/>
-            <div id="u8733_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Line) -->
+            <div id="u8732" class="ax_default line">
+                <img id="u8732_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8731.svg') }}"/>
+                <div id="u8732_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
+
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u8733" class="ax_default line">
+                <img id="u8733_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8733.svg') }}"/>
+                <div id="u8733_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8734" class="ax_default text_field">
-          <div id="u8734_div" class=""></div>
-          <input id="u8734_input" type="text" value="S298(J/(mol K))" class="u8734_input" readonly/>
+            <div id="u8734_div" class=""></div>
+            <input id="u8734_input" type="text" value="S298(J/(mol K))" class="u8734_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8735" class="ax_default text_field">
-          <div id="u8735_div" class=""></div>
-          <input id="u8735_input" type="text" value="" class="u8735_input"/>
+            <div id="u8735_div" class=""></div>
+            <input id="u8735_input" type="text" value="" class="u8735_input"/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8736" class="ax_default text_field">
-          <div id="u8736_div" class=""></div>
-          <input id="u8736_input" type="text" value="" class="u8736_input"/>
+            <div id="u8736_div" class=""></div>
+            <input id="u8736_input" type="text" value="" class="u8736_input"/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8737" class="ax_default text_field">
-          <div id="u8737_div" class=""></div>
-          <input id="u8737_input" type="text" value="Form. of L1" class="u8737_input" readonly/>
+            <div id="u8737_div" class=""></div>
+            <input id="u8737_input" type="text" value="Form. of L1" class="u8737_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8738" class="ax_default text_field">
-          <div id="u8738_div" class=""></div>
-          <input id="u8738_input" type="text" value="Phase Name" class="u8738_input" readonly/>
+            <div id="u8738_div" class=""></div>
+            <input id="u8738_input" type="text" value="Phase Name" class="u8738_input" readonly/>
         </div>
 
         <!-- Unnamed (Line) -->
         <div id="u8739" class="ax_default line">
-          <img id="u8739_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8739.svg') }}"/>
-          <div id="u8739_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u8739_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8739.svg') }}"/>
+            <div id="u8739_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8740" class="ax_default text_field">
-          <div id="u8740_div" class=""></div>
-          <input id="u8740_input" type="text" value="L1 properties" class="u8740_input" readonly/>
+            <div id="u8740_div" class=""></div>
+            <input id="u8740_input" type="text" value="L1 properties" class="u8740_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8741" class="ax_default text_field">
-          <div id="u8741_div" class=""></div>
-          <input id="u8741_input" type="text" value="" class="u8741_input"/>
+            <div id="u8741_div" class=""></div>
+            <input id="u8741_input" type="text" value="" class="u8741_input"/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8742" class="ax_default text_field">
-          <div id="u8742_div" class=""></div>
-          <input id="u8742_input" type="text" value="Reference no." class="u8742_input" readonly/>
+            <div id="u8742_div" class=""></div>
+            <input id="u8742_input" type="text" value="Reference no." class="u8742_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8743" class="ax_default text_field">
-          <div id="u8743_div" class=""></div>
-          <input id="u8743_input" type="text" value="Density g/cc" class="u8743_input" readonly/>
+            <div id="u8743_div" class=""></div>
+            <input id="u8743_input" type="text" value="Density g/cc" class="u8743_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8744" class="ax_default text_field">
-          <div id="u8744_div" class=""></div>
-          <input id="u8744_input" type="text" value="" class="u8744_input"/>
+            <div id="u8744_div" class=""></div>
+            <input id="u8744_input" type="text" value="" class="u8744_input"/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8745" class="ax_default text_field">
-          <div id="u8745_div" class=""></div>
-          <input id="u8745_input" type="text" value="" class="u8745_input"/>
+            <div id="u8745_div" class=""></div>
+            <input id="u8745_input" type="text" value="" class="u8745_input"/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8746" class="ax_default text_field">
-          <div id="u8746_div" class=""></div>
-          <input id="u8746_input" type="text" value="" class="u8746_input"/>
+            <div id="u8746_div" class=""></div>
+            <input id="u8746_input" type="text" value="" class="u8746_input"/>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u8747" class="ax_default" data-left="274" data-top="398" data-width="573" data-height="280" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u8747" class="ax_default" data-left="274" data-top="398" data-width="573" data-height="280"
+         layer-opacity="1">
 
         <!-- Unnamed (Group) -->
-        <div id="u8748" class="ax_default" data-left="274" data-top="409" data-width="573" data-height="269" layer-opacity="1">
+        <div id="u8748" class="ax_default" data-left="274" data-top="409" data-width="573" data-height="269"
+             layer-opacity="1">
 
-          <!-- Unnamed (Vertical Line) -->
-          <div id="u8749" class="ax_default line">
-            <img id="u8749_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8749.svg') }}"/>
-            <div id="u8749_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u8749" class="ax_default line">
+                <img id="u8749_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8749.svg') }}"/>
+                <div id="u8749_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Line) -->
-          <div id="u8750" class="ax_default line">
-            <img id="u8750_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8750.svg') }}"/>
-            <div id="u8750_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Line) -->
+            <div id="u8750" class="ax_default line">
+                <img id="u8750_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8750.svg') }}"/>
+                <div id="u8750_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Line) -->
-          <div id="u8751" class="ax_default line">
-            <img id="u8751_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8750.svg') }}"/>
-            <div id="u8751_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Line) -->
+            <div id="u8751" class="ax_default line">
+                <img id="u8751_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8750.svg') }}"/>
+                <div id="u8751_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Vertical Line) -->
-          <div id="u8752" class="ax_default line">
-            <img id="u8752_img" class="img " src="{{ url_for('static', filename='images/solution1_2/u8752.svg') }}"/>
-            <div id="u8752_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u8752" class="ax_default line">
+                <img id="u8752_img" class="img "
+                     src="{{ url_for('static', filename='images/solution1_2/u8752.svg') }}"/>
+                <div id="u8752_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u8753" class="ax_default text_field">
-          <div id="u8753_div" class=""></div>
-          <input id="u8753_input" type="text" value="Extened properties(optional)" class="u8753_input"/>
+            <div id="u8753_div" class=""></div>
+            <input id="u8753_input" type="text" value="Extened properties(optional)" class="u8753_input"/>
         </div>
 
         <!-- Unnamed (Droplist) -->
         <div id="u8754" class="ax_default droplist">
-          <div id="u8754_div" class=""></div>
-          <select id="u8754_input" class="u8754_input">
-            <option class="u8754_input_option" value="Birch-Murnaghan">Birch-Murnaghan</option>
-          </select>
+            <div id="u8754_div" class=""></div>
+            <select id="u8754_input" class="u8754_input">
+                <option class="u8754_input_option" value="Birch-Murnaghan">Birch-Murnaghan</option>
+            </select>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u8755" class="ax_default" data-left="281" data-top="452" data-width="168" data-height="131" layer-opacity="1">
+        <div id="u8755" class="ax_default" data-left="281" data-top="452" data-width="168" data-height="131"
+             layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8756" class="ax_default box_1">
-            <div id="u8756_div" class=""></div>
-            <div id="u8756_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8756" class="ax_default box_1">
+                <div id="u8756_div" class=""></div>
+                <div id="u8756_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8757" class="ax_default text_field">
-            <div id="u8757_div" class=""></div>
-            <input id="u8757_input" type="text" value="Therm.expans. (/K)" class="u8757_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8757" class="ax_default text_field">
+                <div id="u8757_div" class=""></div>
+                <input id="u8757_input" type="text" value="Therm.expans. (/K)" class="u8757_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8758" class="ax_default text_field">
-            <div id="u8758_div" class=""></div>
-            <input id="u8758_input" type="text" value="" class="u8758_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8758" class="ax_default text_field">
+                <div id="u8758_div" class=""></div>
+                <input id="u8758_input" type="text" value="" class="u8758_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8759" class="ax_default text_field">
-            <div id="u8759_div" class=""></div>
-            <input id="u8759_input" type="text" value="" class="u8759_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8759" class="ax_default text_field">
+                <div id="u8759_div" class=""></div>
+                <input id="u8759_input" type="text" value="" class="u8759_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8760" class="ax_default text_field">
-            <div id="u8760_div" class=""></div>
-            <input id="u8760_input" type="text" value="" class="u8760_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8760" class="ax_default text_field">
+                <div id="u8760_div" class=""></div>
+                <input id="u8760_input" type="text" value="" class="u8760_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8761" class="ax_default text_field">
-            <div id="u8761_div" class=""></div>
-            <input id="u8761_input" type="text" value="" class="u8761_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8761" class="ax_default text_field">
+                <div id="u8761_div" class=""></div>
+                <input id="u8761_input" type="text" value="" class="u8761_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8762" class="ax_default text_field">
-            <div id="u8762_div" class=""></div>
-            <input id="u8762_input" type="text" value="T" class="u8762_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8762" class="ax_default text_field">
+                <div id="u8762_div" class=""></div>
+                <input id="u8762_input" type="text" value="T" class="u8762_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8763" class="ax_default text_field">
-            <div id="u8763_div" class=""></div>
-            <input id="u8763_input" type="text" value="/T" class="u8763_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8763" class="ax_default text_field">
+                <div id="u8763_div" class=""></div>
+                <input id="u8763_input" type="text" value="/T" class="u8763_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8764" class="ax_default text_field">
-            <div id="u8764_div" class=""></div>
-            <input id="u8764_input" type="text" value="/T^2" class="u8764_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8764" class="ax_default text_field">
+                <div id="u8764_div" class=""></div>
+                <input id="u8764_input" type="text" value="/T^2" class="u8764_input" readonly/>
+            </div>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u8765" class="ax_default" data-left="449" data-top="452" data-width="185" data-height="131" layer-opacity="1">
+        <div id="u8765" class="ax_default" data-left="449" data-top="452" data-width="185" data-height="131"
+             layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8766" class="ax_default box_1">
-            <div id="u8766_div" class=""></div>
-            <div id="u8766_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8766" class="ax_default box_1">
+                <div id="u8766_div" class=""></div>
+                <div id="u8766_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8767" class="ax_default text_field">
-            <div id="u8767_div" class=""></div>
-            <input id="u8767_input" type="text" value="Compressibilitry(/bar)" class="u8767_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8767" class="ax_default text_field">
+                <div id="u8767_div" class=""></div>
+                <input id="u8767_input" type="text" value="Compressibilitry(/bar)" class="u8767_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8768" class="ax_default text_field">
-            <div id="u8768_div" class=""></div>
-            <input id="u8768_input" type="text" value="" class="u8768_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8768" class="ax_default text_field">
+                <div id="u8768_div" class=""></div>
+                <input id="u8768_input" type="text" value="" class="u8768_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8769" class="ax_default text_field">
-            <div id="u8769_div" class=""></div>
-            <input id="u8769_input" type="text" value="" class="u8769_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8769" class="ax_default text_field">
+                <div id="u8769_div" class=""></div>
+                <input id="u8769_input" type="text" value="" class="u8769_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8770" class="ax_default text_field">
-            <div id="u8770_div" class=""></div>
-            <input id="u8770_input" type="text" value="" class="u8770_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8770" class="ax_default text_field">
+                <div id="u8770_div" class=""></div>
+                <input id="u8770_input" type="text" value="" class="u8770_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8771" class="ax_default text_field">
-            <div id="u8771_div" class=""></div>
-            <input id="u8771_input" type="text" value="" class="u8771_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8771" class="ax_default text_field">
+                <div id="u8771_div" class=""></div>
+                <input id="u8771_input" type="text" value="" class="u8771_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8772" class="ax_default text_field">
-            <div id="u8772_div" class=""></div>
-            <input id="u8772_input" type="text" value="T" class="u8772_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8772" class="ax_default text_field">
+                <div id="u8772_div" class=""></div>
+                <input id="u8772_input" type="text" value="T" class="u8772_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8773" class="ax_default text_field">
-            <div id="u8773_div" class=""></div>
-            <input id="u8773_input" type="text" value="T^2" class="u8773_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8773" class="ax_default text_field">
+                <div id="u8773_div" class=""></div>
+                <input id="u8773_input" type="text" value="T^2" class="u8773_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8774" class="ax_default text_field">
-            <div id="u8774_div" class=""></div>
-            <input id="u8774_input" type="text" value="T^3" class="u8774_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8774" class="ax_default text_field">
+                <div id="u8774_div" class=""></div>
+                <input id="u8774_input" type="text" value="T^3" class="u8774_input" readonly/>
+            </div>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u8775" class="ax_default" data-left="634" data-top="452" data-width="210" data-height="87" layer-opacity="1">
+        <div id="u8775" class="ax_default" data-left="634" data-top="452" data-width="210" data-height="87"
+             layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u8776" class="ax_default box_1">
-            <div id="u8776_div" class=""></div>
-            <div id="u8776_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u8776" class="ax_default box_1">
+                <div id="u8776_div" class=""></div>
+                <div id="u8776_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8777" class="ax_default text_field">
-            <div id="u8777_div" class=""></div>
-            <input id="u8777_input" type="text" value="Bulk mod. deriv." class="u8777_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8777" class="ax_default text_field">
+                <div id="u8777_div" class=""></div>
+                <input id="u8777_input" type="text" value="Bulk mod. deriv." class="u8777_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8778" class="ax_default text_field">
-            <div id="u8778_div" class=""></div>
-            <input id="u8778_input" type="text" value="" class="u8778_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8778" class="ax_default text_field">
+                <div id="u8778_div" class=""></div>
+                <input id="u8778_input" type="text" value="" class="u8778_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8779" class="ax_default text_field">
-            <div id="u8779_div" class=""></div>
-            <input id="u8779_input" type="text" value="" class="u8779_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8779" class="ax_default text_field">
+                <div id="u8779_div" class=""></div>
+                <input id="u8779_input" type="text" value="" class="u8779_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u8780" class="ax_default text_field">
-            <div id="u8780_div" class=""></div>
-            <input id="u8780_input" type="text" value="(T-T0)In(T/T0)" class="u8780_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u8780" class="ax_default text_field">
+                <div id="u8780_div" class=""></div>
+                <input id="u8780_input" type="text" value="(T-T0)In(T/T0)" class="u8780_input" readonly/>
+            </div>
         </div>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

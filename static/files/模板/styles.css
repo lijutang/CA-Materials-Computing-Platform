@@ -1,12 +1,11 @@
 ﻿body {
-  margin:0px;
+  margin:auto;
   background-image:none;
   position:static;
   left:auto;
   width:1156px;
-  margin-left:0;
-  margin-right:0;
   text-align:left;
+  overflow: hidden;
 }
 .form_sketch {
   border-color:transparent;
@@ -2505,6 +2504,7 @@
   left:0px;
   top:0px;
   width:1156px;
+  max-width: 1156px;
   height:50px;
   -ms-overflow-x:hidden;
   overflow-x:hidden;

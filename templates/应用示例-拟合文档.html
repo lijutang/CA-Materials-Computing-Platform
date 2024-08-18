@@ -1,30 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>应用示例-拟合文档</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
-    <link href="{{ url_for('static', filename='files/应用示例-拟合文档/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
+    <link href="{{ url_for('static', filename='files/应用示例-拟合文档/styles.css') }}" type="text/css"
+          rel="stylesheet"/>
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,198 +58,210 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/应用示例-拟合文档/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10592" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10592" class="ax_default box_1">
         <div id="u10592_div" class=""></div>
         <div id="u10592_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10593" class="ax_default _二级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10593" class="ax_default _二级标题">
         <div id="u10593_div" class=""></div>
         <div id="u10593_text" class="text ">
-          <p><span>拟合</span></p>
+            <p><span>拟合</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Line) -->
-      <div id="u10594" class="ax_default line">
-        <img id="u10594_img" class="img " src="{{ url_for('static', filename='images/应用示例-拟合文档/u10594.svg') }}"/>
+    <!-- Unnamed (Line) -->
+    <div id="u10594" class="ax_default line">
+        <img id="u10594_img" class="img "
+             src="{{ url_for('static', filename='images/应用示例-拟合文档/u10594.svg') }}"/>
         <div id="u10594_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10595" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10595" class="ax_default _三级标题">
         <div id="u10595_div" class=""></div>
         <div id="u10595_text" class="text ">
-          <p><span>说明</span></p>
+            <p><span>说明</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Line) -->
-      <div id="u10596" class="ax_default line">
-        <img id="u10596_img" class="img " src="{{ url_for('static', filename='images/应用示例-拟合文档/u10596.svg') }}"/>
+    <!-- Unnamed (Line) -->
+    <div id="u10596" class="ax_default line">
+        <img id="u10596_img" class="img "
+             src="{{ url_for('static', filename='images/应用示例-拟合文档/u10596.svg') }}"/>
         <div id="u10596_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10597" class="ax_default _段落">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10597" class="ax_default _段落">
         <div id="u10597_div" class=""></div>
         <div id="u10597_text" class="text ">
-          <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</span></p>
+            <p><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</span>
+            </p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10598" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10598" class="ax_default _三级标题">
         <div id="u10598_div" class=""></div>
         <div id="u10598_text" class="text ">
-          <p><span>示例</span></p>
+            <p><span>示例</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Line) -->
-      <div id="u10599" class="ax_default line">
-        <img id="u10599_img" class="img " src="{{ url_for('static', filename='images/应用示例-拟合文档/u10596.svg') }}"/>
+    <!-- Unnamed (Line) -->
+    <div id="u10599" class="ax_default line">
+        <img id="u10599_img" class="img "
+             src="{{ url_for('static', filename='images/应用示例-拟合文档/u10596.svg') }}"/>
         <div id="u10599_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10600" class="ax_default link_button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10600" class="ax_default link_button">
         <div id="u10600_div" class=""></div>
         <div id="u10600_text" class="text ">
-          <p><span>-示例1</span></p>
+            <p><span>-示例1</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10601" class="ax_default link_button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10601" class="ax_default link_button">
         <div id="u10601_div" class=""></div>
         <div id="u10601_text" class="text ">
-          <p><span>-示例2</span></p>
+            <p><span>-示例2</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10602" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10602" class="ax_default _三级标题">
         <div id="u10602_div" class=""></div>
         <div id="u10602_text" class="text ">
-          <p><span>示例1</span></p>
+            <p><span>示例1</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10603" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10603" class="ax_default box_1">
         <div id="u10603_div" class=""></div>
         <div id="u10603_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10604" class="ax_default _段落">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10604" class="ax_default _段落">
         <div id="u10604_div" class=""></div>
         <div id="u10604_text" class="text ">
-          <p><span>任务说明</span></p>
+            <p><span>任务说明</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10605" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10605" class="ax_default box_1">
         <div id="u10605_div" class=""></div>
         <div id="u10605_text" class="text ">
-          <p><span>操作指引</span></p>
+            <p><span>操作指引</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u10606" class="ax_default image">
-        <img id="u10606_img" class="img " src="{{ url_for('static', filename='images/应用示例-拟合文档/u10606.svg') }}"/>
+    <!-- Unnamed (Image) -->
+    <div id="u10606" class="ax_default image">
+        <img id="u10606_img" class="img "
+             src="{{ url_for('static', filename='images/应用示例-拟合文档/u10606.svg') }}"/>
         <div id="u10606_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10607" class="ax_default link_button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10607" class="ax_default link_button">
         <div id="u10607_div" class=""></div>
         <div id="u10607_text" class="text ">
-          <p><span>返回示例</span></p>
+            <p><span>返回示例</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10608" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10608" class="ax_default box_1">
         <div id="u10608_div" class=""></div>
         <div id="u10608_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10609" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10609" class="ax_default _三级标题">
         <div id="u10609_div" class=""></div>
         <div id="u10609_text" class="text ">
-          <p><span>示例2</span></p>
+            <p><span>示例2</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10610" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10610" class="ax_default box_1">
         <div id="u10610_div" class=""></div>
         <div id="u10610_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10611" class="ax_default _段落">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10611" class="ax_default _段落">
         <div id="u10611_div" class=""></div>
         <div id="u10611_text" class="text ">
-          <p><span>任务说明</span></p>
+            <p><span>任务说明</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u10612" class="ax_default image">
-        <img id="u10612_img" class="img " src="{{ url_for('static', filename='images/应用示例-拟合文档/u10606.svg') }}"/>
+    <!-- Unnamed (Image) -->
+    <div id="u10612" class="ax_default image">
+        <img id="u10612_img" class="img "
+             src="{{ url_for('static', filename='images/应用示例-拟合文档/u10606.svg') }}"/>
         <div id="u10612_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10613" class="ax_default link_button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10613" class="ax_default link_button">
         <div id="u10613_div" class=""></div>
         <div id="u10613_text" class="text ">
-          <p><span>返回示例</span></p>
+            <p><span>返回示例</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u10614" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u10614" class="ax_default box_1">
         <div id="u10614_div" class=""></div>
         <div id="u10614_text" class="text ">
-          <p><span>操作指引</span></p>
+            <p><span>操作指引</span></p>
         </div>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

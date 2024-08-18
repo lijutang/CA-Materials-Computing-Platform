@@ -1,30 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>select_optisage_page</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
-    <link href="{{ url_for('static', filename='files/select_optisage_page/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
+    <link href="{{ url_for('static', filename='files/select_optisage_page/styles.css') }}" type="text/css"
+          rel="stylesheet"/>
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,623 +58,704 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/select_optisage_page/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- background (Rectangle) -->
-      <div id="u12136" class="ax_default box_2" data-label="background">
+    <!-- background (Rectangle) -->
+    <div id="u12136" class="ax_default box_2" data-label="background">
         <div id="u12136_div" class=""></div>
         <div id="u12136_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!--  file_name_text (Text Field) -->
-      <div id="u12137" class="ax_default text_field" data-label="&nbsp;file_name_text">
+    <!--  file_name_text (Text Field) -->
+    <div id="u12137" class="ax_default text_field" data-label="&nbsp;file_name_text">
         <div id="u12137_div" class=""></div>
         <input id="u12137_input" type="text" value="" class="u12137_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u12138" class="ax_default box_1">
-        <img id="u12138_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12138.svg') }}"/>
+    <!-- Unnamed (Shape) -->
+    <div id="u12138" class="ax_default box_1">
+        <img id="u12138_img" class="img "
+             src="{{ url_for('static', filename='images/select_optisage_page/u12138.svg') }}"/>
         <div id="u12138_text" class="text ">
-          <p><span>Look in：</span></p>
+            <p><span>Look in：</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- type_panel (Dynamic Panel) -->
-      <div id="u12139" class="ax_default" data-label="type_panel">
+    <!-- type_panel (Dynamic Panel) -->
+    <div id="u12139" class="ax_default" data-label="type_panel">
         <div id="u12139_state0" class="panel_state" data-label="Default" style="">
-          <div id="u12139_state0_content" class="panel_state_content">
-          </div>
+            <div id="u12139_state0_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12139_state1" class="panel_state" data-label="Layout_Chem" style="visibility: hidden;">
-          <div id="u12139_state1_content" class="panel_state_content">
+            <div id="u12139_state1_content" class="panel_state_content">
 
-            <!-- Type Table Repeater (Repeater) -->
-            <div id="u12140" class="ax_default" data-label="Type Table Repeater">
-              <script id="u12140_script" type="axure-repeater-template" data-label="Type Table Repeater">
+                <!-- Type Table Repeater (Repeater) -->
+                <div id="u12140" class="ax_default" data-label="Type Table Repeater">
+                    <script id="u12140_script" type="axure-repeater-template" data-label="Type Table Repeater">
 
-                <!-- file_type (Rectangle) -->
-                <div id="u12141" class="ax_default box_1 u12141" data-label="file_type">
-                  <div id="u12141_div" class="u12141_div"></div>
-                  <div id="u12141_text" class="text u12141_text" style="display:none; visibility: hidden">
-                    <p></p>
-                  </div>
+                        <!-- file_type (Rectangle) -->
+                        <div id="u12141" class="ax_default box_1 u12141" data-label="file_type">
+                            <div id="u12141_div" class="u12141_div"></div>
+                            <div id="u12141_text" class="text u12141_text" style="display:none; visibility: hidden">
+                                <p></p>
+                            </div>
+                        </div>
+                    </script>
+                    <div id="u12140-1" class="preeval" style="width: 299px; height: 30px;">
+
+                        <!-- file_type (Rectangle) -->
+                        <div id="u12141-1" class="ax_default box_1 u12141" data-label="file_type"
+                             style="width: 299px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12141-1_div" class="u12141_div"
+                                 style="width: 299px; height: 30px;visibility: inherit"></div>
+                            <div id="u12141-1_text" class="text u12141_text" style="visibility: inherit">
+                                <p><span>ChemSage ASICII files(*.dat)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="u12140-2" class="preeval" style="width: 299px; height: 30px;">
+
+                        <!-- file_type (Rectangle) -->
+                        <div id="u12141-2" class="ax_default box_1 u12141" data-label="file_type"
+                             style="width: 299px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12141-2_div" class="u12141_div"
+                                 style="width: 299px; height: 30px;visibility: inherit"></div>
+                            <div id="u12141-2_text" class="text u12141_text" style="visibility: inherit">
+                                <p><span>ChemSage binary files(*.bin)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="u12140-3" class="preeval" style="width: 299px; height: 30px;">
+
+                        <!-- file_type (Rectangle) -->
+                        <div id="u12141-3" class="ax_default box_1 u12141" data-label="file_type"
+                             style="width: 299px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12141-3_div" class="u12141_div"
+                                 style="width: 299px; height: 30px;visibility: inherit"></div>
+                            <div id="u12141-3_text" class="text u12141_text" style="visibility: inherit">
+                                <p><span>ChemSage transparant files(*.cst)</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </script>
-              <div id="u12140-1" class="preeval" style="width: 299px; height: 30px;">
-
-                <!-- file_type (Rectangle) -->
-                <div id="u12141-1" class="ax_default box_1 u12141" data-label="file_type" style="width: 299px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12141-1_div" class="u12141_div" style="width: 299px; height: 30px;visibility: inherit"></div>
-                  <div id="u12141-1_text" class="text u12141_text" style="visibility: inherit">
-                    <p><span>ChemSage ASICII files(*.dat)</span></p>
-                  </div>
-                </div>
-              </div>
-              <div id="u12140-2" class="preeval" style="width: 299px; height: 30px;">
-
-                <!-- file_type (Rectangle) -->
-                <div id="u12141-2" class="ax_default box_1 u12141" data-label="file_type" style="width: 299px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12141-2_div" class="u12141_div" style="width: 299px; height: 30px;visibility: inherit"></div>
-                  <div id="u12141-2_text" class="text u12141_text" style="visibility: inherit">
-                    <p><span>ChemSage binary files(*.bin)</span></p>
-                  </div>
-                </div>
-              </div>
-              <div id="u12140-3" class="preeval" style="width: 299px; height: 30px;">
-
-                <!-- file_type (Rectangle) -->
-                <div id="u12141-3" class="ax_default box_1 u12141" data-label="file_type" style="width: 299px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12141-3_div" class="u12141_div" style="width: 299px; height: 30px;visibility: inherit"></div>
-                  <div id="u12141-3_text" class="text u12141_text" style="visibility: inherit">
-                    <p><span>ChemSage transparant files(*.cst)</span></p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
         <div id="u12139_state2" class="panel_state" data-label="Layout_Opti" style="visibility: hidden;">
-          <div id="u12139_state2_content" class="panel_state_content">
+            <div id="u12139_state2_content" class="panel_state_content">
 
-            <!-- Table Repeater (Repeater) -->
-            <div id="u12142" class="ax_default" data-label="Table Repeater">
-              <script id="u12142_script" type="axure-repeater-template" data-label="Table Repeater">
+                <!-- Table Repeater (Repeater) -->
+                <div id="u12142" class="ax_default" data-label="Table Repeater">
+                    <script id="u12142_script" type="axure-repeater-template" data-label="Table Repeater">
 
-                <!-- Unnamed (Rectangle) -->
-                <div id="u12143" class="ax_default box_1 u12143">
-                  <div id="u12143_div" class="u12143_div"></div>
-                  <div id="u12143_text" class="text u12143_text" style="display:none; visibility: hidden">
-                    <p></p>
-                  </div>
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u12143" class="ax_default box_1 u12143">
+                            <div id="u12143_div" class="u12143_div"></div>
+                            <div id="u12143_text" class="text u12143_text" style="display:none; visibility: hidden">
+                                <p></p>
+                            </div>
+                        </div>
+                    </script>
+                    <div id="u12142-1" class="preeval" style="width: 297px; height: 20px;">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u12143-1" class="ax_default box_1 u12143"
+                             style="width: 297px; height: 20px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12143-1_div" class="u12143_div"
+                                 style="width: 297px; height: 20px;visibility: inherit"></div>
+                            <div id="u12143-1_text" class="text u12143_text" style="visibility: inherit">
+                                <p><span>OptiSage files(*.opt)</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </script>
-              <div id="u12142-1" class="preeval" style="width: 297px; height: 20px;">
-
-                <!-- Unnamed (Rectangle) -->
-                <div id="u12143-1" class="ax_default box_1 u12143" style="width: 297px; height: 20px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12143-1_div" class="u12143_div" style="width: 297px; height: 20px;visibility: inherit"></div>
-                  <div id="u12143-1_text" class="text u12143_text" style="visibility: inherit">
-                    <p><span>OptiSage files(*.opt)</span></p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- file_panel (Dynamic Panel) -->
-      <div id="u12144" class="ax_default" data-label="file_panel">
+    <!-- file_panel (Dynamic Panel) -->
+    <div id="u12144" class="ax_default" data-label="file_panel">
         <div id="u12144_state0" class="panel_state" data-label="chemsage_file" style="">
-          <div id="u12144_state0_content" class="panel_state_content">
+            <div id="u12144_state0_content" class="panel_state_content">
 
-            <!-- File Table Repeater (Repeater) -->
-            <div id="u12145" class="ax_default" data-label="File Table Repeater">
-              <script id="u12145_script" type="axure-repeater-template" data-label="File Table Repeater">
+                <!-- File Table Repeater (Repeater) -->
+                <div id="u12145" class="ax_default" data-label="File Table Repeater">
+                    <script id="u12145_script" type="axure-repeater-template" data-label="File Table Repeater">
 
-                <!-- file_name (Rectangle) -->
-                <div id="u12146" class="ax_default box_1 u12146" data-label="file_name">
-                  <div id="u12146_div" class="u12146_div"></div>
-                  <div id="u12146_text" class="text u12146_text" style="display:none; visibility: hidden">
-                    <p></p>
-                  </div>
+                        <!-- file_name (Rectangle) -->
+                        <div id="u12146" class="ax_default box_1 u12146" data-label="file_name">
+                            <div id="u12146_div" class="u12146_div"></div>
+                            <div id="u12146_text" class="text u12146_text" style="display:none; visibility: hidden">
+                                <p></p>
+                            </div>
+                        </div>
+                    </script>
+                    <div id="u12145-1" class="preeval" style="width: 276px; height: 30px;">
+
+                        <!-- file_name (Rectangle) -->
+                        <div id="u12146-1" class="ax_default box_1 u12146" data-label="file_name"
+                             style="width: 276px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12146-1_div" class="u12146_div"
+                                 style="width: 276px; height: 30px;visibility: inherit"></div>
+                            <div id="u12146-1_text" class="text u12146_text" style="visibility: inherit">
+                                <p><span>Nacl_SrCl2.dat</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="u12145-2" class="preeval" style="width: 276px; height: 30px;">
+
+                        <!-- file_name (Rectangle) -->
+                        <div id="u12146-2" class="ax_default box_1 u12146" data-label="file_name"
+                             style="width: 276px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12146-2_div" class="u12146_div"
+                                 style="width: 276px; height: 30px;visibility: inherit"></div>
+                            <div id="u12146-2_text" class="text u12146_text" style="visibility: inherit">
+                                <p><span>Nacl_SrCl2.bin</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="u12145-3" class="preeval" style="width: 276px; height: 30px;">
+
+                        <!-- file_name (Rectangle) -->
+                        <div id="u12146-3" class="ax_default box_1 u12146" data-label="file_name"
+                             style="width: 276px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12146-3_div" class="u12146_div"
+                                 style="width: 276px; height: 30px;visibility: inherit"></div>
+                            <div id="u12146-3_text" class="text u12146_text" style="visibility: inherit">
+                                <p><span>Nacl_SrCl2.cst</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </script>
-              <div id="u12145-1" class="preeval" style="width: 276px; height: 30px;">
-
-                <!-- file_name (Rectangle) -->
-                <div id="u12146-1" class="ax_default box_1 u12146" data-label="file_name" style="width: 276px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12146-1_div" class="u12146_div" style="width: 276px; height: 30px;visibility: inherit"></div>
-                  <div id="u12146-1_text" class="text u12146_text" style="visibility: inherit">
-                    <p><span>Nacl_SrCl2.dat</span></p>
-                  </div>
-                </div>
-              </div>
-              <div id="u12145-2" class="preeval" style="width: 276px; height: 30px;">
-
-                <!-- file_name (Rectangle) -->
-                <div id="u12146-2" class="ax_default box_1 u12146" data-label="file_name" style="width: 276px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12146-2_div" class="u12146_div" style="width: 276px; height: 30px;visibility: inherit"></div>
-                  <div id="u12146-2_text" class="text u12146_text" style="visibility: inherit">
-                    <p><span>Nacl_SrCl2.bin</span></p>
-                  </div>
-                </div>
-              </div>
-              <div id="u12145-3" class="preeval" style="width: 276px; height: 30px;">
-
-                <!-- file_name (Rectangle) -->
-                <div id="u12146-3" class="ax_default box_1 u12146" data-label="file_name" style="width: 276px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12146-3_div" class="u12146_div" style="width: 276px; height: 30px;visibility: inherit"></div>
-                  <div id="u12146-3_text" class="text u12146_text" style="visibility: inherit">
-                    <p><span>Nacl_SrCl2.cst</span></p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
         <div id="u12144_state1" class="panel_state" data-label="opti_file" style="visibility: hidden;">
-          <div id="u12144_state1_content" class="panel_state_content">
+            <div id="u12144_state1_content" class="panel_state_content">
 
-            <!-- Table Repeater (Repeater) -->
-            <div id="u12147" class="ax_default" data-label="Table Repeater">
-              <script id="u12147_script" type="axure-repeater-template" data-label="Table Repeater">
+                <!-- Table Repeater (Repeater) -->
+                <div id="u12147" class="ax_default" data-label="Table Repeater">
+                    <script id="u12147_script" type="axure-repeater-template" data-label="Table Repeater">
 
-                <!-- Unnamed (Rectangle) -->
-                <div id="u12148" class="ax_default box_1 u12148">
-                  <div id="u12148_div" class="u12148_div"></div>
-                  <div id="u12148_text" class="text u12148_text" style="display:none; visibility: hidden">
-                    <p></p>
-                  </div>
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u12148" class="ax_default box_1 u12148">
+                            <div id="u12148_div" class="u12148_div"></div>
+                            <div id="u12148_text" class="text u12148_text" style="display:none; visibility: hidden">
+                                <p></p>
+                            </div>
+                        </div>
+                    </script>
+                    <div id="u12147-1" class="preeval" style="width: 282px; height: 30px;">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u12148-1" class="ax_default box_1 u12148"
+                             style="width: 282px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12148-1_div" class="u12148_div"
+                                 style="width: 282px; height: 30px;visibility: inherit"></div>
+                            <div id="u12148-1_text" class="text u12148_text" style="visibility: inherit">
+                                <p><span>OptiSageFile.opt</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </script>
-              <div id="u12147-1" class="preeval" style="width: 282px; height: 30px;">
-
-                <!-- Unnamed (Rectangle) -->
-                <div id="u12148-1" class="ax_default box_1 u12148" style="width: 282px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12148-1_div" class="u12148_div" style="width: 282px; height: 30px;visibility: inherit"></div>
-                  <div id="u12148-1_text" class="text u12148_text" style="visibility: inherit">
-                    <p><span>OptiSageFile.opt</span></p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- file_sign (Shape) -->
-      <div id="u12149" class="ax_default icon" data-label="file_sign">
-        <img id="u12149_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/file_sign_u12149.svg') }}"/>
+    <!-- file_sign (Shape) -->
+    <div id="u12149" class="ax_default icon" data-label="file_sign">
+        <img id="u12149_img" class="img "
+             src="{{ url_for('static', filename='images/select_optisage_page/file_sign_u12149.svg') }}"/>
         <div id="u12149_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- search_text (Text Field) -->
-      <div id="u12150" class="ax_default text_field" data-label="search_text">
+    <!-- search_text (Text Field) -->
+    <div id="u12150" class="ax_default text_field" data-label="search_text">
         <div id="u12150_div" class=""></div>
         <input id="u12150_input" type="text" value="ChemSage" class="u12150_input"/>
-      </div>
+    </div>
 
-      <!-- search_panel (Dynamic Panel) -->
-      <div id="u12151" class="ax_default ax_default_hidden" data-label="search_panel" style="display:none; visibility: hidden">
+    <!-- search_panel (Dynamic Panel) -->
+    <div id="u12151" class="ax_default ax_default_hidden" data-label="search_panel"
+         style="display:none; visibility: hidden">
         <div id="u12151_state0" class="panel_state" data-label="empty_state" style="">
-          <div id="u12151_state0_content" class="panel_state_content">
-          </div>
+            <div id="u12151_state0_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12151_state1" class="panel_state" data-label="search_state" style="visibility: hidden;">
-          <div id="u12151_state1_content" class="panel_state_content">
+            <div id="u12151_state1_content" class="panel_state_content">
 
-            <!-- Search Table Repeater (Repeater) -->
-            <div id="u12152" class="ax_default" data-label="Search Table Repeater">
-              <script id="u12152_script" type="axure-repeater-template" data-label="Search Table Repeater">
+                <!-- Search Table Repeater (Repeater) -->
+                <div id="u12152" class="ax_default" data-label="Search Table Repeater">
+                    <script id="u12152_script" type="axure-repeater-template" data-label="Search Table Repeater">
 
-                <!-- file_name (Rectangle) -->
-                <div id="u12153" class="ax_default box_1 u12153" data-label="file_name">
-                  <div id="u12153_div" class="u12153_div"></div>
-                  <div id="u12153_text" class="text u12153_text" style="display:none; visibility: hidden">
-                    <p></p>
-                  </div>
+                        <!-- file_name (Rectangle) -->
+                        <div id="u12153" class="ax_default box_1 u12153" data-label="file_name">
+                            <div id="u12153_div" class="u12153_div"></div>
+                            <div id="u12153_text" class="text u12153_text" style="display:none; visibility: hidden">
+                                <p></p>
+                            </div>
+                        </div>
+                    </script>
+                    <div id="u12152-1" class="preeval" style="width: 371px; height: 30px;">
+
+                        <!-- file_name (Rectangle) -->
+                        <div id="u12153-1" class="ax_default box_1 u12153" data-label="file_name"
+                             style="width: 371px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12153-1_div" class="u12153_div"
+                                 style="width: 371px; height: 30px;visibility: inherit"></div>
+                            <div id="u12153-1_text" class="text u12153_text" style="visibility: inherit">
+                                <p><span>ChemSage</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="u12152-2" class="preeval" style="width: 371px; height: 30px;">
+
+                        <!-- file_name (Rectangle) -->
+                        <div id="u12153-2" class="ax_default box_1 u12153" data-label="file_name"
+                             style="width: 371px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                            <div id="u12153-2_div" class="u12153_div"
+                                 style="width: 371px; height: 30px;visibility: inherit"></div>
+                            <div id="u12153-2_text" class="text u12153_text" style="visibility: inherit">
+                                <p><span>OptiFile</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </script>
-              <div id="u12152-1" class="preeval" style="width: 371px; height: 30px;">
-
-                <!-- file_name (Rectangle) -->
-                <div id="u12153-1" class="ax_default box_1 u12153" data-label="file_name" style="width: 371px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12153-1_div" class="u12153_div" style="width: 371px; height: 30px;visibility: inherit"></div>
-                  <div id="u12153-1_text" class="text u12153_text" style="visibility: inherit">
-                    <p><span>ChemSage</span></p>
-                  </div>
-                </div>
-              </div>
-              <div id="u12152-2" class="preeval" style="width: 371px; height: 30px;">
-
-                <!-- file_name (Rectangle) -->
-                <div id="u12153-2" class="ax_default box_1 u12153" data-label="file_name" style="width: 371px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-                  <div id="u12153-2_div" class="u12153_div" style="width: 371px; height: 30px;visibility: inherit"></div>
-                  <div id="u12153-2_text" class="text u12153_text" style="visibility: inherit">
-                    <p><span>OptiFile</span></p>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- file_type_enum (Rectangle) -->
-      <div id="u12154" class="ax_default box_1" data-label="file_type_enum">
+    <!-- file_type_enum (Rectangle) -->
+    <div id="u12154" class="ax_default box_1" data-label="file_type_enum">
         <div id="u12154_div" class=""></div>
         <div id="u12154_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u12155" class="ax_default box_1">
-        <img id="u12155_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12155.svg') }}"/>
+    <!-- Unnamed (Rectangle) -->
+    <div id="u12155" class="ax_default box_1">
+        <img id="u12155_img" class="img "
+             src="{{ url_for('static', filename='images/select_optisage_page/u12155.svg') }}"/>
         <div id="u12155_text" class="text ">
-          <p><span>File name:</span></p>
+            <p><span>File name:</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u12156" class="ax_default box_1">
-        <img id="u12156_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12155.svg') }}"/>
+    <!-- Unnamed (Rectangle) -->
+    <div id="u12156" class="ax_default box_1">
+        <img id="u12156_img" class="img "
+             src="{{ url_for('static', filename='images/select_optisage_page/u12155.svg') }}"/>
         <div id="u12156_text" class="text ">
-          <p><span>Files of type:</span></p>
+            <p><span>Files of type:</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Head (Rectangle) -->
-      <div id="u12157" class="ax_default box_3" data-label="Head">
+    <!-- Head (Rectangle) -->
+    <div id="u12157" class="ax_default box_3" data-label="Head">
         <div id="u12157_div" class=""></div>
         <div id="u12157_text" class="text ">
-          <p><span>Add optisage file</span></p>
+            <p><span>Add optisage file</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u12158" class="ax_default box_1">
-        <img id="u12158_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12158.svg') }}"/>
+    <!-- Unnamed (Shape) -->
+    <div id="u12158" class="ax_default box_1">
+        <img id="u12158_img" class="img "
+             src="{{ url_for('static', filename='images/select_optisage_page/u12158.svg') }}"/>
         <div id="u12158_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12159" class="ax_default" data-left="1961" data-top="48" data-width="92" data-height="19" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12159" class="ax_default" data-left="1961" data-top="48" data-width="92" data-height="19"
+         layer-opacity="1">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u12160" class="ax_default box_1">
-          <div id="u12160_div" class=""></div>
-          <div id="u12160_text" class="text ">
-            <p><span>Search</span></p>
-          </div>
+            <div id="u12160_div" class=""></div>
+            <div id="u12160_text" class="text ">
+                <p><span>Search</span></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12161" class="ax_default" data-left="1897" data-top="336" data-width="92" data-height="19" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12161" class="ax_default" data-left="1897" data-top="336" data-width="92" data-height="19"
+         layer-opacity="1">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u12162" class="ax_default box_1">
-          <div id="u12162_div" class=""></div>
-          <div id="u12162_text" class="text ">
-            <p><span>Search</span></p>
-          </div>
+            <div id="u12162_div" class=""></div>
+            <div id="u12162_text" class="text ">
+                <p><span>Search</span></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12163" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="1929" data-top="53" data-width="14" data-height="9" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12163" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="1929"
+         data-top="53" data-width="14" data-height="9" layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u12164" class="ax_default box_1">
-          <img id="u12164_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12164.svg') }}"/>
-          <div id="u12164_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12164_img" class="img "
+                 src="{{ url_for('static', filename='images/select_optisage_page/u12164.svg') }}"/>
+            <div id="u12164_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u12165" class="ax_default box_1">
-          <img id="u12165_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12165.svg') }}"/>
-          <div id="u12165_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12165_img" class="img "
+                 src="{{ url_for('static', filename='images/select_optisage_page/u12165.svg') }}"/>
+            <div id="u12165_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12166" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="1847" data-top="341" data-width="14" data-height="9" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12166" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="1847"
+         data-top="341" data-width="14" data-height="9" layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u12167" class="ax_default box_1">
-          <img id="u12167_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12167.svg') }}"/>
-          <div id="u12167_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12167_img" class="img "
+                 src="{{ url_for('static', filename='images/select_optisage_page/u12167.svg') }}"/>
+            <div id="u12167_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u12168" class="ax_default box_1">
-          <img id="u12168_img" class="img " src="{{ url_for('static', filename='images/select_optisage_page/u12168.svg') }}"/>
-          <div id="u12168_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12168_img" class="img "
+                 src="{{ url_for('static', filename='images/select_optisage_page/u12168.svg') }}"/>
+            <div id="u12168_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- 背景 (Dynamic Panel) -->
-      <div id="u12169" class="ax_default" data-label="背景">
+    <!-- 背景 (Dynamic Panel) -->
+    <div id="u12169" class="ax_default" data-label="背景">
         <div id="u12169_state0" class="panel_state" data-label="1" style="">
-          <div id="u12169_state0_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state0_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12169_state1" class="panel_state" data-label="2" style="visibility: hidden;">
-          <div id="u12169_state1_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state1_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12169_state2" class="panel_state" data-label="3" style="visibility: hidden;">
-          <div id="u12169_state2_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state2_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12169_state3" class="panel_state" data-label="4" style="visibility: hidden;">
-          <div id="u12169_state3_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state3_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12169_state4" class="panel_state" data-label="5" style="visibility: hidden;">
-          <div id="u12169_state4_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state4_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12169_state5" class="panel_state" data-label="6" style="visibility: hidden;">
-          <div id="u12169_state5_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state5_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12169_state6" class="panel_state" data-label="7" style="visibility: hidden;">
-          <div id="u12169_state6_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state6_content" class="panel_state_content">
+            </div>
         </div>
         <div id="u12169_state7" class="panel_state" data-label="8" style="visibility: hidden;">
-          <div id="u12169_state7_content" class="panel_state_content">
-          </div>
+            <div id="u12169_state7_content" class="panel_state_content">
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12170" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12170" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u12171" class="ax_default box_1">
-          <img id="u12171_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
-          <div id="u12171_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12171_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+            <div id="u12171_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u12172" class="ax_default box_1">
-          <img id="u12172_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
-          <div id="u12172_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12172_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+            <div id="u12172_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u12173" class="ax_default box_1 selected">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u12173" class="ax_default box_1 selected">
         <div id="u12173_div" class="selected"></div>
         <div id="u12173_text" class="text ">
-          <p><span>Open OptiSage File</span></p>
+            <p><span>Open OptiSage File</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u12174" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u12174" class="ax_default box_1">
         <div id="u12174_div" class=""></div>
         <div id="u12174_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u12175" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u12175" class="ax_default box_1">
         <div id="u12175_div" class=""></div>
         <div id="u12175_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Line) -->
-      <div id="u12176" class="ax_default line">
+    <!-- Unnamed (Line) -->
+    <div id="u12176" class="ax_default line">
         <img id="u12176_img" class="img " src="{{ url_for('static', filename='images/反应物/u2998.svg') }}"/>
         <div id="u12176_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12177" class="ax_default" data-left="154" data-top="60" data-width="502" data-height="25" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12177" class="ax_default" data-left="154" data-top="60" data-width="502" data-height="25"
+         layer-opacity="1">
 
         <!-- Unnamed (Text Field) -->
         <div id="u12178" class="ax_default text_field">
-          <div id="u12178_div" class=""></div>
-          <input id="u12178_input" type="text" value="" class="u12178_input"/>
+            <div id="u12178_div" class=""></div>
+            <input id="u12178_input" type="text" value="" class="u12178_input"/>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u12179" class="ax_default box_1">
-          <img id="u12179_img" class="img " src="{{ url_for('static', filename='images/反应物/u2990.svg') }}"/>
-          <div id="u12179_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12179_img" class="img " src="{{ url_for('static', filename='images/反应物/u2990.svg') }}"/>
+            <div id="u12179_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u12180" class="ax_default" data-left="633" data-top="68" data-width="12" data-height="10" layer-opacity="1">
+        <div id="u12180" class="ax_default" data-left="633" data-top="68" data-width="12" data-height="10"
+             layer-opacity="1">
 
-          <!-- Unnamed (Shape) -->
-          <div id="u12181" class="ax_default box_1">
-            <img id="u12181_img" class="img " src="{{ url_for('static', filename='images/反应物/u3003.svg') }}"/>
-            <div id="u12181_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Shape) -->
+            <div id="u12181" class="ax_default box_1">
+                <img id="u12181_img" class="img " src="{{ url_for('static', filename='images/反应物/u3003.svg') }}"/>
+                <div id="u12181_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Shape) -->
-          <div id="u12182" class="ax_default box_1">
-            <img id="u12182_img" class="img " src="{{ url_for('static', filename='images/反应物/u3004.svg') }}"/>
-            <div id="u12182_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Shape) -->
+            <div id="u12182" class="ax_default box_1">
+                <img id="u12182_img" class="img " src="{{ url_for('static', filename='images/反应物/u3004.svg') }}"/>
+                <div id="u12182_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Right Arrow) -->
-      <div id="u12183" class="ax_default _形状">
+    <!-- Unnamed (Right Arrow) -->
+    <div id="u12183" class="ax_default _形状">
         <img id="u12183_img" class="img " src="{{ url_for('static', filename='images/反应物/u3005.svg') }}"/>
         <div id="u12183_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u12184" class="ax_default box_1">
+    <!-- Unnamed (Shape) -->
+    <div id="u12184" class="ax_default box_1">
         <img id="u12184_img" class="img " src="{{ url_for('static', filename='images/反应物/u3006.svg') }}"/>
         <div id="u12184_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Right Arrow) -->
-      <div id="u12185" class="ax_default _形状">
+    <!-- Unnamed (Right Arrow) -->
+    <div id="u12185" class="ax_default _形状">
         <img id="u12185_img" class="img " src="{{ url_for('static', filename='images/反应物/u3007.svg') }}"/>
         <div id="u12185_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12186" class="ax_default" data-left="679" data-top="61" data-width="97" data-height="25" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12186" class="ax_default" data-left="679" data-top="61" data-width="97" data-height="25"
+         layer-opacity="1">
 
         <!-- Unnamed (Text Field) -->
         <div id="u12187" class="ax_default text_field">
-          <div id="u12187_div" class=""></div>
-          <input id="u12187_input" type="text" value="" class="u12187_input"/>
+            <div id="u12187_div" class=""></div>
+            <input id="u12187_input" type="text" value="" class="u12187_input"/>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u12188" class="ax_default" data-left="757" data-top="67" data-width="14" data-height="14" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u12188" class="ax_default" data-left="757" data-top="67" data-width="14" data-height="14"
+         layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u12189" class="ax_default box_1">
-          <img id="u12189_img" class="img " src="{{ url_for('static', filename='images/反应物/u3011.svg') }}"/>
-          <div id="u12189_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12189_img" class="img " src="{{ url_for('static', filename='images/反应物/u3011.svg') }}"/>
+            <div id="u12189_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u12190" class="ax_default box_1">
-          <img id="u12190_img" class="img " src="{{ url_for('static', filename='images/反应物/u3012.svg') }}"/>
-          <div id="u12190_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u12190_img" class="img " src="{{ url_for('static', filename='images/反应物/u3012.svg') }}"/>
+            <div id="u12190_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Right Arrow) -->
-      <div id="u12191" class="ax_default _形状">
+    <!-- Unnamed (Right Arrow) -->
+    <div id="u12191" class="ax_default _形状">
         <img id="u12191_img" class="img " src="{{ url_for('static', filename='images/反应物/u3005.svg') }}"/>
         <div id="u12191_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Dynamic Panel) -->
-      <div id="u12192" class="ax_default">
+    <!-- Unnamed (Dynamic Panel) -->
+    <div id="u12192" class="ax_default">
         <div id="u12192_state0" class="panel_state" data-label="State 1" style="">
-          <div id="u12192_state0_content" class="panel_state_content">
+            <div id="u12192_state0_content" class="panel_state_content">
 
-            <!-- Unnamed (Dynamic Panel) -->
-            <div id="u12193" class="ax_default">
-              <div id="u12193_state0" class="panel_state" data-label="State 1" style="">
-                <div id="u12193_state0_content" class="panel_state_content">
+                <!-- Unnamed (Dynamic Panel) -->
+                <div id="u12193" class="ax_default">
+                    <div id="u12193_state0" class="panel_state" data-label="State 1" style="">
+                        <div id="u12193_state0_content" class="panel_state_content">
 
-                  <!-- Unnamed (Rectangle) -->
-                  <div id="u12194" class="ax_default _段落">
-                    <div id="u12194_div" class=""></div>
-                    <div id="u12194_text" class="text ">
-                      <p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span><br></span></p>
+                            <!-- Unnamed (Rectangle) -->
+                            <div id="u12194" class="ax_default _段落">
+                                <div id="u12194_div" class=""></div>
+                                <div id="u12194_text" class="text ">
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span>file</span></p>
+                                    <p><span><br></span></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- file_name_text_new (Droplist) -->
-      <div id="u12195" class="ax_default box_1" data-label="file_name_text_new">
+    <!-- file_name_text_new (Droplist) -->
+    <div id="u12195" class="ax_default box_1" data-label="file_name_text_new">
         <div id="u12195_div" class=""></div>
         <select id="u12195_input" class="u12195_input">
         </select>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u12196" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u12196" class="ax_default _三级标题">
         <div id="u12196_div" class=""></div>
         <div id="u12196_text" class="text ">
-          <p><span>Name:</span></p>
+            <p><span>Name:</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Droplist) -->
-      <div id="u12197" class="ax_default box_1">
+    <!-- Unnamed (Droplist) -->
+    <div id="u12197" class="ax_default box_1">
         <div id="u12197_div" class=""></div>
         <select id="u12197_input" class="u12197_input">
-          <option class="u12197_input_option" value="OptiSage files(*.opt)">OptiSage files(*.opt)</option>
+            <option class="u12197_input_option" value="OptiSage files(*.opt)">OptiSage files(*.opt)</option>
         </select>
-      </div>
+    </div>
 
-      <!-- Table Repeater (Repeater) -->
-      <div id="u12198" class="ax_default" data-label="Table Repeater">
+    <!-- Table Repeater (Repeater) -->
+    <div id="u12198" class="ax_default" data-label="Table Repeater">
         <script id="u12198_script" type="axure-repeater-template" data-label="Table Repeater">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u12199" class="ax_default box_1 u12199">
-            <div id="u12199_div" class="u12199_div"></div>
-            <div id="u12199_text" class="text u12199_text" style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u12199" class="ax_default box_1 u12199">
+                <div id="u12199_div" class="u12199_div"></div>
+                <div id="u12199_text" class="text u12199_text" style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
         </script>
         <div id="u12198-1" class="preeval" style="width: 282px; height: 30px;">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u12199-1" class="ax_default box_1 u12199" style="width: 282px; height: 30px; left: 0px; top: 0px;visibility: inherit">
-            <div id="u12199-1_div" class="u12199_div" style="width: 282px; height: 30px;visibility: inherit"></div>
-            <div id="u12199-1_text" class="text u12199_text" style="visibility: inherit">
-              <p><span>OptiSageFile.opt</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u12199-1" class="ax_default box_1 u12199"
+                 style="width: 282px; height: 30px; left: 0px; top: 0px;visibility: inherit">
+                <div id="u12199-1_div" class="u12199_div" style="width: 282px; height: 30px;visibility: inherit"></div>
+                <div id="u12199-1_text" class="text u12199_text" style="visibility: inherit">
+                    <p><span>OptiSageFile.opt</span></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

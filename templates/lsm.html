@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>LSM</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/lsm/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,331 +57,352 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/lsm/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u5999" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u5999" class="ax_default box_1">
         <div id="u5999_div" class=""></div>
         <div id="u5999_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u6000" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u6000" class="ax_default box_1">
         <div id="u6000_div" class=""></div>
         <div id="u6000_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- 关闭 (Shape) -->
-      <div id="u6001" class="ax_default icon" data-label="关闭">
+    <!-- 关闭 (Shape) -->
+    <div id="u6001" class="ax_default icon" data-label="关闭">
         <img id="u6001_img" class="img " src="{{ url_for('static', filename='images/图片处理/关闭_u2922.svg') }}"/>
         <div id="u6001_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- 菜单 (Group) -->
-      <div id="u6002" class="ax_default" data-label="菜单" data-left="19" data-top="48" data-width="45" data-height="42" layer-opacity="1">
+    <!-- 菜单 (Group) -->
+    <div id="u6002" class="ax_default" data-label="菜单" data-left="19" data-top="48" data-width="45" data-height="42"
+         layer-opacity="1">
 
         <!-- Unnamed (Ellipse) -->
         <div id="u6003" class="ax_default ellipse">
-          <img id="u6003_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2924.svg') }}"/>
-          <div id="u6003_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6003_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2924.svg') }}"/>
+            <div id="u6003_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u6004" class="ax_default icon">
-          <img id="u6004_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2925.svg') }}"/>
-          <div id="u6004_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6004_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2925.svg') }}"/>
+            <div id="u6004_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- 化学 (Group) -->
-      <div id="u6005" class="ax_default" data-label="化学" data-left="19" data-top="120" data-width="45" data-height="42" layer-opacity="1">
+    <!-- 化学 (Group) -->
+    <div id="u6005" class="ax_default" data-label="化学" data-left="19" data-top="120" data-width="45" data-height="42"
+         layer-opacity="1">
 
         <!-- Unnamed (Ellipse) -->
         <div id="u6006" class="ax_default ellipse">
-          <img id="u6006_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
-          <div id="u6006_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6006_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
+            <div id="u6006_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u6007" class="ax_default icon">
-          <img id="u6007_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2928.svg') }}"/>
-          <div id="u6007_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6007_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2928.svg') }}"/>
+            <div id="u6007_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- 图片识别 (Group) -->
-      <div id="u6008" class="ax_default" data-label="图片识别" data-left="19" data-top="192" data-width="45" data-height="42" layer-opacity="1">
+    <!-- 图片识别 (Group) -->
+    <div id="u6008" class="ax_default" data-label="图片识别" data-left="19" data-top="192" data-width="45"
+         data-height="42" layer-opacity="1">
 
         <!-- Unnamed (Group) -->
-        <div id="u6009" class="ax_default" data-left="19" data-top="192" data-width="45" data-height="42" layer-opacity="1">
+        <div id="u6009" class="ax_default" data-left="19" data-top="192" data-width="45" data-height="42"
+             layer-opacity="1">
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u6010" class="ax_default ellipse">
-            <img id="u6010_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
-            <div id="u6010_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u6010" class="ax_default ellipse">
+                <img id="u6010_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
+                <div id="u6010_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Image) -->
-          <div id="u6011" class="ax_default image">
-            <img id="u6011_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2932.svg') }}"/>
-            <div id="u6011_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Image) -->
+            <div id="u6011" class="ax_default image">
+                <img id="u6011_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2932.svg') }}"/>
+                <div id="u6011_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- 数据库 (Group) -->
-      <div id="u6012" class="ax_default" data-label="数据库" data-left="19" data-top="264" data-width="45" data-height="42" layer-opacity="1">
+    <!-- 数据库 (Group) -->
+    <div id="u6012" class="ax_default" data-label="数据库" data-left="19" data-top="264" data-width="45"
+         data-height="42" layer-opacity="1">
 
         <!-- Unnamed (Ellipse) -->
         <div id="u6013" class="ax_default ellipse">
-          <img id="u6013_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
-          <div id="u6013_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6013_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
+            <div id="u6013_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u6014" class="ax_default icon">
-          <img id="u6014_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2935.svg') }}"/>
-          <div id="u6014_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6014_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2935.svg') }}"/>
+            <div id="u6014_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Least Square (Group) -->
-      <div id="u6015" class="ax_default" data-label="Least Square" data-left="19" data-top="336" data-width="45" data-height="42" layer-opacity="1">
+    <!-- Least Square (Group) -->
+    <div id="u6015" class="ax_default" data-label="Least Square" data-left="19" data-top="336" data-width="45"
+         data-height="42" layer-opacity="1">
 
         <!-- Unnamed (Ellipse) -->
         <div id="u6016" class="ax_default ellipse">
-          <img id="u6016_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
-          <div id="u6016_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6016_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
+            <div id="u6016_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u6017" class="ax_default icon">
-          <img id="u6017_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2938.svg') }}"/>
-          <div id="u6017_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6017_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2938.svg') }}"/>
+            <div id="u6017_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- 爬虫 (Group) -->
-      <div id="u6018" class="ax_default" data-label="爬虫" data-left="19" data-top="408" data-width="45" data-height="42" layer-opacity="1">
+    <!-- 爬虫 (Group) -->
+    <div id="u6018" class="ax_default" data-label="爬虫" data-left="19" data-top="408" data-width="45" data-height="42"
+         layer-opacity="1">
 
         <!-- Unnamed (Ellipse) -->
         <div id="u6019" class="ax_default ellipse">
-          <img id="u6019_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
-          <div id="u6019_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6019_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2927.svg') }}"/>
+            <div id="u6019_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u6020" class="ax_default icon">
-          <img id="u6020_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2941.svg') }}"/>
-          <div id="u6020_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6020_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2941.svg') }}"/>
+            <div id="u6020_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u6021" class="ax_default icon">
+    <!-- Unnamed (Shape) -->
+    <div id="u6021" class="ax_default icon">
         <img id="u6021_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2942.svg') }}"/>
         <div id="u6021_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u6022" class="ax_default icon">
+    <!-- Unnamed (Shape) -->
+    <div id="u6022" class="ax_default icon">
         <img id="u6022_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2943.svg') }}"/>
         <div id="u6022_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u6023" class="ax_default icon">
+    <!-- Unnamed (Shape) -->
+    <div id="u6023" class="ax_default icon">
         <img id="u6023_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2944.svg') }}"/>
         <div id="u6023_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- 时间 (Rectangle) -->
-      <div id="u6024" class="ax_default label" data-label="时间">
+    <!-- 时间 (Rectangle) -->
+    <div id="u6024" class="ax_default label" data-label="时间">
         <div id="u6024_div" class=""></div>
         <div id="u6024_text" class="text ">
-          <p><span>Time</span></p>
+            <p><span>Time</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- tip (Rectangle) -->
-      <div id="u6025" class="ax_default _一级标题" data-label="tip">
+    <!-- tip (Rectangle) -->
+    <div id="u6025" class="ax_default _一级标题" data-label="tip">
         <div id="u6025_div" class=""></div>
         <div id="u6025_text" class="text ">
-          <p><span>Choose a relationship</span></p>
+            <p><span>Choose a relationship</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u6026" class="ax_default icon">
+    <!-- Unnamed (Shape) -->
+    <div id="u6026" class="ax_default icon">
         <img id="u6026_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2946.svg') }}"/>
         <div id="u6026_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u6027" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="512" data-top="48" data-width="212" data-height="29" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u6027" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="512"
+         data-top="48" data-width="212" data-height="29" layer-opacity="1">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u6028" class="ax_default label">
-          <div id="u6028_div" class=""></div>
-          <div id="u6028_text" class="text ">
-            <p><span>Account Number：</span></p>
-          </div>
+            <div id="u6028_div" class=""></div>
+            <div id="u6028_text" class="text ">
+                <p><span>Account Number：</span></p>
+            </div>
         </div>
 
         <!-- 用户名 (Rectangle) -->
         <div id="u6029" class="ax_default label" data-label="用户名">
-          <div id="u6029_div" class=""></div>
-          <div id="u6029_text" class="text ">
-            <p><span>UserName</span></p>
-          </div>
+            <div id="u6029_div" class=""></div>
+            <div id="u6029_text" class="text ">
+                <p><span>UserName</span></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Menu (Rectangle) -->
-      <div id="u6030" class="ax_default label ax_default_hidden" data-label="Menu" style="display:none; visibility: hidden">
+    <!-- Menu (Rectangle) -->
+    <div id="u6030" class="ax_default label ax_default_hidden" data-label="Menu"
+         style="display:none; visibility: hidden">
         <div id="u6030_div" class=""></div>
         <div id="u6030_text" class="text ">
-          <p><span>Menu</span></p>
+            <p><span>Menu</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Chemitry (Rectangle) -->
-      <div id="u6031" class="ax_default label ax_default_hidden" data-label="Chemitry" style="display:none; visibility: hidden">
+    <!-- Chemitry (Rectangle) -->
+    <div id="u6031" class="ax_default label ax_default_hidden" data-label="Chemitry"
+         style="display:none; visibility: hidden">
         <div id="u6031_div" class=""></div>
         <div id="u6031_text" class="text ">
-          <p><span>Chemsitry</span></p>
+            <p><span>Chemsitry</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Pic Processing (Rectangle) -->
-      <div id="u6032" class="ax_default label ax_default_hidden" data-label="Pic Processing" style="display:none; visibility: hidden">
+    <!-- Pic Processing (Rectangle) -->
+    <div id="u6032" class="ax_default label ax_default_hidden" data-label="Pic Processing"
+         style="display:none; visibility: hidden">
         <div id="u6032_div" class=""></div>
         <div id="u6032_text" class="text ">
-          <p><span>Picture Processing</span></p>
+            <p><span>Picture Processing</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Database (Rectangle) -->
-      <div id="u6033" class="ax_default label ax_default_hidden" data-label="Database" style="display:none; visibility: hidden">
+    <!-- Database (Rectangle) -->
+    <div id="u6033" class="ax_default label ax_default_hidden" data-label="Database"
+         style="display:none; visibility: hidden">
         <div id="u6033_div" class=""></div>
         <div id="u6033_text" class="text ">
-          <p><span>Database</span></p>
+            <p><span>Database</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Stats (Rectangle) -->
-      <div id="u6034" class="ax_default label ax_default_hidden" data-label="Stats" style="display:none; visibility: hidden">
+    <!-- Stats (Rectangle) -->
+    <div id="u6034" class="ax_default label ax_default_hidden" data-label="Stats"
+         style="display:none; visibility: hidden">
         <div id="u6034_div" class=""></div>
         <div id="u6034_text" class="text ">
-          <p><span>Statistics</span></p>
+            <p><span>Statistics</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Web (Rectangle) -->
-      <div id="u6035" class="ax_default label ax_default_hidden" data-label="Web" style="display:none; visibility: hidden">
+    <!-- Web (Rectangle) -->
+    <div id="u6035" class="ax_default label ax_default_hidden" data-label="Web"
+         style="display:none; visibility: hidden">
         <div id="u6035_div" class=""></div>
         <div id="u6035_text" class="text ">
-          <p><span>Web Crawler</span></p>
+            <p><span>Web Crawler</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u6036" class="ax_default icon">
+    <!-- Unnamed (Shape) -->
+    <div id="u6036" class="ax_default icon">
         <img id="u6036_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2956.svg') }}"/>
         <div id="u6036_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- linear (Rectangle) -->
-      <div id="u6037" class="ax_default box_1" data-label="linear">
+    <!-- linear (Rectangle) -->
+    <div id="u6037" class="ax_default box_1" data-label="linear">
         <img id="u6037_img" class="img " src="{{ url_for('static', filename='images/lsm/linear_u6037.svg') }}"/>
         <div id="u6037_text" class="text ">
-          <p><span>Y=aX+b</span></p>
+            <p><span>Y=aX+b</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- poly (Rectangle) -->
-      <div id="u6038" class="ax_default box_1" data-label="poly">
+    <!-- poly (Rectangle) -->
+    <div id="u6038" class="ax_default box_1" data-label="poly">
         <img id="u6038_img" class="img " src="{{ url_for('static', filename='images/lsm/linear_u6037.svg') }}"/>
         <div id="u6038_text" class="text ">
-          <p><span>Y=aX^2+bX+c</span></p>
+            <p><span>Y=aX^2+bX+c</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u6039" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u6039" class="ax_default box_1">
         <img id="u6039_img" class="img " src="{{ url_for('static', filename='images/lsm/linear_u6037.svg') }}"/>
         <div id="u6039_text" class="text ">
-          <p><span>Other</span></p>
+            <p><span>Other</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- log (Rectangle) -->
-      <div id="u6040" class="ax_default box_1" data-label="log">
+    <!-- log (Rectangle) -->
+    <div id="u6040" class="ax_default box_1" data-label="log">
         <img id="u6040_img" class="img " src="{{ url_for('static', filename='images/lsm/linear_u6037.svg') }}"/>
         <div id="u6040_text" class="text ">
-          <p><span>Y=1/(1+e^-x)</span></p>
+            <p><span>Y=1/(1+e^-x)</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Droplist) -->
-      <div id="u6041" class="ax_default droplist">
+    <!-- Unnamed (Droplist) -->
+    <div id="u6041" class="ax_default droplist">
         <div id="u6041_div" class=""></div>
         <select id="u6041_input" class="u6041_input">
-          <option class="u6041_input_option" value="Ridge Regression">Ridge Regression</option>
-          <option class="u6041_input_option" value="Lasso Regression">Lasso Regression</option>
-          <option class="u6041_input_option" value="Quantile Regression">Quantile Regression</option>
-          <option class="u6041_input_option" value="Bayesian Linear Regression">Bayesian Linear Regression</option>
-          <option class="u6041_input_option" value="Principal Components Regression">Principal Components Regression</option>
-          <option class="u6041_input_option" selected value="Please select">Please select</option>
+            <option class="u6041_input_option" value="Ridge Regression">Ridge Regression</option>
+            <option class="u6041_input_option" value="Lasso Regression">Lasso Regression</option>
+            <option class="u6041_input_option" value="Quantile Regression">Quantile Regression</option>
+            <option class="u6041_input_option" value="Bayesian Linear Regression">Bayesian Linear Regression</option>
+            <option class="u6041_input_option" value="Principal Components Regression">Principal Components Regression
+            </option>
+            <option class="u6041_input_option" selected value="Please select">Please select</option>
         </select>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

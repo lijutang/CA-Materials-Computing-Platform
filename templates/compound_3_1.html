@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Compound 3.1</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/compound_3_1/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,213 +57,228 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/compound_3_1/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- Unnamed (Group) -->
-      <div id="u6890" class="ax_default" data-left="0" data-top="0" data-width="867" data-height="750" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u6890" class="ax_default" data-left="0" data-top="0" data-width="867" data-height="750" layer-opacity="1">
 
         <!-- 内部框架 (Inline Frame) -->
         <div id="u6891" class="ax_default" data-label="内部框架">
-          <iframe id="u6891_input" data-label="内部框架" src="http://127.0.0.1:5000/u6891_input"></iframe>
+            <iframe id="u6891_input" data-label="内部框架" allowfullscreen ></iframe>
         </div>
 
         <!-- 1 (Group) -->
-        <div id="u6892" class="ax_default ax_default_hidden" data-label="1" style="display:none; visibility: hidden" data-left="253" data-top="95" data-width="614" data-height="606" layer-opacity="1">
+        <div id="u6892" class="ax_default ax_default_hidden" data-label="1" style="display:none; visibility: hidden"
+             data-left="253" data-top="95" data-width="614" data-height="606" layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u6893" class="ax_default box_1">
-            <div id="u6893_div" class=""></div>
-            <div id="u6893_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u6893" class="ax_default box_1">
+                <div id="u6893_div" class=""></div>
+                <div id="u6893_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u6894" class="ax_default text_field">
-            <div id="u6894_div" class=""></div>
-            <input id="u6894_input" type="text" value="Information on EXAMBASE" class="u6894_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6894" class="ax_default text_field">
+                <div id="u6894_div" class=""></div>
+                <input id="u6894_input" type="text" value="Information on EXAMBASE" class="u6894_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u6895" class="ax_default text_field">
-            <div id="u6895_div" class=""></div>
-            <input id="u6895_input" type="text" value="Nickname (4 chars)" class="u6895_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6895" class="ax_default text_field">
+                <div id="u6895_div" class=""></div>
+                <input id="u6895_input" type="text" value="Nickname (4 chars)" class="u6895_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u6896" class="ax_default text_field">
-            <div id="u6896_div" class=""></div>
-            <input id="u6896_input" type="text" value="" class="u6896_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6896" class="ax_default text_field">
+                <div id="u6896_div" class=""></div>
+                <input id="u6896_input" type="text" value="" class="u6896_input"/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u6897" class="ax_default text_field">
-            <div id="u6897_div" class=""></div>
-            <input id="u6897_input" type="text" value="Description (79 chars max)" class="u6897_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6897" class="ax_default text_field">
+                <div id="u6897_div" class=""></div>
+                <input id="u6897_input" type="text" value="Description (79 chars max)" class="u6897_input" readonly/>
+            </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u6898" class="ax_default text_field">
-            <div id="u6898_div" class=""></div>
-            <input id="u6898_input" type="text" value="" class="u6898_input"/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6898" class="ax_default text_field">
+                <div id="u6898_div" class=""></div>
+                <input id="u6898_input" type="text" value="" class="u6898_input"/>
+            </div>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u6899" class="ax_default" data-left="0" data-top="0" data-width="867" data-height="750" layer-opacity="1">
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u6900" class="ax_default box_1">
-            <div id="u6900_div" class=""></div>
-            <div id="u6900_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u6901" class="ax_default box_1">
-            <div id="u6901_div" class=""></div>
-            <div id="u6901_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u6902" class="ax_default box_1">
-            <div id="u6902_div" class=""></div>
-            <div id="u6902_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Text Field) -->
-          <div id="u6903" class="ax_default text_field">
-            <div id="u6903_div" class=""></div>
-            <input id="u6903_input" type="text" value="C:\FACTSAGE\USERDATA\EXAMPLEBASE.CDB(v5.0) 0 compound(s) read/write" class="u6903_input" readonly/>
-          </div>
-
-          <!-- Unnamed (List Box) -->
-          <div id="u6904" class="ax_default list_box">
-            <div id="u6904_div" class=""></div>
-            <select id="u6904_input" size="2" class="u6904_input">
-              <option class="u6904_input_option" value="...r    BINSBASE">...r&nbsp; &nbsp; BINSBASE</option>
-              <option class="u6904_input_option" value="...r    ELEMBASE  ">...r&nbsp; &nbsp; ELEMBASE&nbsp; </option>
-              <option class="u6904_input_option" value="...r/w    EXAMBASE">...r/w&nbsp; &nbsp; EXAMBASE</option>
-              <option class="u6904_input_option" value="...r    FACT53BASE  ">...r&nbsp; &nbsp; FACT53BASE&nbsp; </option>
-              <option class="u6904_input_option" value="...r    FACTBASE">...r&nbsp; &nbsp; FACTBASE</option>
-              <option class="u6904_input_option" value="...r    FScoppBASE">...r&nbsp; &nbsp; FScoppBASE</option>
-              <option class="u6904_input_option" value="...r    FSleadBASE">...r&nbsp; &nbsp; FSleadBASE</option>
-              <option class="u6904_input_option" value="...r    FSliteBASE">...r&nbsp; &nbsp; FSliteBASE</option>
-              <option class="u6904_input_option" value="...r    FSnoblBASE">...r&nbsp; &nbsp; FSnoblBASE</option>
-              <option class="u6904_input_option" value="...r    FSstelBASE">...r&nbsp; &nbsp; FSstelBASE</option>
-              <option class="u6904_input_option" value="...r    FSupsiBASE">...r&nbsp; &nbsp; FSupsiBASE</option>
-              <option class="u6904_input_option" value="...r    FThallBASE">...r&nbsp; &nbsp; FThallBASE</option>
-              <option class="u6904_input_option" value="...r    FThelgBASE">...r&nbsp; &nbsp; FThelgBASE</option>
-              <option class="u6904_input_option" value="...r/w    FTliBASE">...r/w&nbsp; &nbsp; FTliBASE</option>
-              <option class="u6904_input_option" value="...r    FTliteBASE">...r&nbsp; &nbsp; FTliteBASE</option>
-              <option class="u6904_input_option" value="...r    FTmiscBASE">...r&nbsp; &nbsp; FTmiscBASE</option>
-              <option class="u6904_input_option" value="...r    FToxidBASE">...r&nbsp; &nbsp; FToxidBASE</option>
-              <option class="u6904_input_option" value="...r    FTpulpBASE">...r&nbsp; &nbsp; FTpulpBASE</option>
-              <option class="u6904_input_option" value="...r    FTsaltBASE">...r&nbsp; &nbsp; FTsaltBASE</option>
-              <option class="u6904_input_option" value="...r    USERDATA">...r&nbsp; &nbsp; USERDATA</option>
-            </select>
-          </div>
-
-          <!-- Unnamed (Text Field) -->
-          <div id="u6905" class="ax_default text_field">
-            <div id="u6905_div" class=""></div>
-            <input id="u6905_input" type="text" value="Formula" class="u6905_input" readonly/>
-          </div>
-
-          <!-- Unnamed (Text Field) -->
-          <div id="u6906" class="ax_default text_field">
-            <div id="u6906_div" class=""></div>
-            <input id="u6906_input" type="text" value="" class="u6906_input"/>
-          </div>
-
-          <!-- Unnamed (Shape) -->
-          <div id="u6907" class="ax_default _形状">
-            <img id="u6907_img" class="img " src="{{ url_for('static', filename='images/compound_3_1/u6907.svg') }}"/>
-            <div id="u6907_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Group) -->
-          <div id="u6908" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0" layer-opacity="1">
-          </div>
-
-          <!-- Unnamed (Group) -->
-          <div id="u6909" class="ax_default" data-left="63" data-top="15" data-width="463" data-height="32" layer-opacity="1">
+        <div id="u6899" class="ax_default" data-left="0" data-top="0" data-width="867" data-height="750"
+             layer-opacity="1">
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u6910" class="ax_default _二级标题">
-              <div id="u6910_div" class=""></div>
-              <div id="u6910_text" class="text ">
-                <p><span>ViewData</span></p>
-              </div>
+            <div id="u6900" class="ax_default box_1">
+                <div id="u6900_div" class=""></div>
+                <div id="u6900_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u6911" class="ax_default _二级标题">
-              <div id="u6911_div" class=""></div>
-              <div id="u6911_text" class="text ">
-                <p><span>Units</span></p>
-              </div>
+            <div id="u6901" class="ax_default box_1">
+                <div id="u6901_div" class=""></div>
+                <div id="u6901_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u6912" class="ax_default _二级标题">
-              <div id="u6912_div" class=""></div>
-              <div id="u6912_text" class="text ">
-                <p><span>Tools</span></p>
-              </div>
+            <div id="u6902" class="ax_default box_1">
+                <div id="u6902_div" class=""></div>
+                <div id="u6902_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u6913" class="ax_default _二级标题">
-              <div id="u6913_div" class=""></div>
-              <div id="u6913_text" class="text ">
-                <p><span>Help</span></p>
-              </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6903" class="ax_default text_field">
+                <div id="u6903_div" class=""></div>
+                <input id="u6903_input" type="text"
+                       value="C:\FACTSAGE\USERDATA\EXAMPLEBASE.CDB(v5.0) 0 compound(s) read/write" class="u6903_input"
+                       readonly/>
             </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u6914" class="ax_default _三级标题">
-              <div id="u6914_div" class=""></div>
-              <div id="u6914_text" class="text ">
-                <p><span>View</span></p>
-              </div>
+            <!-- Unnamed (List Box) -->
+            <div id="u6904" class="ax_default list_box">
+                <div id="u6904_div" class=""></div>
+                <select id="u6904_input" size="2" class="u6904_input">
+                    <option class="u6904_input_option" value="...r    BINSBASE">...r&nbsp; &nbsp; BINSBASE</option>
+                    <option class="u6904_input_option" value="...r    ELEMBASE  ">...r&nbsp; &nbsp; ELEMBASE&nbsp;
+                    </option>
+                    <option class="u6904_input_option" value="...r/w    EXAMBASE">...r/w&nbsp; &nbsp; EXAMBASE</option>
+                    <option class="u6904_input_option" value="...r    FACT53BASE  ">...r&nbsp; &nbsp; FACT53BASE&nbsp;
+                    </option>
+                    <option class="u6904_input_option" value="...r    FACTBASE">...r&nbsp; &nbsp; FACTBASE</option>
+                    <option class="u6904_input_option" value="...r    FScoppBASE">...r&nbsp; &nbsp; FScoppBASE</option>
+                    <option class="u6904_input_option" value="...r    FSleadBASE">...r&nbsp; &nbsp; FSleadBASE</option>
+                    <option class="u6904_input_option" value="...r    FSliteBASE">...r&nbsp; &nbsp; FSliteBASE</option>
+                    <option class="u6904_input_option" value="...r    FSnoblBASE">...r&nbsp; &nbsp; FSnoblBASE</option>
+                    <option class="u6904_input_option" value="...r    FSstelBASE">...r&nbsp; &nbsp; FSstelBASE</option>
+                    <option class="u6904_input_option" value="...r    FSupsiBASE">...r&nbsp; &nbsp; FSupsiBASE</option>
+                    <option class="u6904_input_option" value="...r    FThallBASE">...r&nbsp; &nbsp; FThallBASE</option>
+                    <option class="u6904_input_option" value="...r    FThelgBASE">...r&nbsp; &nbsp; FThelgBASE</option>
+                    <option class="u6904_input_option" value="...r/w    FTliBASE">...r/w&nbsp; &nbsp; FTliBASE</option>
+                    <option class="u6904_input_option" value="...r    FTliteBASE">...r&nbsp; &nbsp; FTliteBASE</option>
+                    <option class="u6904_input_option" value="...r    FTmiscBASE">...r&nbsp; &nbsp; FTmiscBASE</option>
+                    <option class="u6904_input_option" value="...r    FToxidBASE">...r&nbsp; &nbsp; FToxidBASE</option>
+                    <option class="u6904_input_option" value="...r    FTpulpBASE">...r&nbsp; &nbsp; FTpulpBASE</option>
+                    <option class="u6904_input_option" value="...r    FTsaltBASE">...r&nbsp; &nbsp; FTsaltBASE</option>
+                    <option class="u6904_input_option" value="...r    USERDATA">...r&nbsp; &nbsp; USERDATA</option>
+                </select>
             </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u6915" class="ax_default _三级标题">
-              <div id="u6915_div" class=""></div>
-              <div id="u6915_text" class="text ">
-                <p><span>File</span></p>
-              </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6905" class="ax_default text_field">
+                <div id="u6905_div" class=""></div>
+                <input id="u6905_input" type="text" value="Formula" class="u6905_input" readonly/>
             </div>
-          </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u6916" class="ax_default text_field">
-            <div id="u6916_div" class=""></div>
-            <input id="u6916_input" type="text" value="FactSage" class="u6916_input" readonly/>
-          </div>
+            <!-- Unnamed (Text Field) -->
+            <div id="u6906" class="ax_default text_field">
+                <div id="u6906_div" class=""></div>
+                <input id="u6906_input" type="text" value="" class="u6906_input"/>
+            </div>
+
+            <!-- Unnamed (Shape) -->
+            <div id="u6907" class="ax_default _形状">
+                <img id="u6907_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_3_1/u6907.svg') }}"/>
+                <div id="u6907_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u6908" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0"
+                 layer-opacity="1">
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u6909" class="ax_default" data-left="63" data-top="15" data-width="463" data-height="32"
+                 layer-opacity="1">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u6910" class="ax_default _二级标题">
+                    <div id="u6910_div" class=""></div>
+                    <div id="u6910_text" class="text ">
+                        <p><span>ViewData</span></p>
+                    </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u6911" class="ax_default _二级标题">
+                    <div id="u6911_div" class=""></div>
+                    <div id="u6911_text" class="text ">
+                        <p><span>Units</span></p>
+                    </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u6912" class="ax_default _二级标题">
+                    <div id="u6912_div" class=""></div>
+                    <div id="u6912_text" class="text ">
+                        <p><span>Tools</span></p>
+                    </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u6913" class="ax_default _二级标题">
+                    <div id="u6913_div" class=""></div>
+                    <div id="u6913_text" class="text ">
+                        <p><span>Help</span></p>
+                    </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u6914" class="ax_default _三级标题">
+                    <div id="u6914_div" class=""></div>
+                    <div id="u6914_text" class="text ">
+                        <p><span>View</span></p>
+                    </div>
+                </div>
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u6915" class="ax_default _三级标题">
+                    <div id="u6915_div" class=""></div>
+                    <div id="u6915_text" class="text ">
+                        <p><span>File</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unnamed (Text Field) -->
+            <div id="u6916" class="ax_default text_field">
+                <div id="u6916_div" class=""></div>
+                <input id="u6916_input" type="text" value="FactSage" class="u6916_input" readonly/>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u6917" class="ax_default _形状">
-          <img id="u6917_img" class="img " src="{{ url_for('static', filename='images/compound_3_1/u6917.svg') }}"/>
-          <div id="u6917_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u6917_img" class="img " src="{{ url_for('static', filename='images/compound_3_1/u6917.svg') }}"/>
+            <div id="u6917_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Hot Spot) -->
@@ -276,13 +291,13 @@
 
         <!-- Unnamed (Rectangle) -->
         <div id="u6920" class="ax_default _一级标题">
-          <div id="u6920_div" class=""></div>
-          <div id="u6920_text" class="text ">
-            <p><span>Edit</span></p>
-          </div>
+            <div id="u6920_div" class=""></div>
+            <div id="u6920_text" class="text ">
+                <p><span>Edit</span></p>
+            </div>
         </div>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>solution2.5</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/solution2_5/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,401 +57,466 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/solution2_5/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- 内部框架 (Inline Frame) -->
-      <div id="u9592" class="ax_default" data-label="内部框架">
-        <iframe id="u9592_input" data-label="内部框架" src="http://127.0.0.1:5000/u9592_input"></iframe>
-      </div>
+    <!-- 内部框架 (Inline Frame) -->
+    <div id="u9592" class="ax_default" data-label="内部框架">
+        <iframe id="u9592_input" data-label="内部框架" allowfullscreen ></iframe>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u9593" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u9593" class="ax_default box_1">
         <div id="u9593_div" class=""></div>
         <div id="u9593_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u9594" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u9594" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u9595" class="ax_default box_1">
-          <img id="u9595_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
-          <div id="u9595_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u9595_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+            <div id="u9595_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u9596" class="ax_default box_1">
-          <img id="u9596_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
-          <div id="u9596_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u9596_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+            <div id="u9596_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u9597" class="ax_default" data-left="0" data-top="0" data-width="873" data-height="750" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u9597" class="ax_default" data-left="0" data-top="0" data-width="873" data-height="750" layer-opacity="1">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u9598" class="ax_default box_1">
-          <div id="u9598_div" class=""></div>
-          <div id="u9598_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u9598_div" class=""></div>
+            <div id="u9598_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
         <div id="u9599" class="ax_default box_1">
-          <div id="u9599_div" class=""></div>
-          <div id="u9599_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u9599_div" class=""></div>
+            <div id="u9599_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
         <div id="u9600" class="ax_default box_1">
-          <div id="u9600_div" class=""></div>
-          <div id="u9600_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u9600_div" class=""></div>
+            <div id="u9600_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u9601" class="ax_default text_field">
-          <div id="u9601_div" class=""></div>
-          <input id="u9601_input" type="text" value="FactSage" class="u9601_input" readonly/>
+            <div id="u9601_div" class=""></div>
+            <input id="u9601_input" type="text" value="FactSage" class="u9601_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u9602" class="ax_default text_field">
-          <div id="u9602_div" class=""></div>
-          <input id="u9602_input" type="text" value="Function Name" class="u9602_input" readonly/>
+            <div id="u9602_div" class=""></div>
+            <input id="u9602_input" type="text" value="Function Name" class="u9602_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u9603" class="ax_default text_field">
-          <div id="u9603_div" class=""></div>
-          <input id="u9603_input" type="text" value="" class="u9603_input"/>
+            <div id="u9603_div" class=""></div>
+            <input id="u9603_input" type="text" value="" class="u9603_input"/>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u9604" class="ax_default" data-left="60" data-top="15" data-width="402" data-height="32" layer-opacity="1">
+        <div id="u9604" class="ax_default" data-left="60" data-top="15" data-width="402" data-height="32"
+             layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9605" class="ax_default _二级标题">
-            <div id="u9605_div" class=""></div>
-            <div id="u9605_text" class="text ">
-              <p><span>ViewData</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9605" class="ax_default _二级标题">
+                <div id="u9605_div" class=""></div>
+                <div id="u9605_text" class="text ">
+                    <p><span>ViewData</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9606" class="ax_default _二级标题">
-            <div id="u9606_div" class=""></div>
-            <div id="u9606_text" class="text ">
-              <p><span>Units</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9606" class="ax_default _二级标题">
+                <div id="u9606_div" class=""></div>
+                <div id="u9606_text" class="text ">
+                    <p><span>Units</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9607" class="ax_default _二级标题">
-            <div id="u9607_div" class=""></div>
-            <div id="u9607_text" class="text ">
-              <p><span>Tools</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9607" class="ax_default _二级标题">
+                <div id="u9607_div" class=""></div>
+                <div id="u9607_text" class="text ">
+                    <p><span>Tools</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9608" class="ax_default _二级标题">
-            <div id="u9608_div" class=""></div>
-            <div id="u9608_text" class="text ">
-              <p><span>Help</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9608" class="ax_default _二级标题">
+                <div id="u9608_div" class=""></div>
+                <div id="u9608_text" class="text ">
+                    <p><span>Help</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9609" class="ax_default _三级标题">
-            <div id="u9609_div" class=""></div>
-            <div id="u9609_text" class="text ">
-              <p><span>Edit</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9609" class="ax_default _三级标题">
+                <div id="u9609_div" class=""></div>
+                <div id="u9609_text" class="text ">
+                    <p><span>Edit</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9610" class="ax_default _三级标题">
-            <div id="u9610_div" class=""></div>
-            <div id="u9610_text" class="text ">
-              <p><span>File</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9610" class="ax_default _三级标题">
+                <div id="u9610_div" class=""></div>
+                <div id="u9610_text" class="text ">
+                    <p><span>File</span></p>
+                </div>
             </div>
-          </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u9611" class="ax_default _形状">
-          <img id="u9611_img" class="img " src="{{ url_for('static', filename='images/solution2_2/u8577.svg') }}"/>
-          <div id="u9611_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u9611_img" class="img " src="{{ url_for('static', filename='images/solution2_2/u8577.svg') }}"/>
+            <div id="u9611_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u9612" class="ax_default _形状">
+    <!-- Unnamed (Shape) -->
+    <div id="u9612" class="ax_default _形状">
         <img id="u9612_img" class="img " src="{{ url_for('static', filename='images/viscosity/u1722.svg') }}"/>
         <div id="u9612_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- 1 (Group) -->
-      <div id="u9613" class="ax_default" data-label="1" data-left="255" data-top="95" data-width="618" data-height="606" layer-opacity="1">
+    <!-- 1 (Group) -->
+    <div id="u9613" class="ax_default" data-label="1" data-left="255" data-top="95" data-width="618" data-height="606"
+         layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u9614" class="ax_default box_1">
-          <img id="u9614_img" class="img " src="{{ url_for('static', filename='images/solution2_3/u9538.svg') }}"/>
-          <div id="u9614_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u9614_img" class="img " src="{{ url_for('static', filename='images/solution2_3/u9538.svg') }}"/>
+            <div id="u9614_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- 1 (Group) -->
-        <div id="u9615" class="ax_default" data-label="1" data-left="255" data-top="95" data-width="618" data-height="606" layer-opacity="1">
+        <div id="u9615" class="ax_default" data-label="1" data-left="255" data-top="95" data-width="618"
+             data-height="606" layer-opacity="1">
 
-          <!-- Unnamed (Shape) -->
-          <div id="u9616" class="ax_default box_1">
-            <img id="u9616_img" class="img " src="{{ url_for('static', filename='images/solution2_3/u9538.svg') }}"/>
-            <div id="u9616_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Shape) -->
+            <div id="u9616" class="ax_default box_1">
+                <img id="u9616_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_3/u9538.svg') }}"/>
+                <div id="u9616_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u9617" class="ax_default text_field">
-            <div id="u9617_div" class=""></div>
-            <input id="u9617_input" type="text" value="Sliver- Copper Kohler" class="u9617_input" readonly/>
-          </div>
-
-          <!-- Unnamed (Text Field) -->
-          <div id="u9618" class="ax_default text_field">
-            <div id="u9618_div" class=""></div>
-            <input id="u9618_input" type="text" value="Gemanium- Sliver Toop X(Gemanium) constant" class="u9618_input" readonly/>
-          </div>
-
-          <!-- Unnamed (Text Field) -->
-          <div id="u9619" class="ax_default text_field">
-            <div id="u9619_div" class=""></div>
-            <input id="u9619_input" type="text" value="Copper- Gemanium Top X(Gemanium)&nbsp; constant" class="u9619_input" readonly/>
-          </div>
-
-          <!-- Unnamed (Text Field) -->
-          <div id="u9620" class="ax_default text_field">
-            <div id="u9620_div" class=""></div>
-            <input id="u9620_input" type="text" value="Sliver" class="u9620_input" readonly/>
-          </div>
-
-          <!-- Unnamed (Vertical Line) -->
-          <div id="u9621" class="ax_default line">
-            <img id="u9621_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9621.svg') }}"/>
-            <div id="u9621_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Text Field) -->
+            <div id="u9617" class="ax_default text_field">
+                <div id="u9617_div" class=""></div>
+                <input id="u9617_input" type="text" value="Sliver- Copper Kohler" class="u9617_input" readonly/>
             </div>
-          </div>
 
-          <!-- Unnamed (Text Field) -->
-          <div id="u9622" class="ax_default text_field">
-            <div id="u9622_div" class=""></div>
-            <input id="u9622_input" type="text" value="Copper" class="u9622_input" readonly/>
-          </div>
-
-          <!-- Unnamed (Text Field) -->
-          <div id="u9623" class="ax_default text_field">
-            <div id="u9623_div" class=""></div>
-            <input id="u9623_input" type="text" value="Gemanium" class="u9623_input" readonly/>
-          </div>
-
-          <!-- Unnamed (Line) -->
-          <div id="u9624" class="ax_default _线段">
-            <img id="u9624_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9624.svg') }}"/>
-            <div id="u9624_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Text Field) -->
+            <div id="u9618" class="ax_default text_field">
+                <div id="u9618_div" class=""></div>
+                <input id="u9618_input" type="text" value="Gemanium- Sliver Toop X(Gemanium) constant"
+                       class="u9618_input" readonly/>
             </div>
-          </div>
 
-          <!-- Unnamed (Line) -->
-          <div id="u9625" class="ax_default line">
-            <img id="u9625_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9625.svg') }}"/>
-            <div id="u9625_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Text Field) -->
+            <div id="u9619" class="ax_default text_field">
+                <div id="u9619_div" class=""></div>
+                <input id="u9619_input" type="text" value="Copper- Gemanium Top X(Gemanium)&nbsp; constant"
+                       class="u9619_input" readonly/>
             </div>
-          </div>
 
-          <!-- Unnamed (Vertical Line) -->
-          <div id="u9626" class="ax_default line">
-            <img id="u9626_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9626.svg') }}"/>
-            <div id="u9626_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Text Field) -->
+            <div id="u9620" class="ax_default text_field">
+                <div id="u9620_div" class=""></div>
+                <input id="u9620_input" type="text" value="Sliver" class="u9620_input" readonly/>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9627" class="ax_default ellipse">
-            <img id="u9627_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9627_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u9621" class="ax_default line">
+                <img id="u9621_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9621.svg') }}"/>
+                <div id="u9621_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9628" class="ax_default ellipse">
-            <img id="u9628_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9628.svg') }}"/>
-            <div id="u9628_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Text Field) -->
+            <div id="u9622" class="ax_default text_field">
+                <div id="u9622_div" class=""></div>
+                <input id="u9622_input" type="text" value="Copper" class="u9622_input" readonly/>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9629" class="ax_default ellipse">
-            <img id="u9629_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9629_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Text Field) -->
+            <div id="u9623" class="ax_default text_field">
+                <div id="u9623_div" class=""></div>
+                <input id="u9623_input" type="text" value="Gemanium" class="u9623_input" readonly/>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9630" class="ax_default ellipse">
-            <img id="u9630_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9630_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Line) -->
+            <div id="u9624" class="ax_default _线段">
+                <img id="u9624_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9624.svg') }}"/>
+                <div id="u9624_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9631" class="ax_default ellipse">
-            <img id="u9631_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9631_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Line) -->
+            <div id="u9625" class="ax_default line">
+                <img id="u9625_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9625.svg') }}"/>
+                <div id="u9625_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9632" class="ax_default ellipse">
-            <img id="u9632_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9632_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Vertical Line) -->
+            <div id="u9626" class="ax_default line">
+                <img id="u9626_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9626.svg') }}"/>
+                <div id="u9626_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9633" class="ax_default ellipse">
-            <img id="u9633_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9633_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9627" class="ax_default ellipse">
+                <img id="u9627_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9627_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9634" class="ax_default ellipse">
-            <img id="u9634_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9634_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9628" class="ax_default ellipse">
+                <img id="u9628_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9628.svg') }}"/>
+                <div id="u9628_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9635" class="ax_default ellipse">
-            <img id="u9635_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9635_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9629" class="ax_default ellipse">
+                <img id="u9629_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9629_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9636" class="ax_default ellipse">
-            <img id="u9636_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9636_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9630" class="ax_default ellipse">
+                <img id="u9630_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9630_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9637" class="ax_default ellipse">
-            <img id="u9637_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9628.svg') }}"/>
-            <div id="u9637_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9631" class="ax_default ellipse">
+                <img id="u9631_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9631_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9638" class="ax_default ellipse">
-            <img id="u9638_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9628.svg') }}"/>
-            <div id="u9638_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9632" class="ax_default ellipse">
+                <img id="u9632_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9632_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u9639" class="ax_default ellipse">
-            <img id="u9639_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
-            <div id="u9639_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9633" class="ax_default ellipse">
+                <img id="u9633_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9633_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9634" class="ax_default ellipse">
+                <img id="u9634_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9634_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9635" class="ax_default ellipse">
+                <img id="u9635_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9635_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9636" class="ax_default ellipse">
+                <img id="u9636_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9636_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9637" class="ax_default ellipse">
+                <img id="u9637_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9628.svg') }}"/>
+                <div id="u9637_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9638" class="ax_default ellipse">
+                <img id="u9638_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9628.svg') }}"/>
+                <div id="u9638_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Ellipse) -->
+            <div id="u9639" class="ax_default ellipse">
+                <img id="u9639_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_5/u9627.svg') }}"/>
+                <div id="u9639_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (List Box) -->
-      <div id="u9640" class="ax_default list_box">
+    <!-- Unnamed (List Box) -->
+    <div id="u9640" class="ax_default list_box">
         <div id="u9640_div" class=""></div>
         <select id="u9640_input" size="2" class="u9640_input">
-          <option class="u9640_input_option" value="... Solusoln">... Solusoln</option>
-          <option class="u9640_input_option" value="    ... Functions">&nbsp;&nbsp;&nbsp; ... Functions</option>
-          <option class="u9640_input_option" value="    ... Solutions(1)">&nbsp;&nbsp;&nbsp; ... Solutions(1)</option>
-          <option class="u9640_input_option" value="        ... LiqM(1-1)">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; ... LiqM(1-1)</option>
-          <option class="u9640_input_option" value="             ... SubLattices">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... SubLattices</option>
-          <option class="u9640_input_option" value="                ... A(4)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... A(4)</option>
-          <option class="u9640_input_option" value="                     ... Silver">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Silver</option>
-          <option class="u9640_input_option" value="                     ... Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Copper</option>
-          <option class="u9640_input_option" value="                     … Gold">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gold</option>
-          <option class="u9640_input_option" value="                     … Gemanium(A)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gemanium(A)</option>
-          <option class="u9640_input_option" value="             ... End Members(2)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... End Members(2)</option>
-          <option class="u9640_input_option" value="             ... Mixables(0)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Mixables(0)</option>
-          <option class="u9640_input_option" value="             ... Ternary Interpolations">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Ternary Interpolations</option>
-          <option class="u9640_input_option" selected value="                     … Sliver, Glod, Gemanium">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Sliver, Glod, Gemanium</option>
-          <option class="u9640_input_option" value="             ... Interactions  (15)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Interactions&nbsp; (15)</option>
-          <option class="u9640_input_option" value="                ... (0)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (0)Silver; Copper</option>
-          <option class="u9640_input_option" value="                ... (1)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (1)Silver; Copper</option>
-          <option class="u9640_input_option" value="                ... (2)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (2)Silver; Copper</option>
-          <option class="u9640_input_option" value="                ... (3)Silver; Gold">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (3)Silver; Gold</option>
-          <option class="u9640_input_option" value="                ... (4)Silver; Gemanium">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (4)Silver; Gemanium</option>
-          <option class="u9640_input_option" value="                ... (5)Silver; Gemanium">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (5)Silver; Gemanium</option>
+            <option class="u9640_input_option" value="... Solusoln">... Solusoln</option>
+            <option class="u9640_input_option" value="    ... Functions">&nbsp;&nbsp;&nbsp; ... Functions</option>
+            <option class="u9640_input_option" value="    ... Solutions(1)">&nbsp;&nbsp;&nbsp; ... Solutions(1)</option>
+            <option class="u9640_input_option" value="        ... LiqM(1-1)">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; ...
+                LiqM(1-1)
+            </option>
+            <option class="u9640_input_option" value="             ... SubLattices">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; ... SubLattices
+            </option>
+            <option class="u9640_input_option" value="                ... A(4)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;&nbsp; ... A(4)
+            </option>
+            <option class="u9640_input_option" value="                     ... Silver">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Silver
+            </option>
+            <option class="u9640_input_option" value="                     ... Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Copper
+            </option>
+            <option class="u9640_input_option" value="                     … Gold">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gold
+            </option>
+            <option class="u9640_input_option" value="                     … Gemanium(A)">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gemanium(A)
+            </option>
+            <option class="u9640_input_option" value="             ... End Members(2)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; ... End Members(2)
+            </option>
+            <option class="u9640_input_option" value="             ... Mixables(0)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; ... Mixables(0)
+            </option>
+            <option class="u9640_input_option" value="             ... Ternary Interpolations">&nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; ... Ternary Interpolations
+            </option>
+            <option class="u9640_input_option" selected value="                     … Sliver, Glod, Gemanium">&nbsp;&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Sliver, Glod, Gemanium
+            </option>
+            <option class="u9640_input_option" value="             ... Interactions  (15)">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; ... Interactions&nbsp; (15)
+            </option>
+            <option class="u9640_input_option" value="                ... (0)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (0)Silver; Copper
+            </option>
+            <option class="u9640_input_option" value="                ... (1)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (1)Silver; Copper
+            </option>
+            <option class="u9640_input_option" value="                ... (2)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (2)Silver; Copper
+            </option>
+            <option class="u9640_input_option" value="                ... (3)Silver; Gold">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (3)Silver; Gold
+            </option>
+            <option class="u9640_input_option" value="                ... (4)Silver; Gemanium">&nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (4)Silver; Gemanium
+            </option>
+            <option class="u9640_input_option" value="                ... (5)Silver; Gemanium">&nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (5)Silver; Gemanium
+            </option>
         </select>
-      </div>
+    </div>
 
-      <!-- Unnamed (Line) -->
-      <div id="u9641" class="ax_default _线段">
+    <!-- Unnamed (Line) -->
+    <div id="u9641" class="ax_default _线段">
         <img id="u9641_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9641.svg') }}"/>
         <div id="u9641_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u9642" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u9642" class="ax_default box_1">
         <img id="u9642_img" class="img " src="{{ url_for('static', filename='images/solution2_5/u9642.svg') }}"/>
         <div id="u9642_text" class="text ">
-          <p><span>Next</span></p>
+            <p><span>Next</span></p>
         </div>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

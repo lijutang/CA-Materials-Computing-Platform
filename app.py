@@ -5,7 +5,7 @@ from flask_migrate import Migrate
 from blueprints.test import bp as test_bp
 
 app = Flask(__name__)
-#连接蓝图
+# 连接蓝图
 app.register_blueprint(test_bp)
 
 # 绑定配置文件

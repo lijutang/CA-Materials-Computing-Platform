@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>问题文档</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/问题文档/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,74 +57,81 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/问题文档/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- Unnamed (Tree) -->
-      <div id="u11089" class="ax_default tree_node treeroot">
+    <!-- Unnamed (Tree) -->
+    <div id="u11089" class="ax_default tree_node treeroot">
         <div id="u11089_children" class="u11089_children">
 
-          <!-- Unnamed (Tree Node) -->
-          <div id="u11090" class="ax_default tree_node treenode">
+            <!-- Unnamed (Tree Node) -->
+            <div id="u11090" class="ax_default tree_node treenode">
 
-            <!-- Unnamed (Image) -->
-            <div id="u11091" class="ax_default image">
-              <img id="u11091_img" class="img " src="{{ url_for('static', filename='images/f_q/u10986_selected.png') }}"/>
-              <div id="u11091_text" class="text " style="display:none; visibility: hidden">
-                <p></p>
-              </div>
-            </div>
-            <!-- Unnamed (Rectangle) -->
-            <div id="u11092" class="" selectiongroup="u11089_tree_group">
-              <div id="u11092_div" class=""></div>
-              <div id="u11092_text" class="text ">
-                <p><span>Item 1</span></p>
-              </div>
-            </div>
-            <div id="u11090_children" class="u11090_children">
-
-              <!-- Unnamed (Tree Node) -->
-              <div id="u11093" class="ax_default tree_node treenode">
-                <!-- Unnamed (Rectangle) -->
-                <div id="u11094" class="" selectiongroup="u11089_tree_group">
-                  <div id="u11094_div" class=""></div>
-                  <div id="u11094_text" class="text ">
-                    <p><span>Item 1.1</span></p>
-                  </div>
+                <!-- Unnamed (Image) -->
+                <div id="u11091" class="ax_default image">
+                    <img id="u11091_img" class="img "
+                         src="{{ url_for('static', filename='images/f_q/u10986_selected.png') }}"/>
+                    <div id="u11091_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                    </div>
                 </div>
-              </div>
-
-              <!-- Unnamed (Tree Node) -->
-              <div id="u11095" class="ax_default tree_node treenode">
                 <!-- Unnamed (Rectangle) -->
-                <div id="u11096" class="" selectiongroup="u11089_tree_group">
-                  <div id="u11096_div" class=""></div>
-                  <div id="u11096_text" class="text ">
-                    <p><span>Item 1.2</span></p>
-                  </div>
+                <div id="u11092" class="" selectiongroup="u11089_tree_group">
+                    <div id="u11092_div" class=""></div>
+                    <div id="u11092_text" class="text ">
+                        <p><span>Item 1</span></p>
+                    </div>
                 </div>
-              </div>
+                <div id="u11090_children" class="u11090_children">
 
-              <!-- Unnamed (Tree Node) -->
-              <div id="u11097" class="ax_default tree_node treenode">
-                <!-- Unnamed (Rectangle) -->
-                <div id="u11098" class="" selectiongroup="u11089_tree_group">
-                  <div id="u11098_div" class=""></div>
-                  <div id="u11098_text" class="text ">
-                    <p><span>Item 1.3</span></p>
-                  </div>
+                    <!-- Unnamed (Tree Node) -->
+                    <div id="u11093" class="ax_default tree_node treenode">
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u11094" class="" selectiongroup="u11089_tree_group">
+                            <div id="u11094_div" class=""></div>
+                            <div id="u11094_text" class="text ">
+                                <p><span>Item 1.1</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Unnamed (Tree Node) -->
+                    <div id="u11095" class="ax_default tree_node treenode">
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u11096" class="" selectiongroup="u11089_tree_group">
+                            <div id="u11096_div" class=""></div>
+                            <div id="u11096_text" class="text ">
+                                <p><span>Item 1.2</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Unnamed (Tree Node) -->
+                    <div id="u11097" class="ax_default tree_node treenode">
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u11098" class="" selectiongroup="u11089_tree_group">
+                            <div id="u11098_div" class=""></div>
+                            <div id="u11098_text" class="text ">
+                                <p><span>Item 1.3</span></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

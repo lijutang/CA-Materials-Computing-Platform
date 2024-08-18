@@ -11,7 +11,7 @@
       for (var i=0;i<vars.length;i++) {
         var url = vars[i];
         return decodeURI(url).replace("html%23","html#");
-      } 
+      }
     }
 
     var rel = '../';
@@ -19,6 +19,8 @@
     if (url.indexOf(":") > 0 && url.indexOf(":") < 10) rel = '';
 	self.location.href = rel + url;
 	</script>
-	
+
+
+
 	</body>
 </html>

@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>用户定义</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/用户定义/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,95 +57,101 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/用户定义/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u232" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u232" class="ax_default box_1">
         <div id="u232_div" class=""></div>
         <div id="u232_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u233" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u233" class="ax_default box_1">
         <div id="u233_div" class=""></div>
         <div id="u233_text" class="text ">
-          <p><span>User Defined</span></p>
+            <p><span>User Defined</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u234" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u234" class="ax_default box_1">
         <div id="u234_div" class=""></div>
         <div id="u234_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u235" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u235" class="ax_default button">
         <div id="u235_div" class=""></div>
         <div id="u235_text" class="text ">
-          <p><span>Close</span></p>
+            <p><span>Close</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u236" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u236" class="ax_default _三级标题">
         <div id="u236_div" class=""></div>
         <div id="u236_text" class="text ">
-          <p><span>Composition</span></p>
+            <p><span>Composition</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u237" class="ax_default radio_button" selectiongroup="com">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u237" class="ax_default radio_button" selectiongroup="com">
         <label id="u237_input_label" for="u237_input" style="position: absolute; left: 0px;">
-          <img id="u237_img" class="img " src="{{ url_for('static', filename='images/用户定义/u237.svg') }}"/>
-          <div id="u237_text" class="text ">
-            <p><span>Default</span></p>
-          </div>
+            <img id="u237_img" class="img " src="{{ url_for('static', filename='images/用户定义/u237.svg') }}"/>
+            <div id="u237_text" class="text ">
+                <p><span>Default</span></p>
+            </div>
         </label>
         <input id="u237_input" type="radio" value="radio" name="com"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u238" class="ax_default radio_button" selectiongroup="com">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u238" class="ax_default radio_button" selectiongroup="com">
         <label id="u238_input_label" for="u238_input" style="position: absolute; left: 0px;">
-          <img id="u238_img" class="img " src="{{ url_for('static', filename='images/用户定义/u238.svg') }}"/>
-          <div id="u238_text" class="text ">
-            <p><span>Elemental</span></p>
-          </div>
+            <img id="u238_img" class="img " src="{{ url_for('static', filename='images/用户定义/u238.svg') }}"/>
+            <div id="u238_text" class="text ">
+                <p><span>Elemental</span></p>
+            </div>
         </label>
         <input id="u238_input" type="radio" value="radio" name="com"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u239" class="ax_default _二级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u239" class="ax_default _二级标题">
         <div id="u239_div" class=""></div>
         <div id="u239_text" class="text ">
-          <p><span>Solutions</span></p>
+            <p><span>Solutions</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (List Box) -->
-      <div id="u240" class="ax_default list_box">
+    <!-- Unnamed (List Box) -->
+    <div id="u240" class="ax_default list_box">
         <div id="u240_div" class=""></div>
         <select id="u240_input" size="2" class="u240_input">
-          <option class="u240_input_option" value="gas">gas</option>
-          <option class="u240_input_option" value="选项1">选项1</option>
-          <option class="u240_input_option" value="选项2">选项2</option>
-          <option class="u240_input_option" value="选项3">选项3</option>
+            <option class="u240_input_option" value="gas">gas</option>
+            <option class="u240_input_option" value="选项1">选项1</option>
+            <option class="u240_input_option" value="选项2">选项2</option>
+            <option class="u240_input_option" value="选项3">选项3</option>
         </select>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

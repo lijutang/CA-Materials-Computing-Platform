@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>错误栏</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/错误栏/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,376 +57,390 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/错误栏/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1342" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1342" class="ax_default box_1">
         <div id="u1342_div" class=""></div>
         <div id="u1342_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1343" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1343" class="ax_default box_1">
         <div id="u1343_div" class=""></div>
         <div id="u1343_text" class="text ">
-          <p><span>Error bars</span></p>
+            <p><span>Error bars</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1344" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1344" class="ax_default box_1">
         <div id="u1344_div" class=""></div>
         <div id="u1344_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1345" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1345" class="ax_default button">
         <div id="u1345_div" class=""></div>
         <div id="u1345_text" class="text ">
-          <p><span>Close</span></p>
+            <p><span>Close</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1346" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1346" class="ax_default box_1">
         <div id="u1346_div" class=""></div>
         <div id="u1346_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1347" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1347" class="ax_default button">
         <div id="u1347_div" class=""></div>
         <div id="u1347_text" class="text ">
-          <p><span>Continue</span></p>
+            <p><span>Continue</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Droplist) -->
-      <div id="u1348" class="ax_default droplist">
+    <!-- Unnamed (Droplist) -->
+    <div id="u1348" class="ax_default droplist">
         <div id="u1348_div" class=""></div>
         <select id="u1348_input" class="u1348_input">
-          <option class="u1348_input_option" value="I">I</option>
-          <option class="u1348_input_option" value="Polygon">Polygon</option>
-          <option class="u1348_input_option" value="+">+</option>
+            <option class="u1348_input_option" value="I">I</option>
+            <option class="u1348_input_option" value="Polygon">Polygon</option>
+            <option class="u1348_input_option" value="+">+</option>
         </select>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1349" class="ax_default _二级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1349" class="ax_default _二级标题">
         <div id="u1349_div" class=""></div>
         <div id="u1349_text" class="text ">
-          <p><span>properties</span></p>
+            <p><span>properties</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1350" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1350" class="ax_default _三级标题">
         <div id="u1350_div" class=""></div>
         <div id="u1350_text" class="text ">
-          <p><span>type</span></p>
+            <p><span>type</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1351" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1351" class="ax_default _三级标题">
         <div id="u1351_div" class=""></div>
         <div id="u1351_text" class="text ">
-          <p><span>thickness</span></p>
+            <p><span>thickness</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1352" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1352" class="ax_default box_1">
         <div id="u1352_div" class=""></div>
         <div id="u1352_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u1353" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u1353" class="ax_default text_field">
         <div id="u1353_div" class=""></div>
         <input id="u1353_input" type="text" value="" class="u1353_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1354" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1354" class="ax_default label">
         <div id="u1354_div" class=""></div>
         <div id="u1354_text" class="text ">
-          <p><span>mm</span></p>
+            <p><span>mm</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1355" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1355" class="ax_default _三级标题">
         <div id="u1355_div" class=""></div>
         <div id="u1355_text" class="text ">
-          <p><span>Color</span></p>
+            <p><span>Color</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u1356" class="ax_default" data-left="177" data-top="295" data-width="42" data-height="15" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u1356" class="ax_default" data-left="177" data-top="295" data-width="42" data-height="15"
+         layer-opacity="1">
 
         <!-- Color Select (Group) -->
-        <div id="u1357" class="ax_default ax_default_hidden" data-label="Color Select" style="display:none; visibility: hidden" data-left="170" data-top="339" data-width="202" data-height="46" layer-opacity="1">
+        <div id="u1357" class="ax_default ax_default_hidden" data-label="Color Select"
+             style="display:none; visibility: hidden" data-left="170" data-top="339" data-width="202" data-height="46"
+             layer-opacity="1">
 
-          <!-- Background Rectangle (Rectangle) -->
-          <div id="u1358" class="ax_default box_1" data-label="Background Rectangle">
-            <div id="u1358_div" class=""></div>
-            <div id="u1358_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Background Rectangle (Rectangle) -->
+            <div id="u1358" class="ax_default box_1" data-label="Background Rectangle">
+                <div id="u1358_div" class=""></div>
+                <div id="u1358_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u1359" class="ax_default box_2 selected" selectiongroup="colors">
-            <img id="u1359_img" class="img " src="{{ url_for('static', filename='images/选项/u256_selected.svg') }}"/>
-            <div id="u1359_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u1359" class="ax_default box_2 selected" selectiongroup="colors">
+                <img id="u1359_img" class="img "
+                     src="{{ url_for('static', filename='images/选项/u256_selected.svg') }}"/>
+                <div id="u1359_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u1360" class="ax_default box_2" selectiongroup="colors">
-            <img id="u1360_img" class="img " src="{{ url_for('static', filename='images/选项/u257.svg') }}"/>
-            <div id="u1360_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u1360" class="ax_default box_2" selectiongroup="colors">
+                <img id="u1360_img" class="img " src="{{ url_for('static', filename='images/选项/u257.svg') }}"/>
+                <div id="u1360_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u1361" class="ax_default box_2" selectiongroup="colors">
-            <img id="u1361_img" class="img " src="{{ url_for('static', filename='images/选项/u258.svg') }}"/>
-            <div id="u1361_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u1361" class="ax_default box_2" selectiongroup="colors">
+                <img id="u1361_img" class="img " src="{{ url_for('static', filename='images/选项/u258.svg') }}"/>
+                <div id="u1361_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Ellipse) -->
-          <div id="u1362" class="ax_default box_2" selectiongroup="colors">
-            <img id="u1362_img" class="img " src="{{ url_for('static', filename='images/选项/u259.svg') }}"/>
-            <div id="u1362_text" class="text " style="display:none; visibility: hidden">
-              <p></p>
+            <!-- Unnamed (Ellipse) -->
+            <div id="u1362" class="ax_default box_2" selectiongroup="colors">
+                <img id="u1362_img" class="img " src="{{ url_for('static', filename='images/选项/u259.svg') }}"/>
+                <div id="u1362_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                </div>
             </div>
-          </div>
         </div>
 
         <!-- Current Color Dynamic Panel (Dynamic Panel) -->
         <div id="u1363" class="ax_default" data-label="Current Color Dynamic Panel">
-          <div id="u1363_state0" class="panel_state" data-label="State2" style="">
-            <div id="u1363_state0_content" class="panel_state_content">
+            <div id="u1363_state0" class="panel_state" data-label="State2" style="">
+                <div id="u1363_state0_content" class="panel_state_content">
 
-              <!-- Unnamed (Ellipse) -->
-              <div id="u1364" class="ax_default box_2">
-                <img id="u1364_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1364.svg') }}"/>
-                <div id="u1364_text" class="text " style="display:none; visibility: hidden">
-                  <p></p>
+                    <!-- Unnamed (Ellipse) -->
+                    <div id="u1364" class="ax_default box_2">
+                        <img id="u1364_img" class="img "
+                             src="{{ url_for('static', filename='images/错误栏/u1364.svg') }}"/>
+                        <div id="u1364_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div id="u1363_state1" class="panel_state" data-label="State1" style="visibility: hidden;">
-            <div id="u1363_state1_content" class="panel_state_content">
+            <div id="u1363_state1" class="panel_state" data-label="State1" style="visibility: hidden;">
+                <div id="u1363_state1_content" class="panel_state_content">
 
-              <!-- Unnamed (Ellipse) -->
-              <div id="u1365" class="ax_default box_2">
-                <img id="u1365_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1365.svg') }}"/>
-                <div id="u1365_text" class="text " style="display:none; visibility: hidden">
-                  <p></p>
+                    <!-- Unnamed (Ellipse) -->
+                    <div id="u1365" class="ax_default box_2">
+                        <img id="u1365_img" class="img "
+                             src="{{ url_for('static', filename='images/错误栏/u1365.svg') }}"/>
+                        <div id="u1365_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div id="u1363_state2" class="panel_state" data-label="State3" style="visibility: hidden;">
-            <div id="u1363_state2_content" class="panel_state_content">
+            <div id="u1363_state2" class="panel_state" data-label="State3" style="visibility: hidden;">
+                <div id="u1363_state2_content" class="panel_state_content">
 
-              <!-- Unnamed (Ellipse) -->
-              <div id="u1366" class="ax_default box_2">
-                <img id="u1366_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1366.svg') }}"/>
-                <div id="u1366_text" class="text " style="display:none; visibility: hidden">
-                  <p></p>
+                    <!-- Unnamed (Ellipse) -->
+                    <div id="u1366" class="ax_default box_2">
+                        <img id="u1366_img" class="img "
+                             src="{{ url_for('static', filename='images/错误栏/u1366.svg') }}"/>
+                        <div id="u1366_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-          <div id="u1363_state3" class="panel_state" data-label="State4" style="visibility: hidden;">
-            <div id="u1363_state3_content" class="panel_state_content">
+            <div id="u1363_state3" class="panel_state" data-label="State4" style="visibility: hidden;">
+                <div id="u1363_state3_content" class="panel_state_content">
 
-              <!-- Unnamed (Ellipse) -->
-              <div id="u1367" class="ax_default box_2">
-                <img id="u1367_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1367.svg') }}"/>
-                <div id="u1367_text" class="text " style="display:none; visibility: hidden">
-                  <p></p>
+                    <!-- Unnamed (Ellipse) -->
+                    <div id="u1367" class="ax_default box_2">
+                        <img id="u1367_img" class="img "
+                             src="{{ url_for('static', filename='images/错误栏/u1367.svg') }}"/>
+                        <div id="u1367_text" class="text " style="display:none; visibility: hidden">
+                            <p></p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1368" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1368" class="ax_default box_1">
         <div id="u1368_div" class=""></div>
         <div id="u1368_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1369" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1369" class="ax_default _三级标题">
         <div id="u1369_div" class=""></div>
         <div id="u1369_text" class="text ">
-          <p><span>X error in </span></p>
+            <p><span>X error in </span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u1370" class="ax_default radio_button" selectiongroup="1">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u1370" class="ax_default radio_button" selectiongroup="1">
         <label id="u1370_input_label" for="u1370_input" style="position: absolute; left: 0px;">
-          <img id="u1370_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1370.svg') }}"/>
-          <div id="u1370_text" class="text ">
-            <p><span>absolute</span></p>
-          </div>
+            <img id="u1370_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1370.svg') }}"/>
+            <div id="u1370_text" class="text ">
+                <p><span>absolute</span></p>
+            </div>
         </label>
         <input id="u1370_input" type="radio" value="radio" name="1"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u1371" class="ax_default radio_button" selectiongroup="1">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u1371" class="ax_default radio_button" selectiongroup="1">
         <label id="u1371_input_label" for="u1371_input" style="position: absolute; left: 0px;">
-          <img id="u1371_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1371.svg') }}"/>
-          <div id="u1371_text" class="text ">
-            <p><span>percentage</span></p>
-          </div>
+            <img id="u1371_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1371.svg') }}"/>
+            <div id="u1371_text" class="text ">
+                <p><span>percentage</span></p>
+            </div>
         </label>
         <input id="u1371_input" type="radio" value="radio" name="1"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1372" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1372" class="ax_default _三级标题">
         <div id="u1372_div" class=""></div>
         <div id="u1372_text" class="text ">
-          <p><span>Y error in </span></p>
+            <p><span>Y error in </span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u1373" class="ax_default radio_button" selectiongroup="1">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u1373" class="ax_default radio_button" selectiongroup="1">
         <label id="u1373_input_label" for="u1373_input" style="position: absolute; left: 0px;">
-          <img id="u1373_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1373.svg') }}"/>
-          <div id="u1373_text" class="text ">
-            <p><span>absolute</span></p>
-          </div>
+            <img id="u1373_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1373.svg') }}"/>
+            <div id="u1373_text" class="text ">
+                <p><span>absolute</span></p>
+            </div>
         </label>
         <input id="u1373_input" type="radio" value="radio" name="1"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1374" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1374" class="ax_default box_1">
         <div id="u1374_div" class=""></div>
         <div id="u1374_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u1375" class="ax_default radio_button" selectiongroup="1">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u1375" class="ax_default radio_button" selectiongroup="1">
         <label id="u1375_input_label" for="u1375_input" style="position: absolute; left: 0px;">
-          <img id="u1375_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1375.svg') }}"/>
-          <div id="u1375_text" class="text ">
-            <p><span>percentage</span></p>
-          </div>
+            <img id="u1375_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1375.svg') }}"/>
+            <div id="u1375_text" class="text ">
+                <p><span>percentage</span></p>
+            </div>
         </label>
         <input id="u1375_input" type="radio" value="radio" name="1"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1376" class="ax_default _二级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1376" class="ax_default _二级标题">
         <div id="u1376_div" class=""></div>
         <div id="u1376_text" class="text ">
-          <p><span>Enter as</span></p>
+            <p><span>Enter as</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u1377" class="ax_default radio_button" selectiongroup="3">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u1377" class="ax_default radio_button" selectiongroup="3">
         <label id="u1377_input_label" for="u1377_input" style="position: absolute; left: 0px;">
-          <img id="u1377_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1377.svg') }}"/>
-          <div id="u1377_text" class="text ">
-            <p><span>fixed dy,dx</span></p>
-          </div>
+            <img id="u1377_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1377.svg') }}"/>
+            <div id="u1377_text" class="text ">
+                <p><span>fixed dy,dx</span></p>
+            </div>
         </label>
         <input id="u1377_input" type="radio" value="radio" name="3"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1378" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1378" class="ax_default box_1">
         <div id="u1378_div" class=""></div>
         <div id="u1378_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Radio Button) -->
-      <div id="u1379" class="ax_default radio_button" selectiongroup="3">
+    <!-- Unnamed (Radio Button) -->
+    <div id="u1379" class="ax_default radio_button" selectiongroup="3">
         <label id="u1379_input_label" for="u1379_input" style="position: absolute; left: 0px;">
-          <img id="u1379_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1379.svg') }}"/>
-          <div id="u1379_text" class="text ">
-            <p><span>dxL, dySup, dxR, dyInf</span></p>
-          </div>
+            <img id="u1379_img" class="img " src="{{ url_for('static', filename='images/错误栏/u1379.svg') }}"/>
+            <div id="u1379_text" class="text ">
+                <p><span>dxL, dySup, dxR, dyInf</span></p>
+            </div>
         </label>
         <input id="u1379_input" type="radio" value="radio" name="3"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1380" class="ax_default _二级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1380" class="ax_default _二级标题">
         <div id="u1380_div" class=""></div>
         <div id="u1380_text" class="text ">
-          <p><span>Fixed dy,dx</span></p>
+            <p><span>Fixed dy,dx</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1381" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1381" class="ax_default label">
         <div id="u1381_div" class=""></div>
         <div id="u1381_text" class="text ">
-          <p><span>dx</span></p>
+            <p><span>dx</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u1382" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u1382" class="ax_default label">
         <div id="u1382_div" class=""></div>
         <div id="u1382_text" class="text ">
-          <p><span>dy</span></p>
+            <p><span>dy</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u1383" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u1383" class="ax_default text_field">
         <div id="u1383_div" class=""></div>
         <input id="u1383_input" type="text" value="" class="u1383_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u1384" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u1384" class="ax_default text_field">
         <div id="u1384_div" class=""></div>
         <input id="u1384_input" type="text" value="" class="u1384_input"/>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

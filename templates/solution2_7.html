@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>solution2.7</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/solution2_7/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,417 +57,485 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/solution2_7/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- 内部框架 (Inline Frame) -->
-      <div id="u9643" class="ax_default" data-label="内部框架">
-        <iframe id="u9643_input" data-label="内部框架" src="http://127.0.0.1:5000/u9643_input"></iframe>
-      </div>
+    <!-- 内部框架 (Inline Frame) -->
+    <div id="u9643" class="ax_default" data-label="内部框架">
+        <iframe id="u9643_input" data-label="内部框架" allowfullscreen ></iframe>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u9644" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u9644" class="ax_default box_1">
         <div id="u9644_div" class=""></div>
         <div id="u9644_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u9645" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u9645" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
 
         <!-- Unnamed (Shape) -->
         <div id="u9646" class="ax_default box_1">
-          <img id="u9646_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
-          <div id="u9646_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u9646_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+            <div id="u9646_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u9647" class="ax_default box_1">
-          <img id="u9647_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
-          <div id="u9647_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u9647_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+            <div id="u9647_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u9648" class="ax_default" data-left="0" data-top="0" data-width="873" data-height="750" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u9648" class="ax_default" data-left="0" data-top="0" data-width="873" data-height="750" layer-opacity="1">
 
         <!-- Unnamed (Rectangle) -->
         <div id="u9649" class="ax_default box_1">
-          <div id="u9649_div" class=""></div>
-          <div id="u9649_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u9649_div" class=""></div>
+            <div id="u9649_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
         <div id="u9650" class="ax_default box_1">
-          <div id="u9650_div" class=""></div>
-          <div id="u9650_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u9650_div" class=""></div>
+            <div id="u9650_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Rectangle) -->
         <div id="u9651" class="ax_default box_1">
-          <div id="u9651_div" class=""></div>
-          <div id="u9651_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <div id="u9651_div" class=""></div>
+            <div id="u9651_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u9652" class="ax_default text_field">
-          <div id="u9652_div" class=""></div>
-          <input id="u9652_input" type="text" value="FactSage" class="u9652_input" readonly/>
+            <div id="u9652_div" class=""></div>
+            <input id="u9652_input" type="text" value="FactSage" class="u9652_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u9653" class="ax_default text_field">
-          <div id="u9653_div" class=""></div>
-          <input id="u9653_input" type="text" value="Function Name" class="u9653_input" readonly/>
+            <div id="u9653_div" class=""></div>
+            <input id="u9653_input" type="text" value="Function Name" class="u9653_input" readonly/>
         </div>
 
         <!-- Unnamed (Text Field) -->
         <div id="u9654" class="ax_default text_field">
-          <div id="u9654_div" class=""></div>
-          <input id="u9654_input" type="text" value="" class="u9654_input"/>
+            <div id="u9654_div" class=""></div>
+            <input id="u9654_input" type="text" value="" class="u9654_input"/>
         </div>
 
         <!-- Unnamed (Group) -->
-        <div id="u9655" class="ax_default" data-left="113" data-top="15" data-width="349" data-height="32" layer-opacity="1">
+        <div id="u9655" class="ax_default" data-left="113" data-top="15" data-width="349" data-height="32"
+             layer-opacity="1">
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9656" class="ax_default _二级标题">
-            <div id="u9656_div" class=""></div>
-            <div id="u9656_text" class="text ">
-              <p><span>ViewData</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9656" class="ax_default _二级标题">
+                <div id="u9656_div" class=""></div>
+                <div id="u9656_text" class="text ">
+                    <p><span>ViewData</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9657" class="ax_default _二级标题">
-            <div id="u9657_div" class=""></div>
-            <div id="u9657_text" class="text ">
-              <p><span>Units</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9657" class="ax_default _二级标题">
+                <div id="u9657_div" class=""></div>
+                <div id="u9657_text" class="text ">
+                    <p><span>Units</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9658" class="ax_default _二级标题">
-            <div id="u9658_div" class=""></div>
-            <div id="u9658_text" class="text ">
-              <p><span>Tools</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9658" class="ax_default _二级标题">
+                <div id="u9658_div" class=""></div>
+                <div id="u9658_text" class="text ">
+                    <p><span>Tools</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9659" class="ax_default _二级标题">
-            <div id="u9659_div" class=""></div>
-            <div id="u9659_text" class="text ">
-              <p><span>Help</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9659" class="ax_default _二级标题">
+                <div id="u9659_div" class=""></div>
+                <div id="u9659_text" class="text ">
+                    <p><span>Help</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9660" class="ax_default _三级标题">
-            <div id="u9660_div" class=""></div>
-            <div id="u9660_text" class="text ">
-              <p><span>Edit</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9660" class="ax_default _三级标题">
+                <div id="u9660_div" class=""></div>
+                <div id="u9660_text" class="text ">
+                    <p><span>Edit</span></p>
+                </div>
             </div>
-          </div>
         </div>
 
         <!-- Unnamed (Shape) -->
         <div id="u9661" class="ax_default _形状">
-          <img id="u9661_img" class="img " src="{{ url_for('static', filename='images/solution2_2/u8577.svg') }}"/>
-          <div id="u9661_text" class="text " style="display:none; visibility: hidden">
-            <p></p>
-          </div>
+            <img id="u9661_img" class="img " src="{{ url_for('static', filename='images/solution2_2/u8577.svg') }}"/>
+            <div id="u9661_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+            </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Shape) -->
-      <div id="u9662" class="ax_default _形状">
+    <!-- Unnamed (Shape) -->
+    <div id="u9662" class="ax_default _形状">
         <img id="u9662_img" class="img " src="{{ url_for('static', filename='images/viscosity/u1722.svg') }}"/>
         <div id="u9662_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (List Box) -->
-      <div id="u9663" class="ax_default list_box">
+    <!-- Unnamed (List Box) -->
+    <div id="u9663" class="ax_default list_box">
         <div id="u9663_div" class=""></div>
         <select id="u9663_input" size="2" class="u9663_input">
-          <option class="u9663_input_option" value="... Solusoln">... Solusoln</option>
-          <option class="u9663_input_option" value="    ... Functions">&nbsp;&nbsp;&nbsp; ... Functions</option>
-          <option class="u9663_input_option" value="    ... Solutions(1)">&nbsp;&nbsp;&nbsp; ... Solutions(1)</option>
-          <option class="u9663_input_option" value="        ... LiqM(1-1)">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; ... LiqM(1-1)</option>
-          <option class="u9663_input_option" value="             ... SubLattices">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... SubLattices</option>
-          <option class="u9663_input_option" value="                ... A(4)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... A(4)</option>
-          <option class="u9663_input_option" value="                     ... Silver">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Silver</option>
-          <option class="u9663_input_option" value="                     ... Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Copper</option>
-          <option class="u9663_input_option" value="                     … Gold">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gold</option>
-          <option class="u9663_input_option" value="                     … Gemanium(A)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gemanium(A)</option>
-          <option class="u9663_input_option" value="             ... End Members(2)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... End Members(2)</option>
-          <option class="u9663_input_option" value="             ... Mixables(0)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Mixables(0)</option>
-          <option class="u9663_input_option" value="             ... Ternary Interpolations">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Ternary Interpolations</option>
-          <option class="u9663_input_option" selected value="                     … Sliver, Glod, Gemanium">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Sliver, Glod, Gemanium</option>
-          <option class="u9663_input_option" value="             ... Interactions  (15)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Interactions&nbsp; (15)</option>
-          <option class="u9663_input_option" value="                ... (0)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (0)Silver; Copper</option>
-          <option class="u9663_input_option" value="                ... (1)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (1)Silver; Copper</option>
-          <option class="u9663_input_option" value="                ... (2)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (2)Silver; Copper</option>
-          <option class="u9663_input_option" value="                ... (3)Silver; Gold">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (3)Silver; Gold</option>
-          <option class="u9663_input_option" value="                ... (4)Silver; Gemanium">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (4)Silver; Gemanium</option>
-          <option class="u9663_input_option" value="                ... (5)Silver; Gemanium">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (5)Silver; Gemanium</option>
+            <option class="u9663_input_option" value="... Solusoln">... Solusoln</option>
+            <option class="u9663_input_option" value="    ... Functions">&nbsp;&nbsp;&nbsp; ... Functions</option>
+            <option class="u9663_input_option" value="    ... Solutions(1)">&nbsp;&nbsp;&nbsp; ... Solutions(1)</option>
+            <option class="u9663_input_option" value="        ... LiqM(1-1)">&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; ...
+                LiqM(1-1)
+            </option>
+            <option class="u9663_input_option" value="             ... SubLattices">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; ... SubLattices
+            </option>
+            <option class="u9663_input_option" value="                ... A(4)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp;&nbsp; ... A(4)
+            </option>
+            <option class="u9663_input_option" value="                     ... Silver">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Silver
+            </option>
+            <option class="u9663_input_option" value="                     ... Copper">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ... Copper
+            </option>
+            <option class="u9663_input_option" value="                     … Gold">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gold
+            </option>
+            <option class="u9663_input_option" value="                     … Gemanium(A)">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Gemanium(A)
+            </option>
+            <option class="u9663_input_option" value="             ... End Members(2)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; ... End Members(2)
+            </option>
+            <option class="u9663_input_option" value="             ... Mixables(0)">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; ... Mixables(0)
+            </option>
+            <option class="u9663_input_option" value="             ... Ternary Interpolations">&nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; ... Ternary Interpolations
+            </option>
+            <option class="u9663_input_option" selected value="                     … Sliver, Glod, Gemanium">&nbsp;&nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; … Sliver, Glod, Gemanium
+            </option>
+            <option class="u9663_input_option" value="             ... Interactions  (15)">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; ... Interactions&nbsp; (15)
+            </option>
+            <option class="u9663_input_option" value="                ... (0)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (0)Silver; Copper
+            </option>
+            <option class="u9663_input_option" value="                ... (1)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (1)Silver; Copper
+            </option>
+            <option class="u9663_input_option" value="                ... (2)Silver; Copper">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (2)Silver; Copper
+            </option>
+            <option class="u9663_input_option" value="                ... (3)Silver; Gold">&nbsp;&nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (3)Silver; Gold
+            </option>
+            <option class="u9663_input_option" value="                ... (4)Silver; Gemanium">&nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (4)Silver; Gemanium
+            </option>
+            <option class="u9663_input_option" value="                ... (5)Silver; Gemanium">&nbsp;&nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; ... (5)Silver; Gemanium
+            </option>
         </select>
-      </div>
+    </div>
 
-      <!-- Unnamed (Group) -->
-      <div id="u9664" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0" layer-opacity="1">
+    <!-- Unnamed (Group) -->
+    <div id="u9664" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0" layer-opacity="1">
 
         <!-- 2 (Group) -->
-        <div id="u9665" class="ax_default ax_default_hidden" data-label="2" style="display:none; visibility: hidden" data-left="227" data-top="375" data-width="325" data-height="286" layer-opacity="1">
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9666" class="ax_default box_2">
-            <img id="u9666_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9666_text" class="text ">
-              <p><span>Add Solution</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9667" class="ax_default box_2">
-            <img id="u9667_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9667_text" class="text ">
-              <p><span>End Member</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9668" class="ax_default box_2">
-            <img id="u9668_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9668_text" class="text ">
-              <p><span>Add Solution</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9669" class="ax_default box_2">
-            <img id="u9669_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9669_text" class="text ">
-              <p><span>End Member</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9670" class="ax_default box_2">
-            <img id="u9670_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9670_text" class="text ">
-              <p><span>Add Mixable Silver;Copper;Gold;Germanium</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9671" class="ax_default box_2">
-            <img id="u9671_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9671_text" class="text ">
-              <p><span>Quadruplet</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9672" class="ax_default box_2">
-            <img id="u9672_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9672_text" class="text ">
-              <p><span>Ternary Interpolation</span></p>
-            </div>
-          </div>
-
-          <!-- Unnamed (Group) -->
-          <div id="u9673" class="ax_default" data-left="227" data-top="557" data-width="325" data-height="26" layer-opacity="1">
+        <div id="u9665" class="ax_default ax_default_hidden" data-label="2" style="display:none; visibility: hidden"
+             data-left="227" data-top="375" data-width="325" data-height="286" layer-opacity="1">
 
             <!-- Unnamed (Rectangle) -->
-            <div id="u9674" class="ax_default box_2">
-              <img id="u9674_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-              <div id="u9674_text" class="text ">
-                <p><span>Add Bragg-wiliams</span></p>
-              </div>
+            <div id="u9666" class="ax_default box_2">
+                <img id="u9666_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9666_text" class="text ">
+                    <p><span>Add Solution</span></p>
+                </div>
             </div>
 
-            <!-- Unnamed (Shape) -->
-            <div id="u9675" class="ax_default _形状">
-              <img id="u9675_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7084.svg') }}"/>
-              <div id="u9675_text" class="text " style="display:none; visibility: hidden">
-                <p></p>
-              </div>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9667" class="ax_default box_2">
+                <img id="u9667_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9667_text" class="text ">
+                    <p><span>End Member</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9676" class="ax_default box_2">
-            <img id="u9676_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9676_text" class="text ">
-              <p><span>Add Quasichermical</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9668" class="ax_default box_2">
+                <img id="u9668_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9668_text" class="text ">
+                    <p><span>Add Solution</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9677" class="ax_default box_2">
-            <img id="u9677_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
-            <div id="u9677_text" class="text ">
-              <p><span>Add Pair fraction expansion</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9669" class="ax_default box_2">
+                <img id="u9669_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9669_text" class="text ">
+                    <p><span>End Member</span></p>
+                </div>
             </div>
-          </div>
 
-          <!-- Unnamed (Rectangle) -->
-          <div id="u9678" class="ax_default box_2">
-            <img id="u9678_img" class="img " src="{{ url_for('static', filename='images/solution2_7/u9678.svg') }}"/>
-            <div id="u9678_text" class="text ">
-              <p><span>Paste Function&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ctrl+V</span></p>
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9670" class="ax_default box_2">
+                <img id="u9670_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9670_text" class="text ">
+                    <p><span>Add Mixable Silver;Copper;Gold;Germanium</span></p>
+                </div>
             </div>
-          </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9671" class="ax_default box_2">
+                <img id="u9671_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9671_text" class="text ">
+                    <p><span>Quadruplet</span></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9672" class="ax_default box_2">
+                <img id="u9672_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9672_text" class="text ">
+                    <p><span>Ternary Interpolation</span></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u9673" class="ax_default" data-left="227" data-top="557" data-width="325" data-height="26"
+                 layer-opacity="1">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9674" class="ax_default box_2">
+                    <img id="u9674_img" class="img "
+                         src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                    <div id="u9674_text" class="text ">
+                        <p><span>Add Bragg-wiliams</span></p>
+                    </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u9675" class="ax_default _形状">
+                    <img id="u9675_img" class="img "
+                         src="{{ url_for('static', filename='images/compound_4_2/u7084.svg') }}"/>
+                    <div id="u9675_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9676" class="ax_default box_2">
+                <img id="u9676_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9676_text" class="text ">
+                    <p><span>Add Quasichermical</span></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9677" class="ax_default box_2">
+                <img id="u9677_img" class="img "
+                     src="{{ url_for('static', filename='images/compound_4_2/u7077.svg') }}"/>
+                <div id="u9677_text" class="text ">
+                    <p><span>Add Pair fraction expansion</span></p>
+                </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u9678" class="ax_default box_2">
+                <img id="u9678_img" class="img "
+                     src="{{ url_for('static', filename='images/solution2_7/u9678.svg') }}"/>
+                <div id="u9678_text" class="text ">
+                    <p><span>Paste Function&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ctrl+V</span>
+                    </p>
+                </div>
+            </div>
         </div>
 
         <!-- 3 (Group) -->
-        <div id="u9679" class="ax_default ax_default_hidden" data-label="3" style="display:none; visibility: hidden" data-left="552" data-top="557" data-width="67" data-height="52" layer-opacity="1">
+        <div id="u9679" class="ax_default ax_default_hidden" data-label="3" style="display:none; visibility: hidden"
+             data-left="552" data-top="557" data-width="67" data-height="52" layer-opacity="1">
 
-          <!-- Unnamed (Group) -->
-          <div id="u9680" class="ax_default" data-left="552" data-top="557" data-width="67" data-height="26" layer-opacity="1">
+            <!-- Unnamed (Group) -->
+            <div id="u9680" class="ax_default" data-left="552" data-top="557" data-width="67" data-height="26"
+                 layer-opacity="1">
 
-            <!-- 3.1 (Rectangle) -->
-            <div id="u9681" class="ax_default box_2" data-label="3.1">
-              <img id="u9681_img" class="img " src="{{ url_for('static', filename='images/solution2_7/3_1_u9681.svg') }}"/>
-              <div id="u9681_text" class="text ">
-                <p><span>GE</span></p>
-              </div>
+                <!-- 3.1 (Rectangle) -->
+                <div id="u9681" class="ax_default box_2" data-label="3.1">
+                    <img id="u9681_img" class="img "
+                         src="{{ url_for('static', filename='images/solution2_7/3_1_u9681.svg') }}"/>
+                    <div id="u9681_text" class="text ">
+                        <p><span>GE</span></p>
+                    </div>
+                </div>
+
+                <!-- Unnamed (Shape) -->
+                <div id="u9682" class="ax_default _形状">
+                    <img id="u9682_img" class="img "
+                         src="{{ url_for('static', filename='images/compound_4_2/u7084.svg') }}"/>
+                    <div id="u9682_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                    </div>
+                </div>
             </div>
 
-            <!-- Unnamed (Shape) -->
-            <div id="u9682" class="ax_default _形状">
-              <img id="u9682_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7084.svg') }}"/>
-              <div id="u9682_text" class="text " style="display:none; visibility: hidden">
-                <p></p>
-              </div>
-            </div>
-          </div>
+            <!-- Unnamed (Group) -->
+            <div id="u9683" class="ax_default" data-left="552" data-top="583" data-width="67" data-height="26"
+                 layer-opacity="1">
 
-          <!-- Unnamed (Group) -->
-          <div id="u9683" class="ax_default" data-left="552" data-top="583" data-width="67" data-height="26" layer-opacity="1">
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9684" class="ax_default box_2">
+                    <img id="u9684_img" class="img "
+                         src="{{ url_for('static', filename='images/solution2_7/3_1_u9681.svg') }}"/>
+                    <div id="u9684_text" class="text ">
+                        <p><span>VE</span></p>
+                    </div>
+                </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9684" class="ax_default box_2">
-              <img id="u9684_img" class="img " src="{{ url_for('static', filename='images/solution2_7/3_1_u9681.svg') }}"/>
-              <div id="u9684_text" class="text ">
-                <p><span>VE</span></p>
-              </div>
+                <!-- Unnamed (Shape) -->
+                <div id="u9685" class="ax_default _形状">
+                    <img id="u9685_img" class="img "
+                         src="{{ url_for('static', filename='images/compound_4_2/u7084.svg') }}"/>
+                    <div id="u9685_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                    </div>
+                </div>
             </div>
-
-            <!-- Unnamed (Shape) -->
-            <div id="u9685" class="ax_default _形状">
-              <img id="u9685_img" class="img " src="{{ url_for('static', filename='images/compound_4_2/u7084.svg') }}"/>
-              <div id="u9685_text" class="text " style="display:none; visibility: hidden">
-                <p></p>
-              </div>
-            </div>
-          </div>
         </div>
 
         <!-- 4 (Group) -->
-        <div id="u9686" class="ax_default ax_default_hidden" data-label="4" style="display:none; visibility: hidden" data-left="619" data-top="557" data-width="159" data-height="26" layer-opacity="1">
+        <div id="u9686" class="ax_default ax_default_hidden" data-label="4" style="display:none; visibility: hidden"
+             data-left="619" data-top="557" data-width="159" data-height="26" layer-opacity="1">
 
-          <!-- 4.1 (Group) -->
-          <div id="u9687" class="ax_default" data-label="4.1" data-left="619" data-top="557" data-width="159" data-height="26" layer-opacity="1">
+            <!-- 4.1 (Group) -->
+            <div id="u9687" class="ax_default" data-label="4.1" data-left="619" data-top="557" data-width="159"
+                 data-height="26" layer-opacity="1">
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9688" class="ax_default box_2">
-              <img id="u9688_img" class="img " src="{{ url_for('static', filename='images/solution2_7/u9688.svg') }}"/>
-              <div id="u9688_text" class="text ">
-                <p><span>Simple Polynomial</span></p>
-              </div>
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9688" class="ax_default box_2">
+                    <img id="u9688_img" class="img "
+                         src="{{ url_for('static', filename='images/solution2_7/u9688.svg') }}"/>
+                    <div id="u9688_text" class="text ">
+                        <p><span>Simple Polynomial</span></p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- 模块管理 (Dynamic Panel) -->
-      <div id="u9689" class="ax_default" data-label="模块管理">
+    <!-- 模块管理 (Dynamic Panel) -->
+    <div id="u9689" class="ax_default" data-label="模块管理">
         <div id="u9689_state0" class="panel_state" data-label="菜单收起" style="">
-          <div id="u9689_state0_content" class="panel_state_content">
+            <div id="u9689_state0_content" class="panel_state_content">
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9690" class="ax_default _三级标题">
-              <div id="u9690_div" class=""></div>
-              <div id="u9690_text" class="text ">
-                <p><span>File</span></p>
-              </div>
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9690" class="ax_default _三级标题">
+                    <div id="u9690_div" class=""></div>
+                    <div id="u9690_text" class="text ">
+                        <p><span>File</span></p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
         <div id="u9689_state1" class="panel_state" data-label="菜单下拉" style="visibility: hidden;">
-          <div id="u9689_state1_content" class="panel_state_content">
+            <div id="u9689_state1_content" class="panel_state_content">
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9691" class="ax_default _三级标题">
-              <div id="u9691_div" class=""></div>
-              <div id="u9691_text" class="text ">
-                <p><span>File</span></p>
-              </div>
-            </div>
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9691" class="ax_default _三级标题">
+                    <div id="u9691_div" class=""></div>
+                    <div id="u9691_text" class="text ">
+                        <p><span>File</span></p>
+                    </div>
+                </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9692" class="ax_default box_1">
-              <div id="u9692_div" class=""></div>
-              <div id="u9692_text" class="text ">
-                <p><span>New...</span></p>
-              </div>
-            </div>
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9692" class="ax_default box_1">
+                    <div id="u9692_div" class=""></div>
+                    <div id="u9692_text" class="text ">
+                        <p><span>New...</span></p>
+                    </div>
+                </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9693" class="ax_default box_1">
-              <div id="u9693_div" class=""></div>
-              <div id="u9693_text" class="text ">
-                <p><span>Open...</span></p>
-              </div>
-            </div>
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9693" class="ax_default box_1">
+                    <div id="u9693_div" class=""></div>
+                    <div id="u9693_text" class="text ">
+                        <p><span>Open...</span></p>
+                    </div>
+                </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9694" class="ax_default box_1">
-              <div id="u9694_div" class=""></div>
-              <div id="u9694_text" class="text ">
-                <p><span>Save Solusoln</span></p>
-              </div>
-            </div>
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9694" class="ax_default box_1">
+                    <div id="u9694_div" class=""></div>
+                    <div id="u9694_text" class="text ">
+                        <p><span>Save Solusoln</span></p>
+                    </div>
+                </div>
 
-            <!-- Unnamed (Rectangle) -->
-            <div id="u9695" class="ax_default box_1">
-              <div id="u9695_div" class=""></div>
-              <div id="u9695_text" class="text ">
-                <p><span>Close Solusoln</span></p>
-              </div>
+                <!-- Unnamed (Rectangle) -->
+                <div id="u9695" class="ax_default box_1">
+                    <div id="u9695_div" class=""></div>
+                    <div id="u9695_text" class="text ">
+                        <p><span>Close Solusoln</span></p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u9696" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u9696" class="ax_default box_1">
         <img id="u9696_img" class="img " src="{{ url_for('static', filename='images/solution2_7/u9696.svg') }}"/>
         <div id="u9696_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>

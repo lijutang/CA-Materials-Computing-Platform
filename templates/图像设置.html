@@ -1,30 +1,30 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>图像设置</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
     <link href="{{ url_for('static', filename='files/图像设置/styles.css') }}" type="text/css" rel="stylesheet"/>
-      
-    <script>  
-        document.oncontextmenu = function (event) {  
-            event = event || window.event;  
-            var targetElement = event.target || event.srcElement;  
-            if (!targetElement) return true;  
 
-            if (targetElement.tagName) {  
-                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
-                    targetElement.tagName.toLowerCase() === "textarea") {  
-                    return true;  
-                }  
-            }  
-            return false;  
-        }  
+    <script>
+        document.oncontextmenu = function (event) {
+            event = event || window.event;
+            var targetElement = event.target || event.srcElement;
+            if (!targetElement) return true;
+
+            if (targetElement.tagName) {
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||
+                    targetElement.tagName.toLowerCase() === "textarea") {
+                    return true;
+                }
+            }
+            return false;
+        }
     </script>
-    <script src  
-    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src
+                    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
     <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
@@ -57,393 +57,399 @@
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/图像设置/data.js') }}"></script>
     <script type="text/javascript">
-      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
-      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
-      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+        $axure.utils.getTransparentGifPath = function () {
+            return 'resources/images/transparent.gif';
+        };
+        $axure.utils.getOtherPath = function () {
+            return 'resources/Other.html';
+        };
+        $axure.utils.getReloadPath = function () {
+            return 'resources/reload.html';
+        };
     </script>
-  </head>
-  <body>
-    <div id="base" class="">
+</head>
+<body>
+<div id="base" class="">
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u388" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u388" class="ax_default box_1">
         <div id="u388_div" class=""></div>
         <div id="u388_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u389" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u389" class="ax_default box_1">
         <div id="u389_div" class=""></div>
         <div id="u389_text" class="text ">
-          <p><span>Graph Setup</span></p>
+            <p><span>Graph Setup</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u390" class="ax_default box_1">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u390" class="ax_default box_1">
         <div id="u390_div" class=""></div>
         <div id="u390_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u391" class="ax_default image">
+    <!-- Unnamed (Image) -->
+    <div id="u391" class="ax_default image">
         <img id="u391_img" class="img " src="{{ url_for('static', filename='images/图像设置/u391.png') }}"/>
         <div id="u391_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u392" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u392" class="ax_default button">
         <div id="u392_div" class=""></div>
         <div id="u392_text" class="text ">
-          <p><span>Cancel</span></p>
+            <p><span>Cancel</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u393" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u393" class="ax_default button">
         <div id="u393_div" class=""></div>
         <div id="u393_text" class="text ">
-          <p><span>Copy</span></p>
+            <p><span>Copy</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u394" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u394" class="ax_default button">
         <div id="u394_div" class=""></div>
         <div id="u394_text" class="text ">
-          <p><span>Plot</span></p>
+            <p><span>Plot</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Image) -->
-      <div id="u395" class="ax_default image">
+    <!-- Unnamed (Image) -->
+    <div id="u395" class="ax_default image">
         <img id="u395_img" class="img " src="{{ url_for('static', filename='images/图像设置/u395.svg') }}"/>
         <div id="u395_text" class="text " style="display:none; visibility: hidden">
-          <p></p>
+            <p></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u396" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u396" class="ax_default label">
         <div id="u396_div" class=""></div>
         <div id="u396_text" class="text ">
-          <p><span>Graph setup</span></p>
+            <p><span>Graph setup</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u397" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u397" class="ax_default label">
         <div id="u397_div" class=""></div>
         <div id="u397_text" class="text ">
-          <p><span>Font size：</span></p>
+            <p><span>Font size：</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u398" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u398" class="ax_default text_field">
         <div id="u398_div" class=""></div>
         <input id="u398_input" type="text" value="" class="u398_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u399" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u399" class="ax_default label">
         <div id="u399_div" class=""></div>
         <div id="u399_text" class="text ">
-          <p><span>num of labels：</span></p>
+            <p><span>num of labels：</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u400" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u400" class="ax_default text_field">
         <div id="u400_div" class=""></div>
         <input id="u400_input" type="text" value="" class="u400_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u401" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u401" class="ax_default button">
         <div id="u401_div" class=""></div>
         <div id="u401_text" class="text ">
-          <p><span>line color</span></p>
+            <p><span>line color</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Checkbox) -->
-      <div id="u402" class="ax_default checkbox">
+    <!-- Unnamed (Checkbox) -->
+    <div id="u402" class="ax_default checkbox">
         <label id="u402_input_label" for="u402_input" style="position: absolute; left: 0px;">
-          <img id="u402_img" class="img " src="{{ url_for('static', filename='images/图像设置/u402.svg') }}"/>
-          <div id="u402_text" class="text ">
-            <p><span>full screen</span></p>
-          </div>
+            <img id="u402_img" class="img " src="{{ url_for('static', filename='images/图像设置/u402.svg') }}"/>
+            <div id="u402_text" class="text ">
+                <p><span>full screen</span></p>
+            </div>
         </label>
         <input id="u402_input" type="checkbox" value="checkbox"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u403" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u403" class="ax_default _三级标题">
         <div id="u403_div" class=""></div>
         <div id="u403_text" class="text ">
-          <p><span>Variable</span></p>
+            <p><span>Variable</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u404" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u404" class="ax_default button">
         <div id="u404_div" class=""></div>
         <div id="u404_text" class="text ">
-          <p><span>Clear</span></p>
+            <p><span>Clear</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u405" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u405" class="ax_default label">
         <div id="u405_div" class=""></div>
         <div id="u405_text" class="text ">
-          <p><span>A</span></p>
+            <p><span>A</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u406" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u406" class="ax_default label">
         <div id="u406_div" class=""></div>
         <div id="u406_text" class="text ">
-          <p><span>B</span></p>
+            <p><span>B</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u407" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u407" class="ax_default label">
         <div id="u407_div" class=""></div>
         <div id="u407_text" class="text ">
-          <p><span>C</span></p>
+            <p><span>C</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u408" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u408" class="ax_default _三级标题">
         <div id="u408_div" class=""></div>
         <div id="u408_text" class="text ">
-          <p><span>Y-axis</span></p>
+            <p><span>Y-axis</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u409" class="ax_default _三级标题">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u409" class="ax_default _三级标题">
         <div id="u409_div" class=""></div>
         <div id="u409_text" class="text ">
-          <p><span>X-axis</span></p>
+            <p><span>X-axis</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u410" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u410" class="ax_default button">
         <div id="u410_div" class=""></div>
         <div id="u410_text" class="text ">
-          <p><span>+Variable</span></p>
+            <p><span>+Variable</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u411" class="ax_default button">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u411" class="ax_default button">
         <div id="u411_div" class=""></div>
         <div id="u411_text" class="text ">
-          <p><span>+Variable</span></p>
+            <p><span>+Variable</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Droplist) -->
-      <div id="u412" class="ax_default droplist">
+    <!-- Unnamed (Droplist) -->
+    <div id="u412" class="ax_default droplist">
         <div id="u412_div" class=""></div>
         <select id="u412_input" class="u412_input">
-          <option class="u412_input_option" value="Y">Y</option>
-          <option class="u412_input_option" value="1/Y">1/Y</option>
-          <option class="u412_input_option" value="ln(Y)">ln(Y)</option>
-          <option class="u412_input_option" value="log10(Y)">log10(Y)</option>
-          <option class="u412_input_option" value="exp(Y)">exp(Y)</option>
+            <option class="u412_input_option" value="Y">Y</option>
+            <option class="u412_input_option" value="1/Y">1/Y</option>
+            <option class="u412_input_option" value="ln(Y)">ln(Y)</option>
+            <option class="u412_input_option" value="log10(Y)">log10(Y)</option>
+            <option class="u412_input_option" value="exp(Y)">exp(Y)</option>
         </select>
-      </div>
+    </div>
 
-      <!-- Unnamed (Droplist) -->
-      <div id="u413" class="ax_default droplist">
+    <!-- Unnamed (Droplist) -->
+    <div id="u413" class="ax_default droplist">
         <div id="u413_div" class=""></div>
         <select id="u413_input" class="u413_input">
-          <option class="u413_input_option" value="activity">activity</option>
-          <option class="u413_input_option" value="amount">amount</option>
-          <option class="u413_input_option" value="alpha">alpha</option>
-          <option class="u413_input_option" value="formula">formula</option>
-          <option class="u413_input_option" value="page #">page #</option>
+            <option class="u413_input_option" value="activity">activity</option>
+            <option class="u413_input_option" value="amount">amount</option>
+            <option class="u413_input_option" value="alpha">alpha</option>
+            <option class="u413_input_option" value="formula">formula</option>
+            <option class="u413_input_option" value="page #">page #</option>
         </select>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u414" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u414" class="ax_default label">
         <div id="u414_div" class=""></div>
         <div id="u414_text" class="text ">
-          <p><span>Formula：</span></p>
+            <p><span>Formula：</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u415" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u415" class="ax_default text_field">
         <div id="u415_div" class=""></div>
         <input id="u415_input" type="text" value="" class="u415_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u416" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u416" class="ax_default label">
         <div id="u416_div" class=""></div>
         <div id="u416_text" class="text ">
-          <p><span>Formula：</span></p>
+            <p><span>Formula：</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u417" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u417" class="ax_default text_field">
         <div id="u417_div" class=""></div>
         <input id="u417_input" type="text" value="" class="u417_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u418" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u418" class="ax_default label">
         <div id="u418_div" class=""></div>
         <div id="u418_text" class="text ">
-          <p><span>Min</span></p>
+            <p><span>Min</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u419" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u419" class="ax_default label">
         <div id="u419_div" class=""></div>
         <div id="u419_text" class="text ">
-          <p><span>Max</span></p>
+            <p><span>Max</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u420" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u420" class="ax_default label">
         <div id="u420_div" class=""></div>
         <div id="u420_text" class="text ">
-          <p><span>Step</span></p>
+            <p><span>Step</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u421" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u421" class="ax_default label">
         <div id="u421_div" class=""></div>
         <div id="u421_text" class="text ">
-          <p><span>Label every</span></p>
+            <p><span>Label every</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u422" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u422" class="ax_default text_field">
         <div id="u422_div" class=""></div>
         <input id="u422_input" type="text" value="" class="u422_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u423" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u423" class="ax_default text_field">
         <div id="u423_div" class=""></div>
         <input id="u423_input" type="text" value="" class="u423_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u424" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u424" class="ax_default text_field">
         <div id="u424_div" class=""></div>
         <input id="u424_input" type="text" value="" class="u424_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u425" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u425" class="ax_default text_field">
         <div id="u425_div" class=""></div>
         <input id="u425_input" type="text" value="" class="u425_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u426" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u426" class="ax_default label">
         <div id="u426_div" class=""></div>
         <div id="u426_text" class="text ">
-          <p><span>Min</span></p>
+            <p><span>Min</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u427" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u427" class="ax_default label">
         <div id="u427_div" class=""></div>
         <div id="u427_text" class="text ">
-          <p><span>Max</span></p>
+            <p><span>Max</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u428" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u428" class="ax_default label">
         <div id="u428_div" class=""></div>
         <div id="u428_text" class="text ">
-          <p><span>Step</span></p>
+            <p><span>Step</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Rectangle) -->
-      <div id="u429" class="ax_default label">
+    <!-- Unnamed (Rectangle) -->
+    <div id="u429" class="ax_default label">
         <div id="u429_div" class=""></div>
         <div id="u429_text" class="text ">
-          <p><span>Label every</span></p>
+            <p><span>Label every</span></p>
         </div>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u430" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u430" class="ax_default text_field">
         <div id="u430_div" class=""></div>
         <input id="u430_input" type="text" value="" class="u430_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u431" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u431" class="ax_default text_field">
         <div id="u431_div" class=""></div>
         <input id="u431_input" type="text" value="" class="u431_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u432" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u432" class="ax_default text_field">
         <div id="u432_div" class=""></div>
         <input id="u432_input" type="text" value="" class="u432_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Text Field) -->
-      <div id="u433" class="ax_default text_field">
+    <!-- Unnamed (Text Field) -->
+    <div id="u433" class="ax_default text_field">
         <div id="u433_div" class=""></div>
         <input id="u433_input" type="text" value="" class="u433_input"/>
-      </div>
+    </div>
 
-      <!-- Unnamed (Droplist) -->
-      <div id="u434" class="ax_default droplist">
+    <!-- Unnamed (Droplist) -->
+    <div id="u434" class="ax_default droplist">
         <div id="u434_div" class=""></div>
         <select id="u434_input" class="u434_input">
-          <option class="u434_input_option" value="X">X</option>
-          <option class="u434_input_option" value="1/X">1/X</option>
-          <option class="u434_input_option" value="ln(X)">ln(X)</option>
-          <option class="u434_input_option" value="log10(X)">log10(X)</option>
-          <option class="u434_input_option" value="exp(X)">exp(X)</option>
+            <option class="u434_input_option" value="X">X</option>
+            <option class="u434_input_option" value="1/X">1/X</option>
+            <option class="u434_input_option" value="ln(X)">ln(X)</option>
+            <option class="u434_input_option" value="log10(X)">log10(X)</option>
+            <option class="u434_input_option" value="exp(X)">exp(X)</option>
         </select>
-      </div>
+    </div>
 
-      <!-- Unnamed (Droplist) -->
-      <div id="u435" class="ax_default droplist">
+    <!-- Unnamed (Droplist) -->
+    <div id="u435" class="ax_default droplist">
         <div id="u435_div" class=""></div>
         <select id="u435_input" class="u435_input">
-          <option class="u435_input_option" value="activity">activity</option>
-          <option class="u435_input_option" value="amount">amount</option>
-          <option class="u435_input_option" value="alpha">alpha</option>
-          <option class="u435_input_option" value="formula">formula</option>
-          <option class="u435_input_option" value="page #">page #</option>
+            <option class="u435_input_option" value="activity">activity</option>
+            <option class="u435_input_option" value="amount">amount</option>
+            <option class="u435_input_option" value="alpha">alpha</option>
+            <option class="u435_input_option" value="formula">formula</option>
+            <option class="u435_input_option" value="page #">page #</option>
         </select>
-      </div>
     </div>
-    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
-  </body>
+</div>
+<script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+</body>
 </html>
