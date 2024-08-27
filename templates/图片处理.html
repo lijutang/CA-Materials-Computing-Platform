@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>图片处理</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='files/图片处理/styles.css') }}" type="text/css" rel="stylesheet"/>
+      
+    <script>  
+        document.oncontextmenu = function (event) {  
+            event = event || window.event;  
+            var targetElement = event.target || event.srcElement;  
+            if (!targetElement) return true;  
+
+            if (targetElement.tagName) {  
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
+                    targetElement.tagName.toLowerCase() === "textarea") {  
+                    return true;  
+                }  
+            }  
+            return false;  
+        }  
+    </script>
+    <script src  
+    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/annotation.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.std.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/doc.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/messagecenter.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/events.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/recording.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/action.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/expr.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/geometry.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/flyout.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/model.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/repeater.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/sto.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/utils.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/variables.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/drag.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/move.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/visibility.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/style.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/adaptive.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/tree.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/init.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/legacy.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/viewer.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/math.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='data/document.js') }}"></script>
+    <script src="{{ url_for('static', filename='files/图片处理/data.js') }}"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2645" class="ax_default box_1">
+        <div id="u2645_div" class=""></div>
+        <div id="u2645_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2646" class="ax_default box_1">
+        <div id="u2646_div" class=""></div>
+        <div id="u2646_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 关闭 (Shape) -->
+      <div id="u2647" class="ax_default icon" data-label="关闭">
+        <img id="u2647_img" class="img " src="{{ url_for('static', filename='images/图片处理/关闭_u2647.svg') }}"/>
+        <div id="u2647_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 菜单 (Group) -->
+      <div id="u2648" class="ax_default" data-label="菜单" data-left="19" data-top="48" data-width="45" data-height="42" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u2649" class="ax_default ellipse">
+          <img id="u2649_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2649.svg') }}"/>
+          <div id="u2649_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u2650" class="ax_default icon">
+          <img id="u2650_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2650.svg') }}"/>
+          <div id="u2650_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 化学 (Group) -->
+      <div id="u2651" class="ax_default" data-label="化学" data-left="19" data-top="120" data-width="45" data-height="42" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u2652" class="ax_default ellipse">
+          <img id="u2652_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2652.svg') }}"/>
+          <div id="u2652_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u2653" class="ax_default icon">
+          <img id="u2653_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2653.svg') }}"/>
+          <div id="u2653_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 图片识别 (Group) -->
+      <div id="u2654" class="ax_default" data-label="图片识别" data-left="19" data-top="192" data-width="45" data-height="42" layer-opacity="1">
+
+        <!-- Unnamed (Group) -->
+        <div id="u2655" class="ax_default" data-left="19" data-top="192" data-width="45" data-height="42" layer-opacity="1">
+
+          <!-- Unnamed (Ellipse) -->
+          <div id="u2656" class="ax_default ellipse">
+            <img id="u2656_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2652.svg') }}"/>
+            <div id="u2656_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Image) -->
+          <div id="u2657" class="ax_default image">
+            <img id="u2657_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2657.svg') }}"/>
+            <div id="u2657_text" class="text " style="display:none; visibility: hidden">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 数据库 (Group) -->
+      <div id="u2658" class="ax_default" data-label="数据库" data-left="19" data-top="264" data-width="45" data-height="42" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u2659" class="ax_default ellipse">
+          <img id="u2659_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2652.svg') }}"/>
+          <div id="u2659_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u2660" class="ax_default icon">
+          <img id="u2660_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2660.svg') }}"/>
+          <div id="u2660_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Least Square (Group) -->
+      <div id="u2661" class="ax_default" data-label="Least Square" data-left="19" data-top="336" data-width="45" data-height="42" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u2662" class="ax_default ellipse">
+          <img id="u2662_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2652.svg') }}"/>
+          <div id="u2662_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u2663" class="ax_default icon">
+          <img id="u2663_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2663.svg') }}"/>
+          <div id="u2663_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 爬虫 (Group) -->
+      <div id="u2664" class="ax_default" data-label="爬虫" data-left="19" data-top="408" data-width="45" data-height="42" layer-opacity="1">
+
+        <!-- Unnamed (Ellipse) -->
+        <div id="u2665" class="ax_default ellipse">
+          <img id="u2665_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2652.svg') }}"/>
+          <div id="u2665_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u2666" class="ax_default icon">
+          <img id="u2666_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2666.svg') }}"/>
+          <div id="u2666_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2667" class="ax_default icon">
+        <img id="u2667_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2667.svg') }}"/>
+        <div id="u2667_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2668" class="ax_default icon">
+        <img id="u2668_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2668.svg') }}"/>
+        <div id="u2668_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2669" class="ax_default icon">
+        <img id="u2669_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2669.svg') }}"/>
+        <div id="u2669_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 时间 (Rectangle) -->
+      <div id="u2670" class="ax_default label" data-label="时间">
+        <div id="u2670_div" class=""></div>
+        <div id="u2670_text" class="text ">
+          <p><span>Time</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2671" class="ax_default icon">
+        <img id="u2671_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2671.svg') }}"/>
+        <div id="u2671_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u2672" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="512" data-top="48" data-width="212" data-height="29" layer-opacity="1">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u2673" class="ax_default label">
+          <div id="u2673_div" class=""></div>
+          <div id="u2673_text" class="text ">
+            <p><span>Account Number：</span></p>
+          </div>
+        </div>
+
+        <!-- 用户名 (Rectangle) -->
+        <div id="u2674" class="ax_default label" data-label="用户名">
+          <div id="u2674_div" class=""></div>
+          <div id="u2674_text" class="text ">
+            <p><span>UserName</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu (Rectangle) -->
+      <div id="u2675" class="ax_default label ax_default_hidden" data-label="Menu" style="display:none; visibility: hidden">
+        <div id="u2675_div" class=""></div>
+        <div id="u2675_text" class="text ">
+          <p><span>Menu</span></p>
+        </div>
+      </div>
+
+      <!-- Chemitry (Rectangle) -->
+      <div id="u2676" class="ax_default label ax_default_hidden" data-label="Chemitry" style="display:none; visibility: hidden">
+        <div id="u2676_div" class=""></div>
+        <div id="u2676_text" class="text ">
+          <p><span>Chemsitry</span></p>
+        </div>
+      </div>
+
+      <!-- Pic Processing (Rectangle) -->
+      <div id="u2677" class="ax_default label ax_default_hidden" data-label="Pic Processing" style="display:none; visibility: hidden">
+        <div id="u2677_div" class=""></div>
+        <div id="u2677_text" class="text ">
+          <p><span>Picture Processing</span></p>
+        </div>
+      </div>
+
+      <!-- Database (Rectangle) -->
+      <div id="u2678" class="ax_default label ax_default_hidden" data-label="Database" style="display:none; visibility: hidden">
+        <div id="u2678_div" class=""></div>
+        <div id="u2678_text" class="text ">
+          <p><span>Database</span></p>
+        </div>
+      </div>
+
+      <!-- Stats (Rectangle) -->
+      <div id="u2679" class="ax_default label ax_default_hidden" data-label="Stats" style="display:none; visibility: hidden">
+        <div id="u2679_div" class=""></div>
+        <div id="u2679_text" class="text ">
+          <p><span>Statistics</span></p>
+        </div>
+      </div>
+
+      <!-- Web (Rectangle) -->
+      <div id="u2680" class="ax_default label ax_default_hidden" data-label="Web" style="display:none; visibility: hidden">
+        <div id="u2680_div" class=""></div>
+        <div id="u2680_text" class="text ">
+          <p><span>Web Crawler</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2681" class="ax_default icon">
+        <img id="u2681_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2681.svg') }}"/>
+        <div id="u2681_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u2682" class="ax_default ellipse">
+        <img id="u2682_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2682.svg') }}"/>
+        <div id="u2682_text" class="text ">
+          <p><span>Upload</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Ellipse) -->
+      <div id="u2683" class="ax_default ellipse">
+        <img id="u2683_img" class="img " src="{{ url_for('static', filename='images/图片处理/u2682.svg') }}"/>
+        <div id="u2683_text" class="text ">
+          <p><span>History</span></p>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+  </body>
+</html>

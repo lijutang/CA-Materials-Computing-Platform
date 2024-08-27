@@ -2,9 +2,12 @@ from flask import Flask
 import config
 from exts import db, mail
 from flask_migrate import Migrate
-
+from blueprints.test import bp as test_bp
 
 app = Flask(__name__)
+#连接蓝图
+app.register_blueprint(test_bp)
+
 # 绑定配置文件
 app.config.from_object(config)
 

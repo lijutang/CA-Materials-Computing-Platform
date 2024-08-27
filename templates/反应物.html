@@ -1,0 +1,2977 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>反应物</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link href="{{ url_for('static', filename='resources/css/axure_rp_page.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='data/styles.css') }}" type="text/css" rel="stylesheet"/>
+    <link href="{{ url_for('static', filename='files/反应物/styles.css') }}" type="text/css" rel="stylesheet"/>
+      
+    <script>  
+        document.oncontextmenu = function (event) {  
+            event = event || window.event;  
+            var targetElement = event.target || event.srcElement;  
+            if (!targetElement) return true;  
+
+            if (targetElement.tagName) {  
+                if (targetElement.tagName.toLowerCase() === "input" && targetElement.type.toLowerCase() === "text" ||  
+                    targetElement.tagName.toLowerCase() === "textarea") {  
+                    return true;  
+                }  
+            }  
+            return false;  
+        }  
+    </script>
+    <script src  
+    ="{{ url_for('static', filename='resources/scripts/jquery-3.7.1.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/globals.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axutils.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/annotation.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/axQuery.std.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/doc.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/messagecenter.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/events.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/recording.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/action.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/expr.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/geometry.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/flyout.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/model.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/repeater.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/sto.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/utils.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/variables.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/drag.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/move.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/visibility.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/style.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/adaptive.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/tree.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/init.temp.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/legacy.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/viewer.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/math.js') }}"></script>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='data/document.js') }}"></script>
+    <script src="{{ url_for('static', filename='files/反应物/data.js') }}"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- 工作区菜单 (Dynamic Panel) -->
+      <div id="u2684" class="ax_default" data-label="工作区菜单">
+        <div id="u2684_state0" class="panel_state" data-label="State 1" style="">
+          <div id="u2684_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2685" class="ax_default box_1">
+              <div id="u2685_div" class=""></div>
+              <div id="u2685_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u2686" class="ax_default line">
+              <img id="u2686_img" class="img " src="{{ url_for('static', filename='images/反应物/u2686.svg') }}"/>
+              <div id="u2686_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 添加反应物 (Rectangle) -->
+            <div id="u2687" class="ax_default box_1" data-label="添加反应物">
+              <img id="u2687_img" class="img " src="{{ url_for('static', filename='images/反应物/添加反应物_u2687.svg') }}"/>
+              <div id="u2687_text" class="text ">
+                <p><span>Add a Reactant</span></p>
+              </div>
+            </div>
+
+            <!-- 等于 (Rectangle) -->
+            <div id="u2688" class="ax_default box_1" data-label="等于">
+              <img id="u2688_img" class="img " src="{{ url_for('static', filename='images/反应物/等于_u2688.svg') }}"/>
+              <div id="u2688_text" class="text ">
+                <p><span>=</span></p>
+              </div>
+            </div>
+
+            <!-- 添加产物 (Rectangle) -->
+            <div id="u2689" class="ax_default box_1" data-label="添加产物">
+              <img id="u2689_img" class="img " src="{{ url_for('static', filename='images/反应物/添加反应物_u2687.svg') }}"/>
+              <div id="u2689_text" class="text ">
+                <p><span>Add a Product</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Line) -->
+            <div id="u2690" class="ax_default line">
+              <img id="u2690_img" class="img " src="{{ url_for('static', filename='images/反应物/u2686.svg') }}"/>
+              <div id="u2690_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 单位显示 (Placeholder) -->
+            <div id="u2691" class="ax_default placeholder" data-label="单位显示">
+              <img id="u2691_img" class="img " src="{{ url_for('static', filename='images/反应物/单位显示_u2691.svg') }}"/>
+              <div id="u2691_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 工作区菜单-新建 (Group) -->
+            <div id="u2692" class="ax_default" data-label="工作区菜单-新建" data-left="11" data-top="5" data-width="45" data-height="62" layer-opacity="1">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u2693" class="ax_default box_1">
+                <img id="u2693_img" class="img " src="{{ url_for('static', filename='images/反应物/u2693.svg') }}"/>
+                <div id="u2693_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Plus) -->
+              <div id="u2694" class="ax_default _形状">
+                <img id="u2694_img" class="img " src="{{ url_for('static', filename='images/反应物/u2694.svg') }}"/>
+                <div id="u2694_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u2695" class="ax_default _三级标题">
+                <div id="u2695_div" class=""></div>
+                <div id="u2695_text" class="text ">
+                  <p><span>New</span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 工作区菜单-打开 (Group) -->
+            <div id="u2696" class="ax_default" data-label="工作区菜单-打开" data-left="74" data-top="5" data-width="45" data-height="62" layer-opacity="1">
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u2697" class="ax_default box_1">
+                <img id="u2697_img" class="img " src="{{ url_for('static', filename='images/反应物/u2693.svg') }}"/>
+                <div id="u2697_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Rectangle) -->
+              <div id="u2698" class="ax_default _三级标题">
+                <div id="u2698_div" class=""></div>
+                <div id="u2698_text" class="text ">
+                  <p><span>Open</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Group) -->
+              <div id="u2699" class="ax_default" data-left="83" data-top="12" data-width="28" data-height="24" layer-opacity="1">
+
+                <!-- Unnamed (Rectangle) -->
+                <div id="u2700" class="ax_default _形状">
+                  <div id="u2700_div" class=""></div>
+                  <div id="u2700_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Trapezoid) -->
+                <div id="u2701" class="ax_default _流程图形状">
+                  <img id="u2701_img" class="img " src="{{ url_for('static', filename='images/反应物/u2701.svg') }}"/>
+                  <div id="u2701_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+
+                <!-- Unnamed (Parallelogram) -->
+                <div id="u2702" class="ax_default _流程图形状">
+                  <img id="u2702_img" class="img " src="{{ url_for('static', filename='images/反应物/u2702.svg') }}"/>
+                  <div id="u2702_text" class="text " style="display:none; visibility: hidden">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 打开弹窗 (Dynamic Panel) -->
+            <div id="u2703" class="ax_default ax_default_hidden" data-label="打开弹窗" style="display:none; visibility: hidden">
+              <div id="u2703_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2703_state0_content" class="panel_state_content">
+
+                  <!-- 背景 (Dynamic Panel) -->
+                  <div id="u2704" class="ax_default" data-label="背景">
+                    <div id="u2704_state0" class="panel_state" data-label="1" style="">
+                      <div id="u2704_state0_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2704_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                      <div id="u2704_state1_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2704_state2" class="panel_state" data-label="3" style="visibility: hidden;">
+                      <div id="u2704_state2_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2704_state3" class="panel_state" data-label="4" style="visibility: hidden;">
+                      <div id="u2704_state3_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2704_state4" class="panel_state" data-label="5" style="visibility: hidden;">
+                      <div id="u2704_state4_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2704_state5" class="panel_state" data-label="6" style="visibility: hidden;">
+                      <div id="u2704_state5_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2704_state6" class="panel_state" data-label="7" style="visibility: hidden;">
+                      <div id="u2704_state6_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2704_state7" class="panel_state" data-label="8" style="visibility: hidden;">
+                      <div id="u2704_state7_content" class="panel_state_content">
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2705" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2706" class="ax_default box_1">
+                      <img id="u2706_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+                      <div id="u2706_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2707" class="ax_default box_1">
+                      <img id="u2707_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+                      <div id="u2707_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2708" class="ax_default box_1 selected">
+                    <div id="u2708_div" class="selected"></div>
+                    <div id="u2708_text" class="text ">
+                      <p><span>Open</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2709" class="ax_default box_1">
+                    <div id="u2709_div" class=""></div>
+                    <div id="u2709_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2710" class="ax_default box_1">
+                    <div id="u2710_div" class=""></div>
+                    <div id="u2710_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2711" class="ax_default _三级标题">
+                    <div id="u2711_div" class=""></div>
+                    <div id="u2711_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2712" class="ax_default box_1">
+                    <img id="u2712_img" class="img " src="{{ url_for('static', filename='images/反应物/u2712.svg') }}"/>
+                    <div id="u2712_text" class="text ">
+                      <p><span>Name:</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2713" class="ax_default" data-left="143" data-top="424" data-width="475" data-height="25" layer-opacity="1">
+
+                    <!-- Unnamed (Text Field) -->
+                    <div id="u2714" class="ax_default text_field">
+                      <div id="u2714_div" class=""></div>
+                      <input id="u2714_input" type="text" value="" class="u2714_input"/>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2715" class="ax_default box_1">
+                      <img id="u2715_img" class="img " src="{{ url_for('static', filename='images/反应物/u2715.svg') }}"/>
+                      <div id="u2715_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2716" class="ax_default" data-left="649" data-top="424" data-width="97" data-height="25" layer-opacity="1">
+
+                    <!-- Unnamed (Text Field) -->
+                    <div id="u2717" class="ax_default text_field">
+                      <div id="u2717_div" class=""></div>
+                      <input id="u2717_input" type="text" value="" class="u2717_input"/>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2718" class="ax_default box_1">
+                      <img id="u2718_img" class="img " src="{{ url_for('static', filename='images/反应物/u2715.svg') }}"/>
+                      <div id="u2718_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2719" class="ax_default" data-left="648" data-top="460" data-width="140" data-height="27" layer-opacity="1">
+
+                    <!-- Unnamed (Group) -->
+                    <div id="u2720" class="ax_default" data-left="648" data-top="460" data-width="140" data-height="27" layer-opacity="1">
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u2721" class="ax_default box_1">
+                        <div id="u2721_div" class=""></div>
+                        <div id="u2721_text" class="text ">
+                          <p><span>Cancel</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u2722" class="ax_default box_1">
+                        <div id="u2722_div" class=""></div>
+                        <div id="u2722_text" class="text ">
+                          <p><span>Open</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u2723" class="ax_default line">
+                    <img id="u2723_img" class="img " src="{{ url_for('static', filename='images/反应物/u2723.svg') }}"/>
+                    <div id="u2723_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2724" class="ax_default" data-left="154" data-top="60" data-width="502" data-height="25" layer-opacity="1">
+
+                    <!-- Unnamed (Text Field) -->
+                    <div id="u2725" class="ax_default text_field">
+                      <div id="u2725_div" class=""></div>
+                      <input id="u2725_input" type="text" value="" class="u2725_input"/>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2726" class="ax_default box_1">
+                      <img id="u2726_img" class="img " src="{{ url_for('static', filename='images/反应物/u2715.svg') }}"/>
+                      <div id="u2726_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Group) -->
+                    <div id="u2727" class="ax_default" data-left="633" data-top="68" data-width="12" data-height="10" layer-opacity="1">
+
+                      <!-- Unnamed (Shape) -->
+                      <div id="u2728" class="ax_default box_1">
+                        <img id="u2728_img" class="img " src="{{ url_for('static', filename='images/反应物/u2728.svg') }}"/>
+                        <div id="u2728_text" class="text " style="display:none; visibility: hidden">
+                          <p></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Shape) -->
+                      <div id="u2729" class="ax_default box_1">
+                        <img id="u2729_img" class="img " src="{{ url_for('static', filename='images/反应物/u2729.svg') }}"/>
+                        <div id="u2729_text" class="text " style="display:none; visibility: hidden">
+                          <p></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Right Arrow) -->
+                  <div id="u2730" class="ax_default _形状">
+                    <img id="u2730_img" class="img " src="{{ url_for('static', filename='images/反应物/u2730.svg') }}"/>
+                    <div id="u2730_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Shape) -->
+                  <div id="u2731" class="ax_default box_1">
+                    <img id="u2731_img" class="img " src="{{ url_for('static', filename='images/反应物/u2731.svg') }}"/>
+                    <div id="u2731_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Right Arrow) -->
+                  <div id="u2732" class="ax_default _形状">
+                    <img id="u2732_img" class="img " src="{{ url_for('static', filename='images/反应物/u2732.svg') }}"/>
+                    <div id="u2732_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2733" class="ax_default" data-left="679" data-top="61" data-width="97" data-height="25" layer-opacity="1">
+
+                    <!-- Unnamed (Text Field) -->
+                    <div id="u2734" class="ax_default text_field">
+                      <div id="u2734_div" class=""></div>
+                      <input id="u2734_input" type="text" value="" class="u2734_input"/>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2735" class="ax_default" data-left="757" data-top="67" data-width="14" data-height="14" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2736" class="ax_default box_1">
+                      <img id="u2736_img" class="img " src="{{ url_for('static', filename='images/反应物/u2736.svg') }}"/>
+                      <div id="u2736_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2737" class="ax_default box_1">
+                      <img id="u2737_img" class="img " src="{{ url_for('static', filename='images/反应物/u2737.svg') }}"/>
+                      <div id="u2737_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Right Arrow) -->
+                  <div id="u2738" class="ax_default _形状">
+                    <img id="u2738_img" class="img " src="{{ url_for('static', filename='images/反应物/u2730.svg') }}"/>
+                    <div id="u2738_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Dynamic Panel) -->
+                  <div id="u2739" class="ax_default">
+                    <div id="u2739_state0" class="panel_state" data-label="State 1" style="">
+                      <div id="u2739_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (Dynamic Panel) -->
+                        <div id="u2740" class="ax_default">
+                          <div id="u2740_state0" class="panel_state" data-label="State 1" style="">
+                            <div id="u2740_state0_content" class="panel_state_content">
+
+                              <!-- Unnamed (Rectangle) -->
+                              <div id="u2741" class="ax_default _段落">
+                                <div id="u2741_div" class=""></div>
+                                <div id="u2741_text" class="text ">
+                                  <p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span>file</span></p><p><span><br></span></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 顶部菜单 (Dynamic Panel) -->
+      <div id="u2742" class="ax_default" data-label="顶部菜单">
+        <div id="u2742_state0" class="panel_state" data-label="State 1" style="">
+          <div id="u2742_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2743" class="ax_default box_1">
+              <div id="u2743_div" class=""></div>
+              <div id="u2743_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 顶部菜单-单位 (Rectangle) -->
+            <div id="u2744" class="ax_default box_1" data-label="顶部菜单-单位">
+              <img id="u2744_img" class="img " src="{{ url_for('static', filename='images/反应物/顶部菜单-单位_u2744.svg') }}"/>
+              <div id="u2744_text" class="text ">
+                <p><span>Units</span></p>
+              </div>
+            </div>
+
+            <!-- 顶部菜单-数据搜索 (Rectangle) -->
+            <div id="u2745" class="ax_default box_1" data-label="顶部菜单-数据搜索">
+              <img id="u2745_img" class="img " src="{{ url_for('static', filename='images/反应物/顶部菜单-单位_u2744.svg') }}"/>
+              <div id="u2745_text" class="text ">
+                <p><span>Data Search</span></p>
+              </div>
+            </div>
+
+            <!-- 顶部菜单-帮助 (Rectangle) -->
+            <div id="u2746" class="ax_default box_1" data-label="顶部菜单-帮助">
+              <img id="u2746_img" class="img " src="{{ url_for('static', filename='images/反应物/顶部菜单-单位_u2744.svg') }}"/>
+              <div id="u2746_text" class="text ">
+                <p><span>Help</span></p>
+              </div>
+            </div>
+
+            <!-- 顶部菜单-文件 (Rectangle) -->
+            <div id="u2747" class="ax_default box_1" data-label="顶部菜单-文件">
+              <img id="u2747_img" class="img " src="{{ url_for('static', filename='images/反应物/顶部菜单-单位_u2744.svg') }}"/>
+              <div id="u2747_text" class="text ">
+                <p><span>File</span></p>
+              </div>
+            </div>
+
+            <!-- 顶部菜单-单位 (Rectangle) -->
+            <div id="u2748" class="ax_default box_1" data-label="顶部菜单-单位">
+              <img id="u2748_img" class="img " src="{{ url_for('static', filename='images/反应物/顶部菜单-单位_u2744.svg') }}"/>
+              <div id="u2748_text" class="text ">
+                <p><span>Edit</span></p>
+              </div>
+            </div>
+
+            <!-- 文件-子菜单 (Dynamic Panel) -->
+            <div id="u2749" class="ax_default ax_default_hidden" data-label="文件-子菜单" style="display:none; visibility: hidden">
+              <div id="u2749_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2749_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2750" class="ax_default box_1">
+                    <img id="u2750_img" class="img " src="{{ url_for('static', filename='images/反应物/u2750.svg') }}"/>
+                    <div id="u2750_text" class="text ">
+                      <p><span>&nbsp;Open</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2751" class="ax_default box_1">
+                    <img id="u2751_img" class="img " src="{{ url_for('static', filename='images/反应物/u2750.svg') }}"/>
+                    <div id="u2751_text" class="text ">
+                      <p><span>&nbsp;Save</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 编辑-子菜单 (Dynamic Panel) -->
+            <div id="u2752" class="ax_default ax_default_hidden" data-label="编辑-子菜单" style="display:none; visibility: hidden">
+              <div id="u2752_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2752_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2753" class="ax_default box_1">
+                    <img id="u2753_img" class="img " src="{{ url_for('static', filename='images/反应物/u2750.svg') }}"/>
+                    <div id="u2753_text" class="text ">
+                      <p><span>&nbsp;Undo</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2754" class="ax_default box_1">
+                    <img id="u2754_img" class="img " src="{{ url_for('static', filename='images/反应物/u2750.svg') }}"/>
+                    <div id="u2754_text" class="text ">
+                      <p><span>&nbsp;Redo</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Group) -->
+            <div id="u2755" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0" layer-opacity="1">
+            </div>
+
+            <!-- 数据搜索弹窗 (Dynamic Panel) -->
+            <div id="u2756" class="ax_default ax_default_hidden" data-label="数据搜索弹窗" style="display:none; visibility: hidden">
+              <div id="u2756_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2756_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2757" class="ax_default box_1">
+                    <div id="u2757_div" class=""></div>
+                    <div id="u2757_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2758" class="ax_default box_1">
+                    <div id="u2758_div" class=""></div>
+                    <div id="u2758_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2759" class="ax_default _流程图形状">
+                    <img id="u2759_img" class="img " src="{{ url_for('static', filename='images/反应物/u2759.svg') }}"/>
+                    <div id="u2759_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2760" class="ax_default _流程图形状">
+                    <img id="u2760_img" class="img " src="{{ url_for('static', filename='images/单位/u778.svg') }}"/>
+                    <div id="u2760_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2761" class="ax_default" data-left="342" data-top="123" data-width="377" data-height="82" layer-opacity="1">
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2762" class="ax_default box_1">
+                      <img id="u2762_img" class="img " src="{{ url_for('static', filename='images/反应物/u2762.svg') }}"/>
+                      <div id="u2762_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2763" class="ax_default _三级标题">
+                      <div id="u2763_div" class=""></div>
+                      <div id="u2763_text" class="text ">
+                        <p><span>Organic species CxHy..., X(max) =</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Text Field) -->
+                    <div id="u2764" class="ax_default text_field">
+                      <div id="u2764_div" class=""></div>
+                      <input id="u2764_input" type="text" value="" class="u2764_input"/>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2765" class="ax_default _三级标题">
+                      <div id="u2765_div" class=""></div>
+                      <div id="u2765_text" class="text ">
+                        <p><span>Minimum solution components: </span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Radio Button) -->
+                    <div id="u2766" class="ax_default radio_button">
+                      <label id="u2766_input_label" for="u2766_input" style="position: absolute; left: 0px;">
+                        <img id="u2766_img" class="img " src="{{ url_for('static', filename='images/反应物/u2766.svg') }}"/>
+                        <div id="u2766_text" class="text ">
+                          <p><span>= 1</span></p>
+                        </div>
+                      </label>
+                      <input id="u2766_input" type="radio" value="radio" name="u2766"/>
+                    </div>
+
+                    <!-- Unnamed (Radio Button) -->
+                    <div id="u2767" class="ax_default radio_button">
+                      <label id="u2767_input_label" for="u2767_input" style="position: absolute; left: 0px;">
+                        <img id="u2767_img" class="img " src="{{ url_for('static', filename='images/反应物/u2767.svg') }}"/>
+                        <div id="u2767_text" class="text ">
+                          <p><span>= 2 cpts</span></p>
+                        </div>
+                      </label>
+                      <input id="u2767_input" type="radio" value="radio" name="u2767"/>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2768" class="ax_default" data-left="23" data-top="115" data-width="199" data-height="98" layer-opacity="1">
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2769" class="ax_default box_1">
+                      <img id="u2769_img" class="img " src="{{ url_for('static', filename='images/反应物/u2769.svg') }}"/>
+                      <div id="u2769_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Checkbox) -->
+                    <div id="u2770" class="ax_default checkbox">
+                      <label id="u2770_input_label" for="u2770_input" style="position: absolute; left: 0px;">
+                        <img id="u2770_img" class="img " src="{{ url_for('static', filename='images/反应物/u2770.svg') }}"/>
+                        <div id="u2770_text" class="text ">
+                          <p><span>Gaseous Ions</span></p>
+                        </div>
+                      </label>
+                      <input id="u2770_input" type="checkbox" value="checkbox"/>
+                    </div>
+
+                    <!-- Unnamed (Checkbox) -->
+                    <div id="u2771" class="ax_default checkbox">
+                      <label id="u2771_input_label" for="u2771_input" style="position: absolute; left: 0px;">
+                        <img id="u2771_img" class="img " src="{{ url_for('static', filename='images/反应物/u2771.svg') }}"/>
+                        <div id="u2771_text" class="text ">
+                          <p><span>Aqueous Species</span></p>
+                        </div>
+                      </label>
+                      <input id="u2771_input" type="checkbox" value="checkbox"/>
+                    </div>
+
+                    <!-- Unnamed (Checkbox) -->
+                    <div id="u2772" class="ax_default checkbox">
+                      <label id="u2772_input_label" for="u2772_input" style="position: absolute; left: 0px;">
+                        <img id="u2772_img" class="img " src="{{ url_for('static', filename='images/反应物/u2772.svg') }}"/>
+                        <div id="u2772_text" class="text ">
+                          <p><span>Limited Data Compound</span></p><p><span>（25℃）</span></p>
+                        </div>
+                      </label>
+                      <input id="u2772_input" type="checkbox" value="checkbox"/>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2773" class="ax_default _流程图形状">
+                    <img id="u2773_img" class="img " src="{{ url_for('static', filename='images/反应物/u2773.svg') }}"/>
+                    <div id="u2773_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2774" class="ax_default" data-left="263" data-top="272" data-width="136" data-height="82" layer-opacity="1">
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2775" class="ax_default box_1">
+                      <img id="u2775_img" class="img " src="{{ url_for('static', filename='images/反应物/u2775.svg') }}"/>
+                      <div id="u2775_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2776" class="ax_default _三级标题">
+                      <img id="u2776_img" class="img " src="{{ url_for('static', filename='images/反应物/u2776.svg') }}"/>
+                      <div id="u2776_text" class="text ">
+                        <p><span>Legend</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2777" class="ax_default _便签1">
+                      <div id="u2777_div" class=""></div>
+                      <div id="u2777_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2778" class="ax_default _三级标题">
+                      <img id="u2778_img" class="img " src="{{ url_for('static', filename='images/反应物/u2778.svg') }}"/>
+                      <div id="u2778_text" class="text ">
+                        <p><span>Compounds Only</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2779" class="ax_default _便签1">
+                      <div id="u2779_div" class=""></div>
+                      <div id="u2779_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2780" class="ax_default _三级标题">
+                      <img id="u2780_img" class="img " src="{{ url_for('static', filename='images/反应物/u2778.svg') }}"/>
+                      <div id="u2780_text" class="text ">
+                        <p><span>Solution Only</span></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2781" class="ax_default _便签1">
+                      <div id="u2781_div" class=""></div>
+                      <div id="u2781_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2782" class="ax_default _三级标题">
+                      <img id="u2782_img" class="img " src="{{ url_for('static', filename='images/反应物/u2778.svg') }}"/>
+                      <div id="u2782_text" class="text ">
+                        <p><span>No Data</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- 背景 (Dynamic Panel) -->
+                  <div id="u2783" class="ax_default" data-label="背景">
+                    <div id="u2783_state0" class="panel_state" data-label="1" style="">
+                      <div id="u2783_state0_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2783_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                      <div id="u2783_state1_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2783_state2" class="panel_state" data-label="3" style="visibility: hidden;">
+                      <div id="u2783_state2_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2783_state3" class="panel_state" data-label="4" style="visibility: hidden;">
+                      <div id="u2783_state3_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2783_state4" class="panel_state" data-label="5" style="visibility: hidden;">
+                      <div id="u2783_state4_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2783_state5" class="panel_state" data-label="6" style="visibility: hidden;">
+                      <div id="u2783_state5_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2783_state6" class="panel_state" data-label="7" style="visibility: hidden;">
+                      <div id="u2783_state6_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2783_state7" class="panel_state" data-label="8" style="visibility: hidden;">
+                      <div id="u2783_state7_content" class="panel_state_content">
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2784" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2785" class="ax_default box_1">
+                      <img id="u2785_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+                      <div id="u2785_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2786" class="ax_default box_1">
+                      <img id="u2786_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+                      <div id="u2786_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2787" class="ax_default box_1 selected">
+                    <div id="u2787_div" class="selected"></div>
+                    <div id="u2787_text" class="text ">
+                      <p><span>Data Search</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2788" class="ax_default _三级标题">
+                    <div id="u2788_div" class=""></div>
+                    <div id="u2788_text" class="text ">
+                      <p><span>Option</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2789" class="ax_default _三级标题">
+                    <div id="u2789_div" class=""></div>
+                    <div id="u2789_text" class="text ">
+                      <p><span>Include</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2790" class="ax_default _三级标题">
+                    <div id="u2790_div" class=""></div>
+                    <div id="u2790_text" class="text ">
+                      <p><span>Limits</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u2791" class="ax_default line">
+                    <img id="u2791_img" class="img " src="{{ url_for('static', filename='images/反应物/u2791.svg') }}"/>
+                    <div id="u2791_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u2792" class="ax_default line">
+                    <img id="u2792_img" class="img " src="{{ url_for('static', filename='images/反应物/u2792.svg') }}"/>
+                    <div id="u2792_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2793" class="ax_default _三级标题">
+                    <div id="u2793_div" class=""></div>
+                    <div id="u2793_text" class="text ">
+                      <p><span>Database</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u2794" class="ax_default line">
+                    <img id="u2794_img" class="img " src="{{ url_for('static', filename='images/反应物/u2791.svg') }}"/>
+                    <div id="u2794_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Line) -->
+                  <div id="u2795" class="ax_default line">
+                    <img id="u2795_img" class="img " src="{{ url_for('static', filename='images/反应物/u2795.svg') }}"/>
+                    <div id="u2795_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Dynamic Panel) -->
+                  <div id="u2796" class="ax_default">
+                    <div id="u2796_state0" class="panel_state" data-label="State 1" style="">
+                      <div id="u2796_state0_content" class="panel_state_content">
+
+                        <!-- Unnamed (Group) -->
+                        <div id="u2797" class="ax_default" data-left="0" data-top="0" data-width="224" data-height="389" layer-opacity="1">
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2798" class="ax_default box_1">
+                            <img id="u2798_img" class="img " src="{{ url_for('static', filename='images/反应物/u2798.svg') }}"/>
+                            <div id="u2798_text" class="text " style="display:none; visibility: hidden">
+                              <p></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2799" class="ax_default _便签1">
+                            <div id="u2799_div" class=""></div>
+                            <div id="u2799_text" class="text " style="display:none; visibility: hidden">
+                              <p></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2800" class="ax_default _便签1">
+                            <div id="u2800_div" class=""></div>
+                            <div id="u2800_text" class="text " style="display:none; visibility: hidden">
+                              <p></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2801" class="ax_default _三级标题">
+                            <div id="u2801_div" class=""></div>
+                            <div id="u2801_text" class="text ">
+                              <p><span>Source I</span></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2802" class="ax_default checkbox selected">
+                            <label id="u2802_input_label" for="u2802_input" style="position: absolute; left: 0px;">
+                              <img id="u2802_img" class="img " src="{{ url_for('static', filename='images/反应物/u2802_selected.svg') }}"/>
+                              <div id="u2802_text" class="text ">
+                                <p><span>Fact</span></p>
+                              </div>
+                            </label>
+                            <input id="u2802_input" type="checkbox" value="checkbox" checked/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2803" class="ax_default checkbox">
+                            <label id="u2803_input_label" for="u2803_input" style="position: absolute; left: 0px;">
+                              <img id="u2803_img" class="img " src="{{ url_for('static', filename='images/反应物/u2803.svg') }}"/>
+                              <div id="u2803_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2803_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2804" class="ax_default _便签1">
+                            <div id="u2804_div" class=""></div>
+                            <div id="u2804_text" class="text " style="display:none; visibility: hidden">
+                              <p></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2805" class="ax_default _三级标题">
+                            <div id="u2805_div" class=""></div>
+                            <div id="u2805_text" class="text ">
+                              <p><span>Source II</span></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2806" class="ax_default checkbox selected">
+                            <label id="u2806_input_label" for="u2806_input" style="position: absolute; left: 0px;">
+                              <img id="u2806_img" class="img " src="{{ url_for('static', filename='images/反应物/u2806_selected.svg') }}"/>
+                              <div id="u2806_text" class="text ">
+                                <p><span>SGTE</span></p>
+                              </div>
+                            </label>
+                            <input id="u2806_input" type="checkbox" value="checkbox" checked/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2807" class="ax_default checkbox">
+                            <label id="u2807_input_label" for="u2807_input" style="position: absolute; left: 0px;">
+                              <img id="u2807_img" class="img " src="{{ url_for('static', filename='images/反应物/u2807.svg') }}"/>
+                              <div id="u2807_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2807_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2808" class="ax_default checkbox">
+                            <label id="u2808_input_label" for="u2808_input" style="position: absolute; left: 0px;">
+                              <img id="u2808_img" class="img " src="{{ url_for('static', filename='images/反应物/u2808.svg') }}"/>
+                              <div id="u2808_text" class="text ">
+                                <p><span>File 1</span></p>
+                              </div>
+                            </label>
+                            <input id="u2808_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2809" class="ax_default checkbox">
+                            <label id="u2809_input_label" for="u2809_input" style="position: absolute; left: 0px;">
+                              <img id="u2809_img" class="img " src="{{ url_for('static', filename='images/反应物/u2809.svg') }}"/>
+                              <div id="u2809_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2809_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2810" class="ax_default checkbox">
+                            <label id="u2810_input_label" for="u2810_input" style="position: absolute; left: 0px;">
+                              <img id="u2810_img" class="img " src="{{ url_for('static', filename='images/反应物/u2810.svg') }}"/>
+                              <div id="u2810_text" class="text ">
+                                <p><span>File 1</span></p>
+                              </div>
+                            </label>
+                            <input id="u2810_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2811" class="ax_default checkbox">
+                            <label id="u2811_input_label" for="u2811_input" style="position: absolute; left: 0px;">
+                              <img id="u2811_img" class="img " src="{{ url_for('static', filename='images/反应物/u2811.svg') }}"/>
+                              <div id="u2811_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2811_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2812" class="ax_default _三级标题">
+                            <div id="u2812_div" class=""></div>
+                            <div id="u2812_text" class="text ">
+                              <p><span>Other</span></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2813" class="ax_default checkbox">
+                            <label id="u2813_input_label" for="u2813_input" style="position: absolute; left: 0px;">
+                              <img id="u2813_img" class="img " src="{{ url_for('static', filename='images/反应物/u2813.svg') }}"/>
+                              <div id="u2813_text" class="text ">
+                                <p><span>File 1</span></p>
+                              </div>
+                            </label>
+                            <input id="u2813_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2814" class="ax_default checkbox">
+                            <label id="u2814_input_label" for="u2814_input" style="position: absolute; left: 0px;">
+                              <img id="u2814_img" class="img " src="{{ url_for('static', filename='images/反应物/u2814.svg') }}"/>
+                              <div id="u2814_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2814_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2815" class="ax_default checkbox">
+                            <label id="u2815_input_label" for="u2815_input" style="position: absolute; left: 0px;">
+                              <img id="u2815_img" class="img " src="{{ url_for('static', filename='images/反应物/u2815.svg') }}"/>
+                              <div id="u2815_text" class="text ">
+                                <p><span>File 1</span></p>
+                              </div>
+                            </label>
+                            <input id="u2815_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2816" class="ax_default checkbox">
+                            <label id="u2816_input_label" for="u2816_input" style="position: absolute; left: 0px;">
+                              <img id="u2816_img" class="img " src="{{ url_for('static', filename='images/反应物/u2816.svg') }}"/>
+                              <div id="u2816_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2816_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Rectangle) -->
+                          <div id="u2817" class="ax_default _三级标题">
+                            <div id="u2817_div" class=""></div>
+                            <div id="u2817_text" class="text ">
+                              <p><span>Other</span></p>
+                            </div>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2818" class="ax_default checkbox">
+                            <label id="u2818_input_label" for="u2818_input" style="position: absolute; left: 0px;">
+                              <img id="u2818_img" class="img " src="{{ url_for('static', filename='images/反应物/u2818.svg') }}"/>
+                              <div id="u2818_text" class="text ">
+                                <p><span>File 1</span></p>
+                              </div>
+                            </label>
+                            <input id="u2818_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2819" class="ax_default checkbox">
+                            <label id="u2819_input_label" for="u2819_input" style="position: absolute; left: 0px;">
+                              <img id="u2819_img" class="img " src="{{ url_for('static', filename='images/反应物/u2819.svg') }}"/>
+                              <div id="u2819_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2819_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2820" class="ax_default checkbox">
+                            <label id="u2820_input_label" for="u2820_input" style="position: absolute; left: 0px;">
+                              <img id="u2820_img" class="img " src="{{ url_for('static', filename='images/反应物/u2820.svg') }}"/>
+                              <div id="u2820_text" class="text ">
+                                <p><span>File 1</span></p>
+                              </div>
+                            </label>
+                            <input id="u2820_input" type="checkbox" value="checkbox"/>
+                          </div>
+
+                          <!-- Unnamed (Checkbox) -->
+                          <div id="u2821" class="ax_default checkbox">
+                            <label id="u2821_input_label" for="u2821_input" style="position: absolute; left: 0px;">
+                              <img id="u2821_img" class="img " src="{{ url_for('static', filename='images/反应物/u2821.svg') }}"/>
+                              <div id="u2821_text" class="text ">
+                                <p><span>File 2</span></p>
+                              </div>
+                            </label>
+                            <input id="u2821_input" type="checkbox" value="checkbox"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2822" class="ax_default" data-left="722" data-top="230" data-width="58" data-height="23" layer-opacity="1">
+
+                    <!-- Unnamed (Group) -->
+                    <div id="u2823" class="ax_default" data-left="722" data-top="230" data-width="58" data-height="23" layer-opacity="1">
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u2824" class="ax_default box_1">
+                        <div id="u2824_div" class=""></div>
+                        <div id="u2824_text" class="text ">
+                          <p><span>Default</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2825" class="ax_default _流程图形状">
+                    <img id="u2825_img" class="img " src="{{ url_for('static', filename='images/反应物/u2825.svg') }}"/>
+                    <div id="u2825_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2826" class="ax_default _三级标题">
+                    <div id="u2826_div" class=""></div>
+                    <div id="u2826_text" class="text ">
+                      <p><span>Status Report</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2827" class="ax_default" data-left="263" data-top="368" data-width="72" data-height="25" layer-opacity="1">
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2828" class="ax_default box_1">
+                      <div id="u2828_div" class=""></div>
+                      <div id="u2828_text" class="text ">
+                        <p><span>&nbsp;&nbsp; &nbsp;&nbsp; Clear All</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2829" class="ax_default" data-left="263" data-top="402" data-width="72" data-height="25" layer-opacity="1">
+
+                    <!-- Unnamed (Rectangle) -->
+                    <div id="u2830" class="ax_default box_1">
+                      <div id="u2830_div" class=""></div>
+                      <div id="u2830_text" class="text ">
+                        <p><span>&nbsp;&nbsp; &nbsp; &nbsp; Select All</span></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2831" class="ax_default box_1">
+                    <div id="u2831_div" class=""></div>
+                    <div id="u2831_text" class="text ">
+                      <p><span>&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; Edit</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2832" class="ax_default" data-left="353" data-top="374" data-width="14" data-height="13" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2833" class="ax_default box_1">
+                      <img id="u2833_img" class="img " src="{{ url_for('static', filename='images/反应物/u2833.svg') }}"/>
+                      <div id="u2833_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2834" class="ax_default box_1">
+                      <img id="u2834_img" class="img " src="{{ url_for('static', filename='images/反应物/u2834.svg') }}"/>
+                      <div id="u2834_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2835" class="ax_default box_1" title="刷新">
+                    <div id="u2835_div" class=""></div>
+                    <div id="u2835_text" class="text ">
+                      <p><span>Refresh</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2836" class="ax_default" data-left="351" data-top="407" data-width="17" data-height="14" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2837" class="ax_default box_1">
+                      <img id="u2837_img" class="img " src="{{ url_for('static', filename='images/反应物/u2837.svg') }}"/>
+                      <div id="u2837_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2838" class="ax_default box_1">
+                      <img id="u2838_img" class="img " src="{{ url_for('static', filename='images/反应物/u2838.svg') }}"/>
+                      <div id="u2838_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Shape) -->
+                  <div id="u2839" class="ax_default box_1">
+                    <img id="u2839_img" class="img " src="{{ url_for('static', filename='images/反应物/u2839.svg') }}"/>
+                    <div id="u2839_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2840" class="ax_default" data-left="266" data-top="406" data-width="17" data-height="17" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2841" class="ax_default box_1">
+                      <img id="u2841_img" class="img " src="{{ url_for('static', filename='images/反应物/u2841.svg') }}"/>
+                      <div id="u2841_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2842" class="ax_default box_1">
+                      <img id="u2842_img" class="img " src="{{ url_for('static', filename='images/反应物/u2842.svg') }}"/>
+                      <div id="u2842_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2843" class="ax_default box_1">
+                      <img id="u2843_img" class="img " src="{{ url_for('static', filename='images/反应物/u2843.svg') }}"/>
+                      <div id="u2843_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2844" class="ax_default box_1">
+                    <div id="u2844_div" class=""></div>
+                    <div id="u2844_text" class="text ">
+                      <p><span>Generate</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Shape) -->
+                  <div id="u2845" class="ax_default box_1">
+                    <img id="u2845_img" class="img " src="{{ url_for('static', filename='images/反应物/u2845.svg') }}"/>
+                    <div id="u2845_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2846" class="ax_default box_1">
+                    <div id="u2846_div" class=""></div>
+                    <div id="u2846_text" class="text ">
+                      <p><span>Cancel</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2847" class="ax_default box_1">
+                    <div id="u2847_div" class=""></div>
+                    <div id="u2847_text" class="text ">
+                      <p><span>Apply</span></p>
+                    </div>
+                  </div>
+
+                  <!-- status report (Dynamic Panel) -->
+                  <div id="u2848" class="ax_default" data-label="status report">
+                    <div id="u2848_state0" class="panel_state" data-label="ungenerated" style="">
+                      <div id="u2848_state0_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2848_state1" class="panel_state" data-label="generated" style="visibility: hidden;">
+                      <div id="u2848_state1_content" class="panel_state_content">
+
+                        <!-- Unnamed (Rectangle) -->
+                        <div id="u2849" class="ax_default box_1">
+                          <img id="u2849_img" class="img " src="{{ url_for('static', filename='images/反应物/u2849.svg') }}"/>
+                          <div id="u2849_text" class="text ">
+                            <p><span>2/26 compound database selected:</span></p><p><span>&nbsp;&nbsp;&nbsp; 1.FACT</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.SGTE</span></p><p><span>2/23 solution database selected:</span></p><p><span>&nbsp;&nbsp;&nbsp; 1.FACT</span></p><p><span>&nbsp;&nbsp;&nbsp; 2.SGTE</span></p><p><span><br></span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 单位弹窗 (Dynamic Panel) -->
+            <div id="u2850" class="ax_default ax_default_hidden" data-label="单位弹窗" style="display:none; visibility: hidden">
+              <div id="u2850_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2850_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2851" class="ax_default box_1">
+                    <div id="u2851_div" class=""></div>
+                    <div id="u2851_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2852" class="ax_default box_1">
+                    <div id="u2852_div" class=""></div>
+                    <div id="u2852_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景 (Dynamic Panel) -->
+                  <div id="u2853" class="ax_default" data-label="背景">
+                    <div id="u2853_state0" class="panel_state" data-label="1" style="">
+                      <div id="u2853_state0_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2853_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                      <div id="u2853_state1_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2853_state2" class="panel_state" data-label="3" style="visibility: hidden;">
+                      <div id="u2853_state2_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2853_state3" class="panel_state" data-label="4" style="visibility: hidden;">
+                      <div id="u2853_state3_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2853_state4" class="panel_state" data-label="5" style="visibility: hidden;">
+                      <div id="u2853_state4_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2853_state5" class="panel_state" data-label="6" style="visibility: hidden;">
+                      <div id="u2853_state5_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2853_state6" class="panel_state" data-label="7" style="visibility: hidden;">
+                      <div id="u2853_state6_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u2853_state7" class="panel_state" data-label="8" style="visibility: hidden;">
+                      <div id="u2853_state7_content" class="panel_state_content">
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u2854" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2855" class="ax_default box_1">
+                      <img id="u2855_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+                      <div id="u2855_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u2856" class="ax_default box_1">
+                      <img id="u2856_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+                      <div id="u2856_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2857" class="ax_default box_1 selected">
+                    <div id="u2857_div" class="selected"></div>
+                    <div id="u2857_text" class="text ">
+                      <p><span>Units</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2858" class="ax_default _流程图形状">
+                    <img id="u2858_img" class="img " src="{{ url_for('static', filename='images/单位/u778.svg') }}"/>
+                    <div id="u2858_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2859" class="ax_default _三级标题">
+                    <div id="u2859_div" class=""></div>
+                    <div id="u2859_text" class="text ">
+                      <p><span>Temperature</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2860" class="ax_default _流程图形状">
+                    <img id="u2860_img" class="img " src="{{ url_for('static', filename='images/单位/u778.svg') }}"/>
+                    <div id="u2860_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2861" class="ax_default _三级标题">
+                    <div id="u2861_div" class=""></div>
+                    <div id="u2861_text" class="text ">
+                      <p><span>Pressure</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2862" class="ax_default _流程图形状">
+                    <img id="u2862_img" class="img " src="{{ url_for('static', filename='images/单位/u778.svg') }}"/>
+                    <div id="u2862_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2863" class="ax_default _三级标题">
+                    <div id="u2863_div" class=""></div>
+                    <div id="u2863_text" class="text ">
+                      <p><span>Mass</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2864" class="ax_default _流程图形状">
+                    <img id="u2864_img" class="img " src="{{ url_for('static', filename='images/单位/u778.svg') }}"/>
+                    <div id="u2864_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2865" class="ax_default _三级标题">
+                    <div id="u2865_div" class=""></div>
+                    <div id="u2865_text" class="text ">
+                      <p><span>Volume</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2866" class="ax_default box_1">
+                    <div id="u2866_div" class=""></div>
+                    <div id="u2866_text" class="text ">
+                      <p><span>Cancel</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2867" class="ax_default box_1">
+                    <div id="u2867_div" class=""></div>
+                    <div id="u2867_text" class="text ">
+                      <p><span>Apply</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2868" class="ax_default radio_button selected" selectiongroup="温度">
+                    <label id="u2868_input_label" for="u2868_input" style="position: absolute; left: 0px;">
+                      <img id="u2868_img" class="img " src="{{ url_for('static', filename='images/反应物/u2868_selected.svg') }}"/>
+                      <div id="u2868_text" class="text ">
+                        <p><span>&nbsp;K</span></p>
+                      </div>
+                    </label>
+                    <input id="u2868_input" type="radio" value="radio" name="温度" checked/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2869" class="ax_default radio_button" selectiongroup="温度">
+                    <label id="u2869_input_label" for="u2869_input" style="position: absolute; left: 0px;">
+                      <img id="u2869_img" class="img " src="{{ url_for('static', filename='images/反应物/u2869.svg') }}"/>
+                      <div id="u2869_text" class="text ">
+                        <p><span>&nbsp;℃</span></p>
+                      </div>
+                    </label>
+                    <input id="u2869_input" type="radio" value="radio" name="温度"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2870" class="ax_default radio_button selected" selectiongroup="质量">
+                    <label id="u2870_input_label" for="u2870_input" style="position: absolute; left: 0px;">
+                      <img id="u2870_img" class="img " src="{{ url_for('static', filename='images/反应物/u2870_selected.svg') }}"/>
+                      <div id="u2870_text" class="text ">
+                        <p><span>&nbsp;mol</span></p>
+                      </div>
+                    </label>
+                    <input id="u2870_input" type="radio" value="radio" name="质量" checked/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2871" class="ax_default radio_button" selectiongroup="质量">
+                    <label id="u2871_input_label" for="u2871_input" style="position: absolute; left: 0px;">
+                      <img id="u2871_img" class="img " src="{{ url_for('static', filename='images/反应物/u2871.svg') }}"/>
+                      <div id="u2871_text" class="text ">
+                        <p><span>&nbsp;g</span></p>
+                      </div>
+                    </label>
+                    <input id="u2871_input" type="radio" value="radio" name="质量"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2872" class="ax_default radio_button selected" selectiongroup="压力">
+                    <label id="u2872_input_label" for="u2872_input" style="position: absolute; left: 0px;">
+                      <img id="u2872_img" class="img " src="{{ url_for('static', filename='images/反应物/u2872_selected.svg') }}"/>
+                      <div id="u2872_text" class="text ">
+                        <p><span>&nbsp;bar</span></p>
+                      </div>
+                    </label>
+                    <input id="u2872_input" type="radio" value="radio" name="压力" checked/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2873" class="ax_default radio_button" selectiongroup="压力">
+                    <label id="u2873_input_label" for="u2873_input" style="position: absolute; left: 0px;">
+                      <img id="u2873_img" class="img " src="{{ url_for('static', filename='images/反应物/u2873.svg') }}"/>
+                      <div id="u2873_text" class="text ">
+                        <p><span>&nbsp;atm</span></p>
+                      </div>
+                    </label>
+                    <input id="u2873_input" type="radio" value="radio" name="压力"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2874" class="ax_default radio_button selected" selectiongroup="体积">
+                    <label id="u2874_input_label" for="u2874_input" style="position: absolute; left: 0px;">
+                      <img id="u2874_img" class="img " src="{{ url_for('static', filename='images/反应物/u2874_selected.svg') }}"/>
+                      <div id="u2874_text" class="text ">
+                        <p><span>&nbsp;L</span></p>
+                      </div>
+                    </label>
+                    <input id="u2874_input" type="radio" value="radio" name="体积" checked/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2875" class="ax_default radio_button" selectiongroup="体积">
+                    <label id="u2875_input_label" for="u2875_input" style="position: absolute; left: 0px;">
+                      <img id="u2875_img" class="img " src="{{ url_for('static', filename='images/反应物/u2875.svg') }}"/>
+                      <div id="u2875_text" class="text ">
+                        <p><span>&nbsp;ft3</span></p>
+                      </div>
+                    </label>
+                    <input id="u2875_input" type="radio" value="radio" name="体积"/>
+                  </div>
+
+                  <!-- Unnamed (Bracket) -->
+                  <div id="u2876" class="ax_default _流程图形状">
+                    <img id="u2876_img" class="img " src="{{ url_for('static', filename='images/单位/u778.svg') }}"/>
+                    <div id="u2876_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2877" class="ax_default _三级标题">
+                    <div id="u2877_div" class=""></div>
+                    <div id="u2877_text" class="text ">
+                      <p><span>Energy</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2878" class="ax_default radio_button selected" selectiongroup="能量">
+                    <label id="u2878_input_label" for="u2878_input" style="position: absolute; left: 0px;">
+                      <img id="u2878_img" class="img " src="{{ url_for('static', filename='images/反应物/u2878_selected.svg') }}"/>
+                      <div id="u2878_text" class="text ">
+                        <p><span>&nbsp;J</span></p>
+                      </div>
+                    </label>
+                    <input id="u2878_input" type="radio" value="radio" name="能量" checked/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2879" class="ax_default radio_button" selectiongroup="能量">
+                    <label id="u2879_input_label" for="u2879_input" style="position: absolute; left: 0px;">
+                      <img id="u2879_img" class="img " src="{{ url_for('static', filename='images/反应物/u2879.svg') }}"/>
+                      <div id="u2879_text" class="text ">
+                        <p><span>&nbsp;cal</span></p>
+                      </div>
+                    </label>
+                    <input id="u2879_input" type="radio" value="radio" name="能量"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2880" class="ax_default radio_button" selectiongroup="温度">
+                    <label id="u2880_input_label" for="u2880_input" style="position: absolute; left: 0px;">
+                      <img id="u2880_img" class="img " src="{{ url_for('static', filename='images/反应物/u2880.svg') }}"/>
+                      <div id="u2880_text" class="text ">
+                        <p><span>&nbsp;℉</span></p>
+                      </div>
+                    </label>
+                    <input id="u2880_input" type="radio" value="radio" name="温度"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2881" class="ax_default radio_button" selectiongroup="压力">
+                    <label id="u2881_input_label" for="u2881_input" style="position: absolute; left: 0px;">
+                      <img id="u2881_img" class="img " src="{{ url_for('static', filename='images/反应物/u2881.svg') }}"/>
+                      <div id="u2881_text" class="text ">
+                        <p><span>&nbsp;psi</span></p>
+                      </div>
+                    </label>
+                    <input id="u2881_input" type="radio" value="radio" name="压力"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2882" class="ax_default radio_button" selectiongroup="压力">
+                    <label id="u2882_input_label" for="u2882_input" style="position: absolute; left: 0px;">
+                      <img id="u2882_img" class="img " src="{{ url_for('static', filename='images/反应物/u2882.svg') }}"/>
+                      <div id="u2882_text" class="text ">
+                        <p><span>&nbsp;Pa</span></p>
+                      </div>
+                    </label>
+                    <input id="u2882_input" type="radio" value="radio" name="压力"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2883" class="ax_default radio_button" selectiongroup="压力">
+                    <label id="u2883_input_label" for="u2883_input" style="position: absolute; left: 0px;">
+                      <img id="u2883_img" class="img " src="{{ url_for('static', filename='images/反应物/u2883.svg') }}"/>
+                      <div id="u2883_text" class="text ">
+                        <p><span>&nbsp;GPa</span></p>
+                      </div>
+                    </label>
+                    <input id="u2883_input" type="radio" value="radio" name="压力"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2884" class="ax_default radio_button" selectiongroup="质量">
+                    <label id="u2884_input_label" for="u2884_input" style="position: absolute; left: 0px;">
+                      <img id="u2884_img" class="img " src="{{ url_for('static', filename='images/反应物/u2884.svg') }}"/>
+                      <div id="u2884_text" class="text ">
+                        <p><span>&nbsp;lb</span></p>
+                      </div>
+                    </label>
+                    <input id="u2884_input" type="radio" value="radio" name="质量"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2885" class="ax_default box_1">
+                    <div id="u2885_div" class=""></div>
+                    <div id="u2885_text" class="text ">
+                      <p><span>Volume units are set by pressure units</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2886" class="ax_default radio_button" selectiongroup="能量">
+                    <label id="u2886_input_label" for="u2886_input" style="position: absolute; left: 0px;">
+                      <img id="u2886_img" class="img " src="{{ url_for('static', filename='images/反应物/u2886.svg') }}"/>
+                      <div id="u2886_text" class="text ">
+                        <p><span>&nbsp;btu</span></p>
+                      </div>
+                    </label>
+                    <input id="u2886_input" type="radio" value="radio" name="能量"/>
+                  </div>
+
+                  <!-- Unnamed (Radio Button) -->
+                  <div id="u2887" class="ax_default radio_button" selectiongroup="能量">
+                    <label id="u2887_input_label" for="u2887_input" style="position: absolute; left: 0px;">
+                      <img id="u2887_img" class="img " src="{{ url_for('static', filename='images/反应物/u2887.svg') }}"/>
+                      <div id="u2887_text" class="text ">
+                        <p><span>&nbsp;kwh</span></p>
+                      </div>
+                    </label>
+                    <input id="u2887_input" type="radio" value="radio" name="能量"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 左侧一级菜单 (Dynamic Panel) -->
+      <div id="u2888" class="ax_default" data-label="左侧一级菜单">
+        <div id="u2888_state0" class="panel_state" data-label="框架" style="">
+          <div id="u2888_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2889" class="ax_default box_1" selectiongroup="一级分类">
+              <img id="u2889_img" class="img " src="{{ url_for('static', filename='images/模板_1/u19.svg') }}"/>
+              <div id="u2889_text" class="text ">
+                <p><span>Database</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2890" class="ax_default box_1" selectiongroup="一级分类">
+              <img id="u2890_img" class="img " src="{{ url_for('static', filename='images/模板_1/u20.svg') }}"/>
+              <div id="u2890_text" class="text ">
+                <p><span>Calculate</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2891" class="ax_default box_1 selected" selectiongroup="一级分类">
+              <img id="u2891_img" class="img " src="{{ url_for('static', filename='images/模板/u65.svg') }}"/>
+              <div id="u2891_text" class="text ">
+                <p><span>Manipulate</span></p>
+              </div>
+            </div>
+
+            <!-- 三角形 (Shape) -->
+            <div id="u2892" class="ax_default box_1" data-label="三角形">
+              <img id="u2892_img" class="img " src="{{ url_for('static', filename='images/模板_1/三角形_u22.svg') }}"/>
+              <div id="u2892_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- 化学 (Group) -->
+            <div id="u2893" class="ax_default" data-label="化学" data-left="6" data-top="12" data-width="30" data-height="28" layer-opacity="1">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u2894" class="ax_default ellipse">
+                <img id="u2894_img" class="img " src="{{ url_for('static', filename='images/模板_1/u24.svg') }}"/>
+                <div id="u2894_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u2895" class="ax_default icon">
+                <img id="u2895_img" class="img " src="{{ url_for('static', filename='images/模板_1/u25.svg') }}"/>
+                <div id="u2895_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 数据库 (Group) -->
+            <div id="u2896" class="ax_default" data-label="数据库" data-left="6" data-top="66" data-width="31" data-height="29" layer-opacity="1">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u2897" class="ax_default ellipse">
+                <img id="u2897_img" class="img " src="{{ url_for('static', filename='images/模板_1/u27.svg') }}"/>
+                <div id="u2897_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u2898" class="ax_default icon">
+                <img id="u2898_img" class="img " src="{{ url_for('static', filename='images/模板_1/u28.svg') }}"/>
+                <div id="u2898_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Least Square (Group) -->
+            <div id="u2899" class="ax_default" data-label="Least Square" data-left="8" data-top="121" data-width="29" data-height="27" layer-opacity="1">
+
+              <!-- Unnamed (Ellipse) -->
+              <div id="u2900" class="ax_default ellipse">
+                <img id="u2900_img" class="img " src="{{ url_for('static', filename='images/模板_1/u30.svg') }}"/>
+                <div id="u2900_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (Shape) -->
+              <div id="u2901" class="ax_default icon">
+                <img id="u2901_img" class="img " src="{{ url_for('static', filename='images/模板_1/u31.svg') }}"/>
+                <div id="u2901_text" class="text " style="display:none; visibility: hidden">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 标题栏 (Dynamic Panel) -->
+      <div id="u2902" class="ax_default" data-label="标题栏">
+        <div id="u2902_state0" class="panel_state" data-label="1" style="">
+          <div id="u2902_state0_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u2902_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+          <div id="u2902_state1_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u2902_state2" class="panel_state" data-label="3" style="visibility: hidden;">
+          <div id="u2902_state2_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u2902_state3" class="panel_state" data-label="4" style="visibility: hidden;">
+          <div id="u2902_state3_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u2902_state4" class="panel_state" data-label="5" style="visibility: hidden;">
+          <div id="u2902_state4_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u2902_state5" class="panel_state" data-label="6" style="visibility: hidden;">
+          <div id="u2902_state5_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u2902_state6" class="panel_state" data-label="7" style="visibility: hidden;">
+          <div id="u2902_state6_content" class="panel_state_content">
+          </div>
+        </div>
+        <div id="u2902_state7" class="panel_state" data-label="8" style="visibility: hidden;">
+          <div id="u2902_state7_content" class="panel_state_content">
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u2903" class="ax_default" data-left="14" data-top="7" data-width="30" data-height="33" layer-opacity="1">
+
+        <!-- Unnamed (Shape) -->
+        <div id="u2904" class="ax_default box_1">
+          <img id="u2904_img" class="img " src="{{ url_for('static', filename='images/模板_1/u34.svg') }}"/>
+          <div id="u2904_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u2905" class="ax_default box_1">
+          <img id="u2905_img" class="img " src="{{ url_for('static', filename='images/模板_1/u35.svg') }}"/>
+          <div id="u2905_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2906" class="ax_default box_1 selected">
+        <div id="u2906_div" class="selected"></div>
+        <div id="u2906_text" class="text ">
+          <p><span>Calculate - Reaction - Reactant</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2907" class="ax_default box_1">
+        <img id="u2907_img" class="img " src="{{ url_for('static', filename='images/模板_1/u37.svg') }}"/>
+        <div id="u2907_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2908" class="ax_default box_1" title="常用菜单">
+        <img id="u2908_img" class="img " src="{{ url_for('static', filename='images/模板_1/u38.svg') }}"/>
+        <div id="u2908_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2909" class="ax_default box_1" title="更换皮肤">
+        <img id="u2909_img" class="img " src="{{ url_for('static', filename='images/模板_1/u39.svg') }}"/>
+        <div id="u2909_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2910" class="ax_default box_1">
+        <img id="u2910_img" class="img " src="{{ url_for('static', filename='images/模板_1/u40.svg') }}"/>
+        <div id="u2910_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2911" class="ax_default box_1" title="退出登录">
+        <img id="u2911_img" class="img " src="{{ url_for('static', filename='images/模板_1/u41.svg') }}"/>
+        <div id="u2911_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2912" class="ax_default box_1" title="系统消息">
+        <img id="u2912_img" class="img " src="{{ url_for('static', filename='images/模板_1/u38.svg') }}"/>
+        <div id="u2912_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2913" class="ax_default icon">
+        <img id="u2913_img" class="img " src="{{ url_for('static', filename='images/模板_1/u43.svg') }}"/>
+        <div id="u2913_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- 左侧二级菜单 (Dynamic Panel) -->
+      <div id="u2914" class="ax_default" data-label="左侧二级菜单">
+        <div id="u2914_state0" class="panel_state" data-label="框架" style="">
+          <div id="u2914_state0_content" class="panel_state_content">
+
+            <!-- 二级菜单 (Dynamic Panel) -->
+            <div id="u2915" class="ax_default" data-label="二级菜单">
+              <div id="u2915_state0" class="panel_state" data-label="Manipulate" style="">
+                <div id="u2915_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2916" class="ax_default box_1 selected" selectiongroup="二级菜单">
+                    <div id="u2916_div" class="selected"></div>
+                    <div id="u2916_text" class="text ">
+                      <p><span>&#149; Results</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2917" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2917_div" class=""></div>
+                    <div id="u2917_text" class="text ">
+                      <p><span>&#149; Mixture</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2918" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2918_div" class=""></div>
+                    <div id="u2918_text" class="text ">
+                      <p><span>&#149; View Figure</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2919" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2919_div" class=""></div>
+                    <div id="u2919_text" class="text ">
+                      <p><span>&#149; Figure</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2920" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2920_div" class=""></div>
+                    <div id="u2920_text" class="text ">
+                      <p><span>&#149; Reset</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2921" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2921_div" class=""></div>
+                    <div id="u2921_text" class="text ">
+                      <p><span>&#149; Quit</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u2915_state1" class="panel_state" data-label="Database" style="visibility: hidden;">
+                <div id="u2915_state1_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2922" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2922_div" class=""></div>
+                    <div id="u2922_text" class="text ">
+                      <p><span>&#149; View Data</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2923" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2923_div" class=""></div>
+                    <div id="u2923_text" class="text ">
+                      <p><span>&#149; Compound</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2924" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2924_div" class=""></div>
+                    <div id="u2924_text" class="text ">
+                      <p><span>&#149; Solution</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="u2915_state2" class="panel_state" data-label="Calculate" style="visibility: hidden;">
+                <div id="u2915_state2_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2925" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2925_div" class=""></div>
+                    <div id="u2925_text" class="text ">
+                      <p><span>&#149; Reaction</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2926" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2926_div" class=""></div>
+                    <div id="u2926_text" class="text ">
+                      <p><span>&#149; Equilib</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2927" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2927_div" class=""></div>
+                    <div id="u2927_text" class="text ">
+                      <p><span>&#149; Phase Diagram</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2928" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2928_div" class=""></div>
+                    <div id="u2928_text" class="text ">
+                      <p><span>&#149; Predom</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2929" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2929_div" class=""></div>
+                    <div id="u2929_text" class="text ">
+                      <p><span>&#149; EpH</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2930" class="ax_default box_1" selectiongroup="二级菜单">
+                    <div id="u2930_div" class=""></div>
+                    <div id="u2930_text" class="text ">
+                      <p><span>&#149; Optimize</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 底栏 (Dynamic Panel) -->
+      <div id="u2931" class="ax_default" data-label="底栏">
+        <div id="u2931_state0" class="panel_state" data-label="State 1" style="">
+          <div id="u2931_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2932" class="ax_default box_1">
+              <div id="u2932_div" class=""></div>
+              <div id="u2932_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2933" class="ax_default box_1">
+              <div id="u2933_div" class=""></div>
+              <div id="u2933_text" class="text ">
+                <p><span>Next</span></p>
+              </div>
+            </div>
+
+            <!-- 情况测试 (Dynamic Panel) -->
+            <div id="u2934" class="ax_default ax_default_hidden" data-label="情况测试" style="display:none; visibility: hidden">
+              <div id="u2934_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2934_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Menu) -->
+                  <div id="u2935" class="ax_default">
+                    <img id="u2935_menu" class="img " src="{{ url_for('static', filename='images/反应物/u2935_menu.png') }}" alt="u2935_menu"/>
+
+                    <!-- Unnamed (Table) -->
+                    <div id="u2936" class="ax_default">
+
+                      <!-- Unnamed (Menu Item) -->
+                      <div id="u2937" class="ax_default menu_item">
+                        <img id="u2937_img" class="img " src="{{ url_for('static', filename='images/反应物/u2937.png') }}"/>
+                        <div id="u2937_text" class="text ">
+                          <p><span>情况测试：未配平</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Menu Item) -->
+                      <div id="u2938" class="ax_default menu_item">
+                        <img id="u2938_img" class="img " src="{{ url_for('static', filename='images/反应物/u2938.png') }}"/>
+                        <div id="u2938_text" class="text ">
+                          <p><span>情况测试：已配平</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 工作区 (Dynamic Panel) -->
+      <div id="u2939" class="ax_default" data-label="工作区">
+        <div id="u2939_state0" class="panel_state" data-label="State 1" style="">
+          <div id="u2939_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2940" class="ax_default box_1">
+              <img id="u2940_img" class="img " src="{{ url_for('static', filename='images/反应物/u2940.svg') }}"/>
+              <div id="u2940_text" class="text " style="display:none; visibility: hidden">
+                <p></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2941" class="ax_default box_1">
+              <img id="u2941_img" class="img " src="{{ url_for('static', filename='images/反应物/u2941.svg') }}"/>
+              <div id="u2941_text" class="text ">
+                <p><span>Mass (单位）</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2942" class="ax_default box_1">
+              <img id="u2942_img" class="img " src="{{ url_for('static', filename='images/反应物/u2942.svg') }}"/>
+              <div id="u2942_text" class="text ">
+                <p><span>Species</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2943" class="ax_default box_1">
+              <img id="u2943_img" class="img " src="{{ url_for('static', filename='images/反应物/u2943.svg') }}"/>
+              <div id="u2943_text" class="text ">
+                <p><span>Phase</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2944" class="ax_default box_1">
+              <img id="u2944_img" class="img " src="{{ url_for('static', filename='images/反应物/u2944.svg') }}"/>
+              <div id="u2944_text" class="text ">
+                <p><span>T (单位）</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2945" class="ax_default box_1">
+              <img id="u2945_img" class="img " src="{{ url_for('static', filename='images/反应物/u2943.svg') }}"/>
+              <div id="u2945_text" class="text ">
+                <p><span>P (单位）</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Rectangle) -->
+            <div id="u2946" class="ax_default box_1">
+              <img id="u2946_img" class="img " src="{{ url_for('static', filename='images/反应物/u2946.svg') }}"/>
+              <div id="u2946_text" class="text ">
+                <p><span>Activity Data</span></p>
+              </div>
+            </div>
+
+            <!-- 反应物 (Dynamic Panel) -->
+            <div id="u2947" class="ax_default" data-label="反应物">
+              <div id="u2947_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2947_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2948" class="ax_default text_field">
+                    <div id="u2948_div" class=""></div>
+                    <input id="u2948_input" type="text" value="" class="u2948_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2949" class="ax_default text_field">
+                    <div id="u2949_div" class=""></div>
+                    <input id="u2949_input" type="text" value="" class="u2949_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u2950" class="ax_default droplist">
+                    <div id="u2950_div" class=""></div>
+                    <select id="u2950_input" class="u2950_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2951" class="ax_default text_field">
+                    <div id="u2951_div" class=""></div>
+                    <input id="u2951_input" type="text" value="" class="u2951_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2952" class="ax_default text_field">
+                    <div id="u2952_div" class=""></div>
+                    <input id="u2952_input" type="text" value="" class="u2952_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2953" class="ax_default text_field">
+                    <div id="u2953_div" class=""></div>
+                    <input id="u2953_input" type="text" value="" class="u2953_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2954" class="ax_default box_1">
+                    <img id="u2954_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u2954_text" class="text ">
+                      <p><span>+</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 反应物2 (Dynamic Panel) -->
+            <div id="u2955" class="ax_default" data-label="反应物2">
+              <div id="u2955_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2955_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2956" class="ax_default text_field">
+                    <div id="u2956_div" class=""></div>
+                    <input id="u2956_input" type="text" value="" class="u2956_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2957" class="ax_default text_field">
+                    <div id="u2957_div" class=""></div>
+                    <input id="u2957_input" type="text" value="" class="u2957_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u2958" class="ax_default droplist">
+                    <div id="u2958_div" class=""></div>
+                    <select id="u2958_input" class="u2958_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2959" class="ax_default text_field">
+                    <div id="u2959_div" class=""></div>
+                    <input id="u2959_input" type="text" value="" class="u2959_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2960" class="ax_default text_field">
+                    <div id="u2960_div" class=""></div>
+                    <input id="u2960_input" type="text" value="" class="u2960_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2961" class="ax_default text_field">
+                    <div id="u2961_div" class=""></div>
+                    <input id="u2961_input" type="text" value="" class="u2961_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2962" class="ax_default box_1">
+                    <img id="u2962_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u2962_text" class="text ">
+                      <p><span>+</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 反应物3 (Dynamic Panel) -->
+            <div id="u2963" class="ax_default" data-label="反应物3">
+              <div id="u2963_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2963_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2964" class="ax_default text_field">
+                    <div id="u2964_div" class=""></div>
+                    <input id="u2964_input" type="text" value="" class="u2964_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2965" class="ax_default text_field">
+                    <div id="u2965_div" class=""></div>
+                    <input id="u2965_input" type="text" value="" class="u2965_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u2966" class="ax_default droplist">
+                    <div id="u2966_div" class=""></div>
+                    <select id="u2966_input" class="u2966_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2967" class="ax_default text_field">
+                    <div id="u2967_div" class=""></div>
+                    <input id="u2967_input" type="text" value="" class="u2967_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2968" class="ax_default text_field">
+                    <div id="u2968_div" class=""></div>
+                    <input id="u2968_input" type="text" value="" class="u2968_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2969" class="ax_default text_field">
+                    <div id="u2969_div" class=""></div>
+                    <input id="u2969_input" type="text" value="" class="u2969_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2970" class="ax_default box_1">
+                    <img id="u2970_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u2970_text" class="text ">
+                      <p><span>+</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 产物 (Dynamic Panel) -->
+            <div id="u2971" class="ax_default" data-label="产物">
+              <div id="u2971_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2971_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2972" class="ax_default text_field">
+                    <div id="u2972_div" class=""></div>
+                    <input id="u2972_input" type="text" value="" class="u2972_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2973" class="ax_default text_field">
+                    <div id="u2973_div" class=""></div>
+                    <input id="u2973_input" type="text" value="" class="u2973_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u2974" class="ax_default droplist">
+                    <div id="u2974_div" class=""></div>
+                    <select id="u2974_input" class="u2974_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2975" class="ax_default text_field">
+                    <div id="u2975_div" class=""></div>
+                    <input id="u2975_input" type="text" value="" class="u2975_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2976" class="ax_default text_field">
+                    <div id="u2976_div" class=""></div>
+                    <input id="u2976_input" type="text" value="" class="u2976_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2977" class="ax_default text_field">
+                    <div id="u2977_div" class=""></div>
+                    <input id="u2977_input" type="text" value="" class="u2977_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2978" class="ax_default box_1">
+                    <img id="u2978_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u2978_text" class="text ">
+                      <p><span>=</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 产物2 (Dynamic Panel) -->
+            <div id="u2979" class="ax_default" data-label="产物2">
+              <div id="u2979_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2979_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2980" class="ax_default text_field">
+                    <div id="u2980_div" class=""></div>
+                    <input id="u2980_input" type="text" value="" class="u2980_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2981" class="ax_default text_field">
+                    <div id="u2981_div" class=""></div>
+                    <input id="u2981_input" type="text" value="" class="u2981_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u2982" class="ax_default droplist">
+                    <div id="u2982_div" class=""></div>
+                    <select id="u2982_input" class="u2982_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2983" class="ax_default text_field">
+                    <div id="u2983_div" class=""></div>
+                    <input id="u2983_input" type="text" value="" class="u2983_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2984" class="ax_default text_field">
+                    <div id="u2984_div" class=""></div>
+                    <input id="u2984_input" type="text" value="" class="u2984_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2985" class="ax_default text_field">
+                    <div id="u2985_div" class=""></div>
+                    <input id="u2985_input" type="text" value="" class="u2985_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2986" class="ax_default box_1">
+                    <img id="u2986_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u2986_text" class="text ">
+                      <p><span>+</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 产物3 (Dynamic Panel) -->
+            <div id="u2987" class="ax_default" data-label="产物3">
+              <div id="u2987_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2987_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2988" class="ax_default text_field">
+                    <div id="u2988_div" class=""></div>
+                    <input id="u2988_input" type="text" value="" class="u2988_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2989" class="ax_default text_field">
+                    <div id="u2989_div" class=""></div>
+                    <input id="u2989_input" type="text" value="" class="u2989_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u2990" class="ax_default droplist">
+                    <div id="u2990_div" class=""></div>
+                    <select id="u2990_input" class="u2990_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2991" class="ax_default text_field">
+                    <div id="u2991_div" class=""></div>
+                    <input id="u2991_input" type="text" value="" class="u2991_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2992" class="ax_default text_field">
+                    <div id="u2992_div" class=""></div>
+                    <input id="u2992_input" type="text" value="" class="u2992_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2993" class="ax_default text_field">
+                    <div id="u2993_div" class=""></div>
+                    <input id="u2993_input" type="text" value="" class="u2993_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u2994" class="ax_default box_1">
+                    <img id="u2994_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u2994_text" class="text ">
+                      <p><span>+</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 产物4 (Dynamic Panel) -->
+            <div id="u2995" class="ax_default" data-label="产物4">
+              <div id="u2995_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u2995_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2996" class="ax_default text_field">
+                    <div id="u2996_div" class=""></div>
+                    <input id="u2996_input" type="text" value="" class="u2996_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2997" class="ax_default text_field">
+                    <div id="u2997_div" class=""></div>
+                    <input id="u2997_input" type="text" value="" class="u2997_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u2998" class="ax_default droplist">
+                    <div id="u2998_div" class=""></div>
+                    <select id="u2998_input" class="u2998_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u2999" class="ax_default text_field">
+                    <div id="u2999_div" class=""></div>
+                    <input id="u2999_input" type="text" value="" class="u2999_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u3000" class="ax_default text_field">
+                    <div id="u3000_div" class=""></div>
+                    <input id="u3000_input" type="text" value="" class="u3000_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u3001" class="ax_default text_field">
+                    <div id="u3001_div" class=""></div>
+                    <input id="u3001_input" type="text" value="" class="u3001_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3002" class="ax_default box_1">
+                    <img id="u3002_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u3002_text" class="text ">
+                      <p><span>+</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 产物5 (Dynamic Panel) -->
+            <div id="u3003" class="ax_default" data-label="产物5">
+              <div id="u3003_state0" class="panel_state" data-label="State 1" style="">
+                <div id="u3003_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u3004" class="ax_default text_field">
+                    <div id="u3004_div" class=""></div>
+                    <input id="u3004_input" type="text" value="" class="u3004_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u3005" class="ax_default text_field">
+                    <div id="u3005_div" class=""></div>
+                    <input id="u3005_input" type="text" value="" class="u3005_input"/>
+                  </div>
+
+                  <!-- Unnamed (Droplist) -->
+                  <div id="u3006" class="ax_default droplist">
+                    <div id="u3006_div" class=""></div>
+                    <select id="u3006_input" class="u3006_input">
+                    </select>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u3007" class="ax_default text_field">
+                    <div id="u3007_div" class=""></div>
+                    <input id="u3007_input" type="text" value="" class="u3007_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u3008" class="ax_default text_field">
+                    <div id="u3008_div" class=""></div>
+                    <input id="u3008_input" type="text" value="" class="u3008_input"/>
+                  </div>
+
+                  <!-- Unnamed (Text Field) -->
+                  <div id="u3009" class="ax_default text_field">
+                    <div id="u3009_div" class=""></div>
+                    <input id="u3009_input" type="text" value="" class="u3009_input"/>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3010" class="ax_default box_1">
+                    <img id="u3010_img" class="img " src="{{ url_for('static', filename='images/反应物/u2954.svg') }}"/>
+                    <div id="u3010_text" class="text ">
+                      <p><span>+</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Checkbox) -->
+            <div id="u3011" class="ax_default checkbox">
+              <label id="u3011_input_label" for="u3011_input" style="position: absolute; left: 0px;">
+                <img id="u3011_img" class="img " src="{{ url_for('static', filename='images/反应物/u3011.svg') }}"/>
+                <div id="u3011_text" class="text ">
+                  <p><span>&nbsp;non standard state</span></p>
+                </div>
+              </label>
+              <input id="u3011_input" type="checkbox" value="checkbox"/>
+            </div>
+
+            <!-- 警告-未配平 (Dynamic Panel) -->
+            <div id="u3012" class="ax_default ax_default_hidden" data-label="警告-未配平" style="display:none; visibility: hidden">
+              <div id="u3012_state0" class="panel_state" data-label="state 1" style="">
+                <div id="u3012_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3013" class="ax_default box_1">
+                    <div id="u3013_div" class=""></div>
+                    <div id="u3013_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景 (Dynamic Panel) -->
+                  <div id="u3014" class="ax_default" data-label="背景">
+                    <div id="u3014_state0" class="panel_state" data-label="1" style="">
+                      <div id="u3014_state0_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3014_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                      <div id="u3014_state1_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3014_state2" class="panel_state" data-label="3" style="visibility: hidden;">
+                      <div id="u3014_state2_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3014_state3" class="panel_state" data-label="4" style="visibility: hidden;">
+                      <div id="u3014_state3_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3014_state4" class="panel_state" data-label="5" style="visibility: hidden;">
+                      <div id="u3014_state4_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3014_state5" class="panel_state" data-label="6" style="visibility: hidden;">
+                      <div id="u3014_state5_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3014_state6" class="panel_state" data-label="7" style="visibility: hidden;">
+                      <div id="u3014_state6_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3014_state7" class="panel_state" data-label="8" style="visibility: hidden;">
+                      <div id="u3014_state7_content" class="panel_state_content">
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u3015" class="ax_default" data-left="9" data-top="4" data-width="19" data-height="20" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u3016" class="ax_default box_1">
+                      <img id="u3016_img" class="img " src="{{ url_for('static', filename='images/反应物/u3016.svg') }}"/>
+                      <div id="u3016_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u3017" class="ax_default box_1">
+                      <img id="u3017_img" class="img " src="{{ url_for('static', filename='images/反应物/u3017.svg') }}"/>
+                      <div id="u3017_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3018" class="ax_default box_1">
+                    <div id="u3018_div" class=""></div>
+                    <div id="u3018_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3019" class="ax_default _三级标题">
+                    <div id="u3019_div" class=""></div>
+                    <div id="u3019_text" class="text ">
+                      <p><span>The reaction is not balanced.</span></p><p><span><br></span></p><p><span>Do you want the program to automatically balance the reaction?</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u3020" class="ax_default" data-left="229" data-top="202" data-width="259" data-height="34" layer-opacity="1">
+
+                    <!-- Unnamed (Group) -->
+                    <div id="u3021" class="ax_default" data-left="229" data-top="202" data-width="259" data-height="34" layer-opacity="1">
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u3022" class="ax_default box_1">
+                        <div id="u3022_div" class=""></div>
+                        <div id="u3022_text" class="text ">
+                          <p><span>Cancel</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u3023" class="ax_default box_1">
+                        <div id="u3023_div" class=""></div>
+                        <div id="u3023_text" class="text ">
+                          <p><span>Yes</span></p>
+                        </div>
+                      </div>
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u3024" class="ax_default box_1">
+                        <div id="u3024_div" class=""></div>
+                        <div id="u3024_text" class="text ">
+                          <p><span>No</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3025" class="ax_default _三级标题">
+                    <div id="u3025_div" class=""></div>
+                    <div id="u3025_text" class="text ">
+                      <p><span>Unbalanced Reaction</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3026" class="ax_default _三级标题">
+                    <div id="u3026_div" class=""></div>
+                    <div id="u3026_text" class="text ">
+                      <p><span>?</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 警告-已配平 (Dynamic Panel) -->
+            <div id="u3027" class="ax_default ax_default_hidden" data-label="警告-已配平" style="display:none; visibility: hidden">
+              <div id="u3027_state0" class="panel_state" data-label="state 1" style="">
+                <div id="u3027_state0_content" class="panel_state_content">
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3028" class="ax_default box_1">
+                    <div id="u3028_div" class=""></div>
+                    <div id="u3028_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- 背景 (Dynamic Panel) -->
+                  <div id="u3029" class="ax_default" data-label="背景">
+                    <div id="u3029_state0" class="panel_state" data-label="1" style="">
+                      <div id="u3029_state0_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3029_state1" class="panel_state" data-label="2" style="visibility: hidden;">
+                      <div id="u3029_state1_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3029_state2" class="panel_state" data-label="3" style="visibility: hidden;">
+                      <div id="u3029_state2_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3029_state3" class="panel_state" data-label="4" style="visibility: hidden;">
+                      <div id="u3029_state3_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3029_state4" class="panel_state" data-label="5" style="visibility: hidden;">
+                      <div id="u3029_state4_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3029_state5" class="panel_state" data-label="6" style="visibility: hidden;">
+                      <div id="u3029_state5_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3029_state6" class="panel_state" data-label="7" style="visibility: hidden;">
+                      <div id="u3029_state6_content" class="panel_state_content">
+                      </div>
+                    </div>
+                    <div id="u3029_state7" class="panel_state" data-label="8" style="visibility: hidden;">
+                      <div id="u3029_state7_content" class="panel_state_content">
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u3030" class="ax_default" data-left="9" data-top="4" data-width="19" data-height="20" layer-opacity="1">
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u3031" class="ax_default box_1">
+                      <img id="u3031_img" class="img " src="{{ url_for('static', filename='images/反应物/u3016.svg') }}"/>
+                      <div id="u3031_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <!-- Unnamed (Shape) -->
+                    <div id="u3032" class="ax_default box_1">
+                      <img id="u3032_img" class="img " src="{{ url_for('static', filename='images/反应物/u3017.svg') }}"/>
+                      <div id="u3032_text" class="text " style="display:none; visibility: hidden">
+                        <p></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3033" class="ax_default box_1">
+                    <div id="u3033_div" class=""></div>
+                    <div id="u3033_text" class="text " style="display:none; visibility: hidden">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3034" class="ax_default _三级标题">
+                    <div id="u3034_div" class=""></div>
+                    <div id="u3034_text" class="text ">
+                      <p><span>- reaction balanced</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Group) -->
+                  <div id="u3035" class="ax_default" data-left="404" data-top="130" data-width="78" data-height="34" layer-opacity="1">
+
+                    <!-- Unnamed (Group) -->
+                    <div id="u3036" class="ax_default" data-left="404" data-top="130" data-width="78" data-height="34" layer-opacity="1">
+
+                      <!-- Unnamed (Rectangle) -->
+                      <div id="u3037" class="ax_default box_1">
+                        <div id="u3037_div" class=""></div>
+                        <div id="u3037_text" class="text ">
+                          <p><span>ok</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3038" class="ax_default _三级标题">
+                    <div id="u3038_div" class=""></div>
+                    <div id="u3038_text" class="text ">
+                      <p><span>Balanced Reaction</span></p>
+                    </div>
+                  </div>
+
+                  <!-- Unnamed (Rectangle) -->
+                  <div id="u3039" class="ax_default _三级标题">
+                    <div id="u3039_div" class=""></div>
+                    <div id="u3039_text" class="text ">
+                      <p><span>i</span></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (Checkbox) -->
+            <div id="u3040" class="ax_default checkbox">
+              <label id="u3040_input_label" for="u3040_input" style="position: absolute; left: 0px;">
+                <img id="u3040_img" class="img " src="{{ url_for('static', filename='images/反应物/u3040.svg') }}"/>
+                <div id="u3040_text" class="text ">
+                  <p><span>&nbsp;apply volume data</span></p>
+                </div>
+              </label>
+              <input id="u3040_input" type="checkbox" value="checkbox"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{{ url_for('static', filename='resources/scripts/axure/ios.js') }}"></script>
+  </body>
+</html>
