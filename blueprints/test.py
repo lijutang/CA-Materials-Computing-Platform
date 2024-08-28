@@ -171,3 +171,89 @@ def show_help():
 @bp.route('/resources/reload.html')
 def show_re_main():
     return render_template("reload.html")
+
+
+#add
+
+@bp.route('/index.html')
+def show_index():
+    return render_template("index.html")
+
+@bp.route('/f_q.html')
+def show_f_q():
+    return render_template("f_q.html")
+
+@bp.route('/简介.html')
+def show_introduce():
+    return render_template("简介.html")
+
+@bp.route('/相图-成分添加.html')
+def phasediagram_add():
+    return render_template("相图-成分添加.html")
+
+@bp.route('/相图-成分添加-单位.html')
+def phasediagram_add_unit():
+    return render_template("相图-成分添加-单位.html")
+
+
+
+@bp.route('/相图-成分添加-数据搜索.html')
+def phasediagram_add_search():
+    return render_template("相图-成分添加-数据搜索.html")
+
+@bp.route('/相图-菜单.html')
+def phasediagram_menu():
+    return render_template("相图-菜单.html")
+
+@bp.route('/相图-菜单-别名.html')
+def phasediagram_menu_alias():
+    return render_template("相图-菜单-别名.html")
+
+@bp.route('/相图-菜单-单位.html')
+def phasediagram_menu_unit():
+    return render_template("相图-菜单-单位.html")
+
+@bp.route('/相图-菜单-参数.html')
+def phasediagram_menu_parameter():
+    return render_template("相图-菜单-参数.html")
+
+@bp.route('/相图-菜单-变量.html')
+def phasediagram_menu_variable():
+    return render_template("相图-菜单-变量.html")
+
+@bp.route('/相图-菜单-选择.html')
+def phasediagram_menu_choice():
+    return render_template("相图-菜单-选择.html")
+
+
+@bp.route('/反应物.html')
+def phasediagram_menu_abc():
+    return render_template("反应物.html")
+
+@bp.route('/help-directory of examples.html')
+def phasediagram_menu_abcd():
+    return render_template("help-directory of examples.html")
+
+@bp.route('/页面_1.html')
+def phasediagram_menu_abcde():
+    return render_template("页面_1.html")
+
+@bp.route('/units.html')
+def phasediagram_menu_abcdeg():
+    return render_template("units.html")
+
+@bp.route('/结果.html')
+def phasediagram_menu_result():
+    return render_template("结果.html")
+
+@bp.route('/selection.html')
+def phasediagram_menu_selection():
+    return render_template("selection.html")
+
+@bp.route('/list.html')
+def phasediagram_menu_list():
+    return render_template("list.html")
+
+@bp.route('/__menu.html')
+def phasediagram_caidan():
+    return render_template("__menu.html")
