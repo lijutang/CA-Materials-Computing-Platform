@@ -1,5 +1,10 @@
 from flask import Flask
 import config
+import sys
+print(sys.path)
+import os
+print(os.getcwd())
+sys.path.insert(0,os.getcwd())
 from exts import db, mail
 from flask_migrate import Migrate
 from blueprints.test import bp as test_bp
