@@ -57,6 +57,7 @@
     <script src="{{ url_for('static', filename='resources/scripts/axure/jquery.nicescroll.min.js') }}"></script>
     <script src="{{ url_for('static', filename='data/document.js') }}"></script>
     <script src="{{ url_for('static', filename='files/compound_new_data_/data.js') }}"></script>
+    <script src="{{ url_for('static', filename='files/compound_new_data_/opendatabase.js') }}"></script>
     <script type="text/javascript">
         $axure.utils.getTransparentGifPath = function () {
             return 'resources/images/transparent.gif';
@@ -77,7 +78,7 @@
 
         <!-- 内部框架 (Inline Frame) -->
         <div id="u6838" class="ax_default" data-label="内部框架">
-            <iframe id="u6838_input" data-label="内部框架"allowfullscreen ></iframe>
+            <iframe id="u6838_input" data-label="内部框架" allowfullscreen></iframe>
         </div>
 
         <!-- Unnamed (Group) -->
@@ -200,29 +201,49 @@
 
                 <!-- Unnamed (Droplist) -->
                 <div id="u6853" class="ax_default droplist">
-                    <div id="u6853_div" class=""></div>
-                    <select id="u6853_input" class="u6853_input">
-                        <option class="u6853_input_option" selected value="USERDATA">USERDATA</option>
-                        <option class="u6853_input_option" value="BINSBASE">BINSBASE</option>
-                        <option class="u6853_input_option" value="ELEMBASE  ">ELEMBASE&nbsp;</option>
-                        <option class="u6853_input_option" value="FACT53BASE  ">FACT53BASE&nbsp;</option>
-                        <option class="u6853_input_option" value="FACTBASE">FACTBASE</option>
-                        <option class="u6853_input_option" value="FScoppBASE">FScoppBASE</option>
-                        <option class="u6853_input_option" value="FSleadBASE">FSleadBASE</option>
-                        <option class="u6853_input_option" value="FSliteBASE">FSliteBASE</option>
-                        <option class="u6853_input_option" value="FSnoblBASE">FSnoblBASE</option>
-                        <option class="u6853_input_option" value="FSstelBASE">FSstelBASE</option>
-                        <option class="u6853_input_option" value="FSupsiBASE">FSupsiBASE</option>
-                        <option class="u6853_input_option" value="FThallBASE">FThallBASE</option>
-                        <option class="u6853_input_option" value="FThelgBASE">FThelgBASE</option>
-                        <option class="u6853_input_option" value="FTliBASE">FTliBASE</option>
-                        <option class="u6853_input_option" value="FTliteBASE">FTliteBASE</option>
-                        <option class="u6853_input_option" value="FTmiscBASE">FTmiscBASE</option>
-                        <option class="u6853_input_option" value="FToxidBASE">FToxidBASE</option>
-                        <option class="u6853_input_option" value="FTpulpBASE">FTpulpBASE</option>
-                        <option class="u6853_input_option" value="FTsaltBASE">FTsaltBASE</option>
-                    </select>
+                    <form method="post">
+                        <div id="u6853" class="ax_default droplist">
+                            <div id="u6853_div" class=""></div>
+                            <select id="u6853_input" class="u6853_input" name="belonging">
+                                <option class="u6853_input_option" selected value="USERDATA">USERDATA</option>
+                                <option class="u6853_input_option" value="BINSBASE">BINSBASE</option>
+                                <option class="u6853_input_option" value="ELEMBASE  ">ELEMBASE&nbsp;</option>
+                                <option class="u6853_input_option" value="FACT53BASE  ">FACT53BASE&nbsp;</option>
+                                <option class="u6853_input_option" value="FACTBASE">FACTBASE</option>
+                                <option class="u6853_input_option" value="FScoppBASE">FScoppBASE</option>
+                                <option class="u6853_input_option" value="FSleadBASE">FSleadBASE</option>
+                                <option class="u6853_input_option" value="FSliteBASE">FSliteBASE</option>
+                                <option class="u6853_input_option" value="FSnoblBASE">FSnoblBASE</option>
+                                <option class="u6853_input_option" value="FSstelBASE">FSstelBASE</option>
+                                <option class="u6853_input_option" value="FSupsiBASE">FSupsiBASE</option>
+                                <option class="u6853_input_option" value="FThallBASE">FThallBASE</option>
+                                <option class="u6853_input_option" value="FThelgBASE">FThelgBASE</option>
+                                <option class="u6853_input_option" value="FTliBASE">FTliBASE</option>
+                                <option class="u6853_input_option" value="FTliteBASE">FTliteBASE</option>
+                                <option class="u6853_input_option" value="FTmiscBASE">FTmiscBASE</option>
+                                <option class="u6853_input_option" value="FToxidBASE">FToxidBASE</option>
+                                <option class="u6853_input_option" value="FTpulpBASE">FTpulpBASE</option>
+                                <option class="u6853_input_option" value="FTsaltBASE">FTsaltBASE</option>
+                            </select>
+                        </div>
+
+
+                        <div id="u6870" class="ax_default droplist">
+                            <div class="form-group">
+                                <label for="exampleInputFilename"></label>
+                                <input type="text" class="ax_default _段落" id="exampleInputFilename"
+                                       name="database_name">
+                            </div>
+                            <input id="u6872_input_1" type="submit" value="Save">
+                        </div>
+                    </form>
                 </div>
+
+
+                {#<div id="u6872" class="ax_default text_field">
+                    <div id="u6872_div" class=""></div>
+                    <input id="u6872_input" type="text" value="Save" class="u6872_input" readonly/>
+                </div>#}
 
                 <!-- Unnamed (Group) -->
                 <div id="u6854" class="ax_default" data-left="707" data-top="171" data-width="96" data-height="25"
@@ -352,13 +373,6 @@
                     <input id="u6869_input" type="text" value="Save as type:" class="u6869_input" readonly/>
                 </div>
 
-                <!-- Unnamed (Droplist) -->
-                <div id="u6870" class="ax_default droplist">
-                    <div id="u6870_div" class=""></div>
-                    <select id="u6870_input" class="u6870_input">
-                        <option class="u6870_input_option" selected value="ExampleBASE.CBD">ExampleBASE.CBD</option>
-                    </select>
-                </div>
 
                 <!-- Unnamed (Droplist) -->
                 <div id="u6871" class="ax_default droplist">
@@ -370,11 +384,6 @@
                     </select>
                 </div>
 
-                <!-- Unnamed (Text Field) -->
-                <div id="u6872" class="ax_default text_field">
-                    <div id="u6872_div" class=""></div>
-                    <input id="u6872_input" type="text" value="Save" class="u6872_input" readonly/>
-                </div>
 
                 <!-- Unnamed (Text Field) -->
                 <div id="u6873" class="ax_default text_field">
@@ -492,6 +501,13 @@
                 <div id="u6888_text" class="text ">
                     <p><span>Open Database</span></p>
                 </div>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        document.getElementById('u6888_text').addEventListener('click', function () {
+                            window.location.href = "{{ url_for('1.show_3_1') }}";
+                        })
+                    });
+                </script>
             </div>
 
             <!-- Unnamed (Rectangle) -->

@@ -3,6 +3,7 @@ import config
 from exts import db, mail
 from flask_migrate import Migrate
 from blueprints.test import bp as test_bp
+import models
 
 app = Flask(__name__)
 # 连接蓝图
@@ -15,6 +16,9 @@ db.init_app(app)
 mail.init_app(app)
 
 migrate = Migrate(app, db)
+
+
+
 
 # flask db init：只需要执行一次
 # flask db migrate：将orm模型生成迁移脚本

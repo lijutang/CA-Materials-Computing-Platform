@@ -34,8 +34,6 @@ class ParameterDataModel(db.Model):
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     name = db.Column(db.String(100), nullable=False)
-    original_formula = db.Column(db.String(50), nullable=False)
-    result_formula = db.Column(db.String(50), nullable=False)
     data_found = db.Column(db.String(50), nullable=False)
     temperature_range = db.Column(db.String(50), nullable=False)
     A = db.Column(db.Float, nullable=False)
@@ -51,5 +49,13 @@ class ParameterDataModel(db.Model):
     label = db.Column(db.String(100), nullable=False)
 
     # 外键
-    original_formula = db.Column(db.String(50), db.ForeignKey("thermochemistry_data.original_formula"))
-    result_formula = db.Column(db.String(50), db.ForeignKey("thermochemistry_data.result_formula"))
+    formula_id = db.Column(db.Integer, db.ForeignKey("thermochemistry_data.id"))
+
+    formula = db.relationship(ThermochemistryDataModel, backref="parameter_data")
+
+
+class DatabaseModel(db.Model):
+    __tablename__="database_path"
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    database_name = db.Column(db.String(100), nullable=False)
+    belonging = db.Column(db.String(100),nullable=False)

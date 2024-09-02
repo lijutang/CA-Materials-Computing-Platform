@@ -2,12 +2,12 @@
 SECRET_KEY = "xxxxx"
 
 # 数据库的配置信息
-HOSTNAME = '127.0.0.1'
-PORT = '3306'
-DATABASE = 'test'
-USERNAME = 'root'
-PASSWORD = 'root'
-DB_URI = 'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8'.format(USERNAME,PASSWORD,HOSTNAME,PORT,DATABASE)
+HOSTNAME = "127.0.0.1"
+PORT = 3306
+USERNAME = "root"
+PASSWORD = "123456"
+DATABASE = "database_cas"
+DB_URI = f"mysql+pymysql://{USERNAME}:{PASSWORD}@{HOSTNAME}:{PORT}/{DATABASE}?charset=utf8mb4"
 SQLALCHEMY_DATABASE_URI = DB_URI
 
 

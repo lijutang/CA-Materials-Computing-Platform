@@ -1246,8 +1246,8 @@
 #u6853 {
   border-width:0px;
   position:absolute;
-  left:362px;
-  top:173px;
+  left:182px;
+  top:90px;
   width:318px;
   height:22px;
   display:flex;
@@ -1908,8 +1908,8 @@
 #u6870 {
   border-width:0px;
   position:absolute;
-  left:400px;
-  top:508px;
+  left:225px;
+  top:418px;
   width:288px;
   height:24px;
   display:flex;
@@ -2190,6 +2190,28 @@
   font-size:14px;
   text-align:center;
 }
+
+#u6872_input_1 {
+  position:absolute;
+  left:310px;
+  top:0px;
+  width:57px;
+  height:28px;
+  display:flex;
+  background:inherit;
+  background-color:rgba(255, 255, 255, 1);
+  box-sizing:border-box;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgba(121, 121, 121, 1);
+  border-radius:10px;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  font-size:14px;
+  text-align:center;
+}
+
 #u6872 {
   border-width:0px;
   position:absolute;
