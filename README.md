@@ -1,4 +1,4 @@
-# CAS_Materials_Computing_Platform
+# CAS-Materials-Computing-Platform
 
 ## 概要
 
