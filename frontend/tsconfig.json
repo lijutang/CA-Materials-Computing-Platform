@@ -14,7 +14,7 @@
   ],
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "NodeNext",//新添加
     "target": "ES2015",
     "lib": ["ES2015", "ES2016","DOM"],
     "types": ["vite/client","node"]
